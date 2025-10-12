@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSE 测试页面</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            color: white;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2.5rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            margin-bottom: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        h2 {
+            color: #667eea;
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+        }
+
+        .button-group {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        button {
+            padding: 12px 24px;
+            font-size: 16px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: 600;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .btn-secondary {
+            background: #f3f4f6;
+            color: #374151;
+        }
+
+        .btn-secondary:hover {
+            background: #e5e7eb;
+        }
+
+        .btn-danger {
+            background: #ef4444;
+            color: white;
+        }
+
+        .btn-danger:hover {
+            background: #dc2626;
+        }
+
+        #output {
+            background: #1e293b;
+            color: #e2e8f0;
+            padding: 20px;
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+            line-height: 1.6;
+            max-height: 500px;
+            overflow-y: auto;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+
+        #reportOutput {
+            background: #f9fafb;
+            padding: 20px;
+            border-radius: 8px;
+            max-height: 500px;
+            overflow-y: auto;
+            border: 1px solid #e5e7eb;
+        }
+
+        .status {
+            display: inline-block;
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+
+        .status.connected {
+            background: #d1fae5;
+            color: #065f46;
+        }
+
+        .status.disconnected {
+            background: #fee2e2;
+            color: #991b1b;
+        }
+
+        .status.loading {
+            background: #fef3c7;
+            color: #92400e;
+        }
+
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #888;
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 SSE 研究报告测试页面</h1>
+
+        <!-- SSE 流式接口测试 -->
+        <div class="card">
+            <h2>📡 SSE 流式接口测试</h2>
+            
+            <!-- 延时配置区域 -->
+            <div style="background: #f8fafc; padding: 20px; border-radius: 8px; margin-bottom: 20px; border: 1px solid #e2e8f0;">
+                <h3 style="color: #4a5568; margin-bottom: 15px; font-size: 1.1rem;">⚙️ 动态延时配置</h3>
+                
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin-bottom: 15px;">
+                    <div>
+                        <label style="display: block; margin-bottom: 5px; font-weight: 600; color: #4a5568;">速度模式:</label>
+                        <select id="speedMode" style="width: 100%; padding: 8px; border: 1px solid #d1d5db; border-radius: 6px; font-size: 14px;">
+                            <option value="fast">🚀 快速 (0.3x)</option>
+                            <option value="normal" selected>⚡ 正常 (1.0x)</option>
+                            <option value="slow">🐌 慢速 (2.0x)</option>
+                        </select>
+                    </div>
+                    
+                    <div>
+                        <label style="display: block; margin-bottom: 5px; font-weight: 600; color: #4a5568;">基础延时 (ms):</label>
+                        <input type="number" id="baseDelay" value="50" min="10" max="1000" 
+                               style="width: 100%; padding: 8px; border: 1px solid #d1d5db; border-radius: 6px; font-size: 14px;">
+                    </div>
+                    
+                    <div>
+                        <label style="display: block; margin-bottom: 5px; font-weight: 600; color: #4a5568;">最小延时 (ms):</label>
+                        <input type="number" id="minDelay" value="10" min="1" max="100" 
+                               style="width: 100%; padding: 8px; border: 1px solid #d1d5db; border-radius: 6px; font-size: 14px;">
+                    </div>
+                    
+                    <div>
+                        <label style="display: block; margin-bottom: 5px; font-weight: 600; color: #4a5568;">最大延时 (ms):</label>
+                        <input type="number" id="maxDelay" value="500" min="100" max="2000" 
+                               style="width: 100%; padding: 8px; border: 1px solid #d1d5db; border-radius: 6px; font-size: 14px;">
+                    </div>
+                </div>
+                
+                <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+                    <button class="btn-secondary" onclick="resetDelayConfig()" style="font-size: 14px; padding: 8px 16px;">🔄 重置配置</button>
+                    <button class="btn-secondary" onclick="showDelayInfo()" style="font-size: 14px; padding: 8px 16px;">ℹ️ 延时说明</button>
+                </div>
+            </div>
+            
+            <div class="button-group">
+                <button class="btn-primary" onclick="startSSE()">开始 SSE 流</button>
+                <button class="btn-danger" onclick="stopSSE()">停止 SSE 流</button>
+                <button class="btn-secondary" onclick="clearOutput()">清空输出</button>
+            </div>
+            <div id="status" class="status disconnected">未连接</div>
+            <div id="output">等待连接...</div>
+        </div>
+
+        <!-- 报告详情接口测试 -->
+        <div class="card">
+            <h2>📄 报告详情接口测试</h2>
+            <div class="button-group">
+                <button class="btn-primary" onclick="fetchReport()">获取报告详情</button>
+                <button class="btn-secondary" onclick="clearReport()">清空输出</button>
+            </div>
+            <div id="reportStatus" class="status disconnected">未加载</div>
+            <div id="reportOutput">点击按钮获取报告...</div>
+        </div>
+    </div>
+
+    <script>
+        let eventSource = null;
+
+        function startSSE() {
+            if (eventSource) {
+                eventSource.close();
+            }
+
+            const output = document.getElementById('output');
+            const status = document.getElementById('status');
+            
+            output.textContent = '正在连接...\n';
+            status.textContent = '连接中...';
+            status.className = 'status loading';
+
+            // 获取延时配置参数
+            const delayConfig = getDelayConfig();
+            const queryParams = new URLSearchParams(delayConfig);
+            const streamUrl = `http://localhost:8080/api/chat/stream/lmpI42ID_JQ9V5MLppjk1?${queryParams.toString()}`;
+            
+            console.log('SSE 连接URL:', streamUrl);
+            console.log('延时配置:', delayConfig);
+
+            eventSource = new EventSource(streamUrl);
+
+            eventSource.onopen = function() {
+                status.textContent = '已连接';
+                status.className = 'status connected';
+                output.textContent += '✅ SSE 连接已建立\n\n';
+            };
+
+            eventSource.onmessage = function(event) {
+                output.textContent += event.data + '\n';
+                output.scrollTop = output.scrollHeight;
+            };
+
+            eventSource.onerror = function(error) {
+                console.error('SSE Error:', error);
+                status.textContent = '连接错误';
+                status.className = 'status disconnected';
+                output.textContent += '\n❌ 连接出错或已关闭\n';
+                eventSource.close();
+            };
+        }
+
+        function stopSSE() {
+            if (eventSource) {
+                eventSource.close();
+                eventSource = null;
+                const status = document.getElementById('status');
+                status.textContent = '已断开';
+                status.className = 'status disconnected';
+                document.getElementById('output').textContent += '\n⏹️ 连接已手动关闭\n';
+            }
+        }
+
+        function clearOutput() {
+            document.getElementById('output').textContent = '等待连接...';
+        }
+
+        async function fetchReport() {
+            const output = document.getElementById('reportOutput');
+            const status = document.getElementById('reportStatus');
+            
+            status.textContent = '加载中...';
+            status.className = 'status loading';
+            output.textContent = '正在获取报告数据...';
+
+            try {
+                const response = await fetch('http://localhost:8080/api/report/detail');
+                const data = await response.json();
+                
+                status.textContent = '加载成功';
+                status.className = 'status connected';
+                
+                output.innerHTML = `
+                    <h3 style="color: #667eea; margin-bottom: 15px;">${data.title}</h3>
+                    <div style="margin-bottom: 15px;">
+                        <strong>类型:</strong> ${data.subType}<br>
+                        <strong>字数:</strong> ${data.metadata.wordCount.toLocaleString()}<br>
+                        <strong>预计阅读时间:</strong> ${data.metadata.estimatedReadingTime} 分钟<br>
+                        <strong>生成时间:</strong> ${new Date(data.metadata.generatedAt).toLocaleString('zh-CN')}<br>
+                        <strong>耗时:</strong> ${data.metadata.duration} 秒
+                    </div>
+                    <div style="margin-bottom: 15px;">
+                        <strong>研究步骤:</strong>
+                        <ul style="margin-left: 20px; margin-top: 10px;">
+                            ${data.planData.steps.map(step => `<li>${step.title} (${step.step_type})</li>`).join('')}
+                        </ul>
+                    </div>
+                    <div style="margin-bottom: 15px;">
+                        <strong>参考文献数量:</strong> ${data.references.length}
+                    </div>
+                    <details style="margin-top: 15px;">
+                        <summary style="cursor: pointer; color: #667eea; font-weight: 600;">查看完整 JSON 数据</summary>
+                        <pre style="background: #1e293b; color: #e2e8f0; padding: 15px; border-radius: 8px; margin-top: 10px; overflow-x: auto;">${JSON.stringify(data, null, 2)}</pre>
+                    </details>
+                `;
+            } catch (error) {
+                status.textContent = '加载失败';
+                status.className = 'status disconnected';
+                output.textContent = `❌ 获取报告失败: ${error.message}`;
+            }
+        }
+
+        function clearReport() {
+            document.getElementById('reportOutput').textContent = '点击按钮获取报告...';
+            document.getElementById('reportStatus').textContent = '未加载';
+            document.getElementById('reportStatus').className = 'status disconnected';
+        }
+
+        // 获取延时配置
+        function getDelayConfig() {
+            return {
+                baseDelay: document.getElementById('baseDelay').value,
+                minDelay: document.getElementById('minDelay').value,
+                maxDelay: document.getElementById('maxDelay').value,
+                speed: document.getElementById('speedMode').value
+            };
+        }
+
+        // 重置延时配置
+        function resetDelayConfig() {
+            document.getElementById('baseDelay').value = 50;
+            document.getElementById('minDelay').value = 10;
+            document.getElementById('maxDelay').value = 500;
+            document.getElementById('speedMode').value = 'normal';
+        }
+
+        // 显示延时说明
+        function showDelayInfo() {
+            const info = `
+🔧 动态延时配置说明:
+
+📊 速度模式:
+• 🚀 快速 (0.3x): 基础延时 × 0.3，适合快速预览
+• ⚡ 正常 (1.0x): 标准延时，平衡体验
+• 🐌 慢速 (2.0x): 基础延时 × 2.0，适合仔细阅读
+
+⚙️ 延时参数:
+• 基础延时: 所有内容的起始延时时间
+• 最小延时: 确保不会太快，保持可读性
+• 最大延时: 防止过慢，保持流畅性
+
+🧠 智能算法:
+• 根据事件类型调整: tool_calls(2.0x), tool_call_result(3.0x)
+• 根据内容长度调整: 短内容(0.8x), 长内容(1.5x)
+• 随机变化: ±20% 使输出更自然
+
+💡 建议配置:
+• 快速预览: 速度=快速, 基础=30ms
+• 正常使用: 速度=正常, 基础=50ms
+• 仔细阅读: 速度=慢速, 基础=100ms
+            `;
+            
+            alert(info);
+        }
+
+        // 页面卸载时关闭 SSE 连接
+        window.addEventListener('beforeunload', function() {
+            if (eventSource) {
+                eventSource.close();
+            }
+        });
+    </script>
+</body>
+</html>
+

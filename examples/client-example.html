@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>客户端使用示例</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .example {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #333;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 10px;
+        }
+        pre {
+            background: #1e293b;
+            color: #e2e8f0;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+        code {
+            font-family: 'Courier New', monospace;
+        }
+    </style>
+</head>
+<body>
+    <h1>SSE 研究报告 API 使用示例</h1>
+
+    <div class="example">
+        <h2>1. JavaScript 中使用 SSE 流式接口</h2>
+        <pre><code>// 创建 EventSource 连接
+const eventSource = new EventSource('http://localhost:8080/api/chat/stream');
+
+// 监听消息事件
+eventSource.onmessage = function(event) {
+    console.log('收到数据:', event.data);
+    // 处理接收到的数据
+};
+
+// 监听打开事件
+eventSource.onopen = function() {
+    console.log('SSE 连接已建立');
+};
+
+// 监听错误事件
+eventSource.onerror = function(error) {
+    console.error('SSE 错误:', error);
+    eventSource.close();
+};
+
+// 手动关闭连接
+// eventSource.close();</code></pre>
+    </div>
+
+    <div class="example">
+        <h2>2. JavaScript 中获取报告详情</h2>
+        <pre><code>// 使用 fetch API
+fetch('http://localhost:8080/api/report/detail')
+    .then(response => response.json())
+    .then(data => {
+        console.log('报告标题:', data.title);
+        console.log('报告内容:', data.content);
+        console.log('研究步骤:', data.planData.steps);
+        console.log('参考文献:', data.references);
+    })
+    .catch(error => {
+        console.error('获取报告失败:', error);
+    });
+
+// 使用 async/await
+async function getReport() {
+    try {
+        const response = await fetch('http://localhost:8080/api/report/detail');
+        const data = await response.json();
+        return data;
+    } catch (error) {
+        console.error('获取报告失败:', error);
+        throw error;
+    }
+}</code></pre>
+    </div>
+
+    <div class="example">
+        <h2>3. React 中使用 SSE</h2>
+        <pre><code>import { useEffect, useState } from 'react';
+
+function ReportStream() {
+    const [messages, setMessages] = useState([]);
+    const [isConnected, setIsConnected] = useState(false);
+
+    useEffect(() => {
+        const eventSource = new EventSource('http://localhost:8080/api/chat/stream');
+
+        eventSource.onopen = () => {
+            setIsConnected(true);
+        };
+
+        eventSource.onmessage = (event) => {
+            setMessages(prev => [...prev, event.data]);
+        };
+
+        eventSource.onerror = () => {
+            setIsConnected(false);
+            eventSource.close();
+        };
+
+        // 清理函数
+        return () => {
+            eventSource.close();
+        };
+    }, []);
+
+    return (
+        &lt;div&gt;
+            &lt;p&gt;连接状态: {isConnected ? '已连接' : '未连接'}&lt;/p&gt;
+            &lt;div&gt;
+                {messages.map((msg, index) => (
+                    &lt;div key={index}&gt;{msg}&lt;/div&gt;
+                ))}
+            &lt;/div&gt;
+        &lt;/div&gt;
+    );
+}</code></pre>
+    </div>
+
+    <div class="example">
+        <h2>4. Vue 3 中使用 SSE</h2>
+        <pre><code>&lt;template&gt;
+  &lt;div&gt;
+    &lt;p&gt;连接状态: {{ isConnected ? '已连接' : '未连接' }}&lt;/p&gt;
+    &lt;div v-for="(msg, index) in messages" :key="index"&gt;
+      {{ msg }}
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/template&gt;
+
+&lt;script setup&gt;
+import { ref, onMounted, onUnmounted } from 'vue';
+
+const messages = ref([]);
+const isConnected = ref(false);
+let eventSource = null;
+
+onMounted(() => {
+  eventSource = new EventSource('http://localhost:8080/api/chat/stream');
+
+  eventSource.onopen = () => {
+    isConnected.value = true;
+  };
+
+  eventSource.onmessage = (event) => {
+    messages.value.push(event.data);
+  };
+
+  eventSource.onerror = () => {
+    isConnected.value = false;
+    eventSource.close();
+  };
+});
+
+onUnmounted(() => {
+  if (eventSource) {
+    eventSource.close();
+  }
+});
+&lt;/script&gt;</code></pre>
+    </div>
+
+    <div class="example">
+        <h2>5. Node.js 中使用 (使用 eventsource 库)</h2>
+        <pre><code>// 安装: npm install eventsource
+const EventSource = require('eventsource');
+
+const eventSource = new EventSource('http://localhost:8080/api/chat/stream');
+
+eventSource.onmessage = (event) => {
+    console.log('收到数据:', event.data);
+};
+
+eventSource.onerror = (error) => {
+    console.error('错误:', error);
+    eventSource.close();
+};
+
+// 获取报告详情
+const fetch = require('node-fetch');
+
+async function getReport() {
+    const response = await fetch('http://localhost:8080/api/report/detail');
+    const data = await response.json();
+    console.log(data);
+}</code></pre>
+    </div>
+
+    <div class="example">
+        <h2>6. curl 命令行测试</h2>
+        <pre><code># 测试 SSE 流式接口
+curl -N http://localhost:8080/api/chat/stream
+
+# 测试报告详情接口
+curl http://localhost:8080/api/report/detail
+
+# 格式化 JSON 输出
+curl http://localhost:8080/api/report/detail | jq .
+
+# 只获取标题
+curl -s http://localhost:8080/api/report/detail | jq -r '.title'</code></pre>
+    </div>
+
+    <div class="example">
+        <h2>7. Python 中使用</h2>
+        <pre><code># 安装: pip install requests sseclient-py
+import requests
+from sseclient import SSEClient
+
+# SSE 流式接口
+messages = SSEClient('http://localhost:8080/api/chat/stream')
+for msg in messages:
+    print(msg.data)
+
+# 报告详情接口
+response = requests.get('http://localhost:8080/api/report/detail')
+data = response.json()
+print(f"标题: {data['title']}")
+print(f"字数: {data['metadata']['wordCount']}")</code></pre>
+    </div>
+
+    <script>
+        console.log('查看页面源代码以获取完整示例');
+    </script>
+</body>
+</html>
+

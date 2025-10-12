@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSE 格式测试</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        #output { background: #f5f5f5; padding: 10px; border: 1px solid #ddd; white-space: pre-wrap; }
+        button { padding: 10px 20px; margin: 10px 0; }
+    </style>
+</head>
+<body>
+    <h1>SSE 格式测试</h1>
+    <button onclick="testSSE()">测试 SSE 连接</button>
+    <button onclick="clearOutput()">清空输出</button>
+    <div id="output">点击按钮开始测试...</div>
+
+    <script>
+        let eventSource = null;
+
+        function testSSE() {
+            if (eventSource) {
+                eventSource.close();
+            }
+
+            const output = document.getElementById('output');
+            output.textContent = '正在连接...\n';
+
+            eventSource = new EventSource('http://localhost:8000/api/chat/stream/lmpI42ID_JQ9V5MLppjk1?speed=fast&baseDelay=50');
+
+            eventSource.onopen = function() {
+                output.textContent += '✅ SSE 连接已建立\n\n';
+            };
+
+            eventSource.onmessage = function(event) {
+                output.textContent += `📨 收到消息: ${event.data}\n`;
+                output.scrollTop = output.scrollHeight;
+            };
+
+            eventSource.addEventListener('message_chunk', function(event) {
+                output.textContent += `🔹 message_chunk: ${event.data}\n`;
+                output.scrollTop = output.scrollHeight;
+            });
+
+            eventSource.addEventListener('tool_calls', function(event) {
+                output.textContent += `🔧 tool_calls: ${event.data}\n`;
+                output.scrollTop = output.scrollHeight;
+            });
+
+            eventSource.onerror = function(error) {
+                console.error('SSE Error:', error);
+                output.textContent += '\n❌ 连接出错\n';
+                eventSource.close();
+            };
+        }
+
+        function clearOutput() {
+            document.getElementById('output').textContent = '点击按钮开始测试...';
+        }
+
+        window.addEventListener('beforeunload', function() {
+            if (eventSource) {
+                eventSource.close();
+            }
+        });
+    </script>
+</body>
+</html>
