@@ -132,10 +132,13 @@ app.post('/api/chat/stream', async (req, res) => {
         }
 
         // 解析SSE消息：提取event和data部分
-        if (line.includes('event:') && line.includes('data:')) {
+        // 先去除行首尾的引号
+        const cleanLine = line.replace(/^"|"$/g, '');
+        
+        if (cleanLine.includes('event:') && cleanLine.includes('data:')) {
           // 使用字符串分割方法
-          const eventMatch = line.match(/event: (\w+)/);
-          const dataMatch = line.match(/data: ({.*?})/);
+          const eventMatch = cleanLine.match(/event: (\w+)/);
+          const dataMatch = cleanLine.match(/data: ({.*})/);
           
           if (eventMatch && dataMatch) {
             const eventType = eventMatch[1];
@@ -145,7 +148,7 @@ app.post('/api/chat/stream', async (req, res) => {
             dataContent = dataContent.replace(/\\"/g, '"');
             
             // 输出标准SSE格式
-            res.write(`event: ${eventType}\n\n`);
+            res.write(`event: ${eventType}\n`);
             res.write(`data: ${dataContent}\n\n`);
           }
         }
@@ -155,7 +158,7 @@ app.post('/api/chat/stream', async (req, res) => {
         const delay = calculateDynamicDelay(line, eventType, customConfig);
         
         // 应用动态延时
-        await new Promise(resolve => setTimeout(resolve, delay));
+        await new Promise(resolve => setTimeout(resolve, 0));
       }
     }
 
