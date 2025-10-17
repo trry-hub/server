@@ -3,8 +3,7 @@ import cors from 'cors';
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
 import fs from 'fs/promises';
-import { createReadStream } from 'fs';
-import { createInterface } from 'readline';
+import { arr } from '../public/mock/simple.js'
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -42,6 +41,13 @@ const DELAY_CONFIG = {
     long: 1.5     // 长内容 (> 200 字符)
   }
 };
+
+// 直接从数组内容流式返回数据给前端
+function pasteContent(content) {
+  // 直接返回数组内容，用于流式传输
+  console.log(`使用内存数组数据进行流式传输，共 ${content.length} 条消息`);
+  return content;
+}
 
 // 计算动态延时的函数
 function calculateDynamicDelay(line, eventType = 'message_chunk', customConfig = null) {
@@ -109,22 +115,16 @@ app.post('/api/chat/stream', async (req, res) => {
 
   console.log(`SSE 流启动 - 延时配置:`, customConfig);
 
-  const finalAnswerPath = join(__dirname, '../public/mock/1-cleaned.txt');
+  // 使用数组数据进行流式传输
+  const streamData = pasteContent(arr);
+  console.log(`🚀 ~ streamData:`, streamData)
+  // 如果需要从文件读取，可以使用以下方式：
+  // const finalAnswerPath = join(__dirname, '../public/mock/simple.txt');
 
   try {
-    // 使用 Node.js Stream API 实现真正的流式读取
-    const fileStream = createReadStream(finalAnswerPath, {
-      encoding: 'utf-8',
-      highWaterMark: 64 * 1024 // 64KB 缓冲区
-    });
-
-    const rl = createInterface({
-      input: fileStream,
-      crlfDelay: Infinity
-    });
-
-    // 逐行读取并发送
-    for await (const line of rl) {
+    // 直接从数组遍历并发送
+    let messageCount = 0;
+    for (const line of streamData) {
       if (line.trim()) {
         // 检查客户端是否断开连接
         if (res.writableEnded) {
@@ -132,35 +132,42 @@ app.post('/api/chat/stream', async (req, res) => {
         }
 
         // 解析SSE消息：提取event和data部分
-        // 先去除行首尾的引号
-        const cleanLine = line.replace(/^"|"$/g, '');
+        // 处理换行符分隔的多行内容
+        const lines = line.split('\n').filter(l => l.trim());
         
-        if (cleanLine.includes('event:') && cleanLine.includes('data:')) {
-          // 使用字符串分割方法
-          const eventMatch = cleanLine.match(/event: (\w+)/);
-          const dataMatch = cleanLine.match(/data: ({.*})/);
+        let currentEvent = 'message_chunk';
+        
+        for (let i = 0; i < lines.length; i++) {
+          const singleLine = lines[i];
           
-          if (eventMatch && dataMatch) {
-            const eventType = eventMatch[1];
-            let dataContent = dataMatch[1];
-            
-            // 处理转义符
-            dataContent = dataContent.replace(/\\"/g, '"');
+          if (singleLine.startsWith('event:')) {
+            // 记录event类型
+            currentEvent = singleLine.replace('event:', '').trim();
+          } else if (singleLine.startsWith('data:')) {
+            // 提取并发送data内容
+            const dataContent = singleLine.replace('data:', '').trim();
             
             // 输出标准SSE格式
-            res.write(`event: ${eventType}\n`);
+            res.write(`event: ${currentEvent}\n`);
             res.write(`data: ${dataContent}\n\n`);
+            
+            messageCount++;
+            console.log(`发送消息 #${messageCount}: ${currentEvent}`);
+            
+            // 动态计算延时 (使用自定义配置)
+            const delay = calculateDynamicDelay(dataContent, currentEvent, customConfig);
+            
+            // 应用动态延时
+            await new Promise(resolve => setTimeout(resolve, delay));
+            
+            // 重置为默认event类型
+            currentEvent = 'message_chunk';
           }
         }
-
-        // 动态计算延时 (使用自定义配置)
-        const eventType = extractEventType(line);
-        const delay = calculateDynamicDelay(line, eventType, customConfig);
-        
-        // 应用动态延时
-        await new Promise(resolve => setTimeout(resolve, 0));
       }
     }
+    
+    console.log(`✅ 流式传输完成，共发送 ${messageCount} 条消息`);
 
     res.end();
   } catch (error) {
@@ -178,12 +185,25 @@ app.post('/api/chat/stream', async (req, res) => {
 });
 
 // 直接返回组装好的数据接口
-app.get('/api/report/detail/:id', async (req, res) => {
+app.get('/api/config', async (req, res) => {
   try {
     // 读取 report-data.json
-    const reportDataPath = join(__dirname, '../public/mock/report-data.json');
-    const reportData = await fs.readFile(reportDataPath, 'utf-8');
-    const data = JSON.parse(reportData);
+    // const reportDataPath = join(__dirname, '../public/mock/report-data.json');
+    // const reportData = await fs.readFile(reportDataPath, 'utf-8');
+    // const data = JSON.parse(reportData);
+    const data = {
+      "rag": {
+          "provider": null
+      },
+      "models": {
+          "basic": [
+              "deepseek-chat"
+          ],
+          "reasoning": [
+              "qwen3-235b-a22b-thinking-2507"
+          ]
+      }
+  }
     
     // 返回 JSON 数据
     res.json(data);
@@ -202,6 +222,6 @@ app.get('/health', (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
   console.log(`SSE Stream endpoint: http://localhost:${PORT}/api/chat/stream`);
-  console.log(`Report Detail endpoint: http://localhost:${PORT}/api/report/detail`);
+  console.log(`Report Detail endpoint: http://localhost:${PORT}/api/config`);
 });
 
