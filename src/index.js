@@ -3,7 +3,8 @@ import cors from 'cors';
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
 import fs from 'fs/promises';
-import { arr } from '../public/mock/simple.js'
+// import { arr } from '../public/mock/simple.js'
+import { arr } from '../public/mock/I4ULQL7gGWnAEj_n9QogF.js'
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -87,7 +88,7 @@ function extractEventType(line) {
 }
 
 // SSE 流式返回接口 - 真正的流式实现
-app.post('/api/chat/stream', async (req, res) => {
+app.post('/api/fast/chat/stream', async (req, res) => {
   // 设置 SSE 响应头
   res.setHeader('Content-Type', 'text/event-stream');
   res.setHeader('Cache-Control', 'no-cache');
