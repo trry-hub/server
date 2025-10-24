@@ -2,9 +2,9 @@ import express from 'express';
 import cors from 'cors';
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
-import fs from 'fs/promises';
 // import { arr } from '../public/mock/simple.js'
-import { arr } from '../public/mock/I4ULQL7gGWnAEj_n9QogF.js'
+// import { arr } from '../public/mock/I4ULQL7gGWnAEj_n9QogF.js'
+import { arr } from '../public/mock/0bUvp2pD8iATNId3YNgVR.js'
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
