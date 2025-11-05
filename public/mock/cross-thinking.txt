@@ -1,0 +1,327 @@
+event: think
+data: {"type":"think","id":"d8a86661","content":"正在评估研究价值...","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","node_name":"gatekeeper","phase":"gatekeeper","round_id":"633a3b99-c637-46b7-887e-450f274f30c4"}
+id: 1762178665969-0
+
+event: think
+data: {"type":"think","id":"169413e1","content":"问题值得深度研究，准备开始","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","node_name":"gatekeeper","phase":"gatekeeper","round_id":"633a3b99-c637-46b7-887e-450f274f30c4"}
+id: 1762178668067-0
+
+event: node
+data: {"type":"node","action":"created","id":"ROOT","node_type":"root","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","node_name":"breadth","round":0,"phase":"init","data":{"title":"二型糖尿病最新研究进展"},"round_id":"633a3b99-c637-46b7-887e-450f274f30c4"}
+id: 1762178668276-0
+
+event: think
+data: {"type":"think","id":"e721f535","content":"思考中","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","node_name":"breadth","round":1,"phase":"breadth_expand","round_id":"633a3b99-c637-46b7-887e-450f274f30c4"}
+id: 1762178668642-0
+
+event: node
+data: {"type":"node","action":"created","id":"1","node_type":"thinking","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","node_name":"breadth","parent_relations":[{"id":"ROOT","relation":"初始思考"}],"round":1,"phase":"breadth_expand","data":{"title":"广度思考"},"round_id":"633a3b99-c637-46b7-887e-450f274f30c4"}
+id: 1762178668785-0
+
+event: think
+data: {"type":"think","id":"e721f535","content":"思考完成，缺失二型糖尿病最新基础研究机制突破、新型药物临床进展、数字健康管理技术应用等核心维度信息","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","node_name":"breadth","round":1,"phase":"breadth_expand","round_id":"633a3b99-c637-46b7-887e-450f274f30c4"}
+id: 1762178677439-0
+
+event: node
+data: {"type":"node","action":"hidden","id":"1","node_type":"thinking","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","node_name":"breadth","round":1,"phase":"breadth_expand","round_id":"633a3b99-c637-46b7-887e-450f274f30c4"}
+id: 1762178677654-0
+
+event: ask
+data: {"type":"ask","id":"c7db0438","question":"调研2023-2024年二型糖尿病在发病机制、分子通路、遗传因素和代谢调控方面的最新基础研究突破","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","node_name":"single_search","round":1,"phase":"breadth_expand","round_id":"633a3b99-c637-46b7-887e-450f274f30c4"}
+id: 1762178677844-0
+
+event: node
+data: {"type":"node","action":"created","id":"2","node_type":"search","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","node_name":"single_search","parent_relations":[{"id":"ROOT","relation":"基础机制"}],"round":1,"phase":"breadth_expand","data":{"title":"调研2023-2024年二型糖尿病在发病机制、分子通路、遗传因素和代谢调控方面的最新基础研究突破"},"round_id":"633a3b99-c637-46b7-887e-450f274f30c4"}
+id: 1762178677996-0
+
+event: ask
+data: {"type":"ask","id":"19c3d392","question":"调研2023-2024年二型糖尿病在发病机制、分子通路、遗传因素和代谢调控方面的最新基础研究突破","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","summary":"搜索发现2024年二型糖尿病研究在药物机制、临床疗效和数字健康技术方面取得重要进展。SGLT2抑制剂显示超越降糖的多重获益，GLP-1受体激动剂在心血管保护方面证据充分，数字健康技术特别是AI和可穿戴设备在糖尿病管理中应用日益成熟。信息来自权威医学期刊和学术会议，时效性强且证据充分。","node_name":"single_search","round":1,"phase":"breadth_expand","round_id":"633a3b99-c637-46b7-887e-450f274f30c4"}
+id: 1762178713203-0
+
+event: node
+data: {"type":"node","action":"completed","id":"2","node_type":"search","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","node_name":"single_search","data":{"local_conclusion":"2024年二型糖尿病研究在多个维度取得显著进展。**药物研发方面**：SGLT2抑制剂机制研究深入，通过抑制肾脏近端小管SGLT2介导的葡萄糖和钠重吸收，增加远端小管钠输送，抑制肾素-血管紧张素-醛固酮系统，产生心血管保护作用。大型RCT（DAPA-HF、EMPEROR-Reduced等）证实达格列净和恩格列净显著降低心衰住院和心血管死亡率，无论是否合并T2DM。GLP-1受体激动剂研究显示在血糖控制、体重管理和血脂改善方面的综合效益，2024年BMJ系统评价确认其有效性。**数字健康技术**：AI驱动的数字生物标志物和可穿戴设备在糖尿病管理中应用成熟，2024年9月NIH举办的\"数字健康技术-二型糖尿病\"研讨会重点探讨连续血糖监测、活动睡眠监测、移动健康应用和远程医疗。研究显示可穿戴设备能显著改善临床结局（16项研究）、行为结局（4项研究）和医疗系统效果（2项研究）。**机制突破**：SGLT2抑制剂通过降低血糖减少晚期糖基化终末产物形成，间接抑制转化生长因子-β和基质金属蛋白酶等促纤维化介质活性，对抗糖尿病肾病进展。主要局限：数字健康技术成本可及性和长期依从性仍需优化，新型药物在不同人群中的疗效差异需要更多研究。","result_summary":"搜索发现2024年二型糖尿病研究在药物机制、临床疗效和数字健康技术方面取得重要进展。SGLT2抑制剂显示超越降糖的多重获益，GLP-1受体激动剂在心血管保护方面证据充分，数字健康技术特别是AI和可穿戴设备在糖尿病管理中应用日益成熟。信息来自权威医学期刊和学术会议，时效性强且证据充分。","support_level":"结论准确"},"round_id":"633a3b99-c637-46b7-887e-450f274f30c4"}
+id: 1762178713406-0
+
+event: usage
+data: {"type":"usage","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","total_tokens":20131,"prompt_tokens":19608,"completion_tokens":523,"total_tool_calls":3,"total_documents":0,"round_id":"633a3b99-c637-46b7-887e-450f274f30c4","delta":{"tokens":20131,"prompt_tokens":19608,"completion_tokens":523,"tool_calls":3},"node_name":"single_search","phase":"breadth_expand","timestamp":"2025-11-03 14:05:13"}
+id: 1762178713532-0
+
+event: ask
+data: {"type":"ask","id":"8dda7ab9","question":"分析新型降糖药物（如GLP-1受体激动剂、SGLT2抑制剂、双靶点药物等）的临床研究进展、疗效数据和安全性评估","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","node_name":"single_search","round":1,"phase":"breadth_expand","round_id":"633a3b99-c637-46b7-887e-450f274f30c4"}
+id: 1762178713744-0
+
+event: node
+data: {"type":"node","action":"created","id":"3","node_type":"search","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","node_name":"single_search","parent_relations":[{"id":"ROOT","relation":"药物研发"}],"round":1,"phase":"breadth_expand","data":{"title":"分析新型降糖药物（如GLP-1受体激动剂、SGLT2抑制剂、双靶点药物等）的临床研究进展、疗效数据和安全性评估"},"round_id":"633a3b99-c637-46b7-887e-450f274f30c4"}
+id: 1762178713838-0
+
+event: ask
+data: {"type":"ask","id":"37fad337","question":"分析新型降糖药物（如GLP-1受体激动剂、SGLT2抑制剂、双靶点药物等）的临床研究进展、疗效数据和安全性评估","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","summary":"搜索结果显示2024年二型糖尿病研究在多个领域取得重要进展。药物研发方面，GLP-1受体激动剂和SGLT2抑制剂在心血管保护、肾脏保护方面有突破性证据；数字健康技术方面，AI诊断模型、可穿戴设备和远程监测系统在糖尿病管理中的应用日益成熟，多项临床试验验证其有效性。信息较为充分，覆盖了基础机制、药物研发和管理技术等核心维度。","node_name":"single_search","round":1,"phase":"breadth_expand","round_id":"633a3b99-c637-46b7-887e-450f274f30c4"}
+id: 1762178740992-0
+
+event: node
+data: {"type":"node","action":"completed","id":"3","node_type":"search","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","node_name":"single_search","data":{"local_conclusion":"根据2024年最新研究进展，二型糖尿病在多个领域取得显著突破。**药物研发方面**：GLP-1受体激动剂（如司美格鲁肽、度拉糖肽）和SGLT2抑制剂（如达格列净、恩格列净）展现出超越降糖的多重获益。2024年《BMJ》网络荟萃分析证实GLP-1药物在血糖控制、体重管理和血脂改善方面具有显著优势。SGLT2抑制剂在心血管保护方面证据充分，DAPA-HF、EMPEROR等试验显示其能显著降低心力衰竭住院风险30-35%，并改善心脏重构。**数字健康技术方面**：AI驱动的数字生物标志物技术快速发展，可穿戴设备结合连续血糖监测系统在2024年多项临床试验中证实能有效改善血糖控制。美国国立卫生研究院（NIH）2024年9月专门召开\"数字健康技术在二型糖尿病管理中的应用\"研讨会，强调远程监测、移动健康应用在提升患者依从性和治疗效果方面的重要作用。**基础机制研究**：2024年《Cell Metabolism》发表的研究揭示了GLP-1对神经血管景观的编程作用，为理解其多器官保护机制提供了新视角。总体而言，二型糖尿病管理正从单纯血糖控制向综合心血管-肾脏-代谢保护转变，数字健康技术的整合为个性化精准管理提供了新路径。","result_summary":"搜索结果显示2024年二型糖尿病研究在多个领域取得重要进展。药物研发方面，GLP-1受体激动剂和SGLT2抑制剂在心血管保护、肾脏保护方面有突破性证据；数字健康技术方面，AI诊断模型、可穿戴设备和远程监测系统在糖尿病管理中的应用日益成熟，多项临床试验验证其有效性。信息较为充分，覆盖了基础机制、药物研发和管理技术等核心维度。","support_level":"结论准确"},"round_id":"633a3b99-c637-46b7-887e-450f274f30c4"}
+id: 1762178741329-0
+
+event: usage
+data: {"type":"usage","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","total_tokens":34170,"prompt_tokens":33179,"completion_tokens":991,"total_tool_calls":5,"total_documents":0,"round_id":"633a3b99-c637-46b7-887e-450f274f30c4","delta":{"tokens":14039,"prompt_tokens":13571,"completion_tokens":468,"tool_calls":2},"node_name":"single_search","phase":"breadth_expand","timestamp":"2025-11-03 14:05:41"}
+id: 1762178741516-0
+
+event: ask
+data: {"type":"ask","id":"65f7ce26","question":"梳理数字健康技术（AI诊断、可穿戴设备、远程监测）在二型糖尿病管理中的应用进展和循证医学证据","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","node_name":"single_search","round":1,"phase":"breadth_expand","round_id":"633a3b99-c637-46b7-887e-450f274f30c4"}
+id: 1762178741616-0
+
+event: node
+data: {"type":"node","action":"created","id":"4","node_type":"search","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","node_name":"single_search","parent_relations":[{"id":"ROOT","relation":"管理技术"}],"round":1,"phase":"breadth_expand","data":{"title":"梳理数字健康技术（AI诊断、可穿戴设备、远程监测）在二型糖尿病管理中的应用进展和循证医学证据"},"round_id":"633a3b99-c637-46b7-887e-450f274f30c4"}
+id: 1762178741715-0
+
+event: ask
+data: {"type":"ask","id":"6fbbd6ef","question":"梳理数字健康技术（AI诊断、可穿戴设备、远程监测）在二型糖尿病管理中的应用进展和循证医学证据","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","summary":"搜索发现2024年二型糖尿病研究在药物机制、数字健康技术方面取得重要进展。SGLT2抑制剂和GLP-1受体激动剂显示出超越降糖的多重获益，包括心血管和肾脏保护作用。数字健康技术如AI诊断模型、可穿戴设备和远程监测系统在糖尿病管理中应用日益广泛，但临床证据仍需完善。","node_name":"single_search","round":1,"phase":"breadth_expand","round_id":"633a3b99-c637-46b7-887e-450f274f30c4"}
+id: 1762178764553-0
+
+event: node
+data: {"type":"node","action":"completed","id":"4","node_type":"search","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","node_name":"single_search","data":{"local_conclusion":"根据2024年最新研究进展，二型糖尿病在多个领域取得突破性发展。**药物研发方面**：SGLT2抑制剂（如达格列净、恩格列净）通过抑制肾脏近端小管葡萄糖重吸收，不仅降低血糖，还通过多种机制发挥心血管保护作用。大型临床试验（DAPA-HF、EMPEROR-Reduced等）证实这些药物能显著降低心衰住院和心血管死亡风险，且获益不依赖于糖尿病状态。GLP-1受体激动剂在2024年BMJ发表的系统评价中显示出优异的降糖、减重和血脂改善效果。**数字健康技术方面**：AI驱动的数字生物标志物技术快速发展，可穿戴设备结合连续血糖监测系统能够实时追踪患者生理参数。2024年9月NIH举办的数字健康技术研讨会重点讨论了连续血糖监测、移动健康应用和远程医疗在二型糖尿病管理中的应用。研究显示，基于可穿戴设备的干预措施在改善血糖控制（16项临床结果阳性）、促进体力活动（4项行为结果阳性）方面具有显著效果。**机制研究进展**：SGLT2抑制剂被发现通过降低晚期糖基化终末产物形成、抑制TGF-β等促纤维化介质活性，发挥抗纤维化作用。这些发现为二型糖尿病的多靶点治疗提供了新的理论基础。","result_summary":"搜索发现2024年二型糖尿病研究在药物机制、数字健康技术方面取得重要进展。SGLT2抑制剂和GLP-1受体激动剂显示出超越降糖的多重获益，包括心血管和肾脏保护作用。数字健康技术如AI诊断模型、可穿戴设备和远程监测系统在糖尿病管理中应用日益广泛，但临床证据仍需完善。","support_level":"结论准确"},"round_id":"633a3b99-c637-46b7-887e-450f274f30c4"}
+id: 1762178764780-0
+
+event: usage
+data: {"type":"usage","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","total_tokens":47881,"prompt_tokens":46448,"completion_tokens":1433,"total_tool_calls":7,"total_documents":0,"round_id":"633a3b99-c637-46b7-887e-450f274f30c4","delta":{"tokens":13711,"prompt_tokens":13269,"completion_tokens":442,"tool_calls":2},"node_name":"single_search","phase":"breadth_expand","timestamp":"2025-11-03 14:06:04"}
+id: 1762178764950-0
+
+event: think
+data: {"type":"think","id":"153a72f2","content":"思考中","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","node_name":"extend","round":2,"phase":"extend_phase","round_id":"633a3b99-c637-46b7-887e-450f274f30c4"}
+id: 1762178765157-0
+
+event: node
+data: {"type":"node","action":"created","id":"5","node_type":"thinking","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","node_name":"extend","parent_relations":[{"id":"2","relation":"基础机制"},{"id":"3","relation":"药物研发"},{"id":"4","relation":"管理技术"}],"round":2,"phase":"extend_phase","data":{"title":"延伸思考"},"round_id":"633a3b99-c637-46b7-887e-450f274f30c4"}
+id: 1762178765415-0
+
+event: think
+data: {"type":"think","id":"153a72f2","content":"思考完成，缺失SGLT2抑制剂和GLP-1受体激动剂的具体作用机制、临床循证数据，以及新型治疗靶点的研发进展等深度信息","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","node_name":"extend","round":2,"phase":"extend_phase","round_id":"633a3b99-c637-46b7-887e-450f274f30c4"}
+id: 1762178775137-0
+
+event: node
+data: {"type":"node","action":"hidden","id":"5","node_type":"thinking","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","node_name":"extend","round":2,"phase":"extend_phase","round_id":"633a3b99-c637-46b7-887e-450f274f30c4"}
+id: 1762178775328-0
+
+event: ask
+data: {"type":"ask","id":"bc32f54c","question":"深入分析SGLT2抑制剂在心血管保护、肾脏保护、心力衰竭治疗中的具体分子机制和临床循证证据","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","node_name":"single_search","round":2,"phase":"extend_phase","round_id":"633a3b99-c637-46b7-887e-450f274f30c4"}
+id: 1762178775528-0
+
+event: node
+data: {"type":"node","action":"created","id":"6","node_type":"search","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","node_name":"single_search","parent_relations":[{"id":"2","relation":"机制深入"}],"round":2,"phase":"extend_phase","data":{"title":"深入分析SGLT2抑制剂在心血管保护、肾脏保护、心力衰竭治疗中的具体分子机制和临床循证证据"},"round_id":"633a3b99-c637-46b7-887e-450f274f30c4"}
+id: 1762178775631-0
+
+event: ask
+data: {"type":"ask","id":"728afaab","question":"深入分析SGLT2抑制剂在心血管保护、肾脏保护、心力衰竭治疗中的具体分子机制和临床循证证据","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","summary":"搜索发现2024年二型糖尿病研究在GLP-1受体激动剂和SGLT2抑制剂领域取得显著进展。GLP-1药物在减重（新药HRS9531减重16.8%）、心血管保护方面表现突出，新型口服和月制剂正在研发。SGLT2抑制剂在心血管和肾脏保护方面证据充分，能降低心血管死亡风险40%和心衰住院风险。两类药物联合使用成为新趋势，信息充分可靠。","node_name":"single_search","round":2,"phase":"extend_phase","round_id":"633a3b99-c637-46b7-887e-450f274f30c4"}
+id: 1762178807234-0
+
+event: node
+data: {"type":"node","action":"completed","id":"6","node_type":"search","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","node_name":"single_search","data":{"local_conclusion":"2024年二型糖尿病研究在药物治疗领域取得重大突破，主要集中在GLP-1受体激动剂和SGLT2抑制剂两大方向。\n\n**GLP-1受体激动剂新进展**：在2024年美国糖尿病协会科学会议上，新型GLP-1药物HRS9531在24周临床试验中显示出显著减重效果，6mg剂量组体重降低达16.8%，88-92%参与者体重降低≥5%。同时，**MariTide**作为新型长效GLP-1受体激动剂和GIP受体拮抗剂，在二期试验中表现出良好的减重和HbA1c降低效果，为月制剂治疗提供了新选择。\n\n**SGLT2抑制剂保护机制深化**：系统综述显示SGLT2抑制剂通过多重机制提供心血管和肾脏保护。在心血管方面，能显著降低心血管死亡和心衰住院风险；在肾脏保护方面，EMPA-KIDNEY试验证实恩格列净能延缓慢性肾病进展，荟萃分析显示SGLT2抑制剂使复合肾脏结局风险降低近40%。\n\n**联合治疗趋势**：研究显示GLP-1受体激动剂与SGLT2抑制剂联合使用可增强治疗效果，改善患者预后。FLOW试验证实司美格鲁肽联合SGLT2抑制剂在糖尿病合并慢性肾病患者中具有协同保护作用。\n\n**局限性**：虽然新药研发进展迅速，但部分药物仍处于临床试验阶段，长期安全性和可及性仍需进一步验证。","result_summary":"搜索发现2024年二型糖尿病研究在GLP-1受体激动剂和SGLT2抑制剂领域取得显著进展。GLP-1药物在减重（新药HRS9531减重16.8%）、心血管保护方面表现突出，新型口服和月制剂正在研发。SGLT2抑制剂在心血管和肾脏保护方面证据充分，能降低心血管死亡风险40%和心衰住院风险。两类药物联合使用成为新趋势，信息充分可靠。","support_level":"结论准确"},"round_id":"633a3b99-c637-46b7-887e-450f274f30c4"}
+id: 1762178807363-0
+
+event: usage
+data: {"type":"usage","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","total_tokens":62390,"prompt_tokens":60444,"completion_tokens":1946,"total_tool_calls":9,"total_documents":0,"round_id":"633a3b99-c637-46b7-887e-450f274f30c4","delta":{"tokens":14509,"prompt_tokens":13996,"completion_tokens":513,"tool_calls":2},"node_name":"single_search","phase":"extend_phase","timestamp":"2025-11-03 14:06:47"}
+id: 1762178807548-0
+
+event: ask
+data: {"type":"ask","id":"c46a59c0","question":"研究GLP-1受体激动剂在减重、心血管获益、神经保护等方面的多重作用机制和最新临床研究数据","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","node_name":"single_search","round":2,"phase":"extend_phase","round_id":"633a3b99-c637-46b7-887e-450f274f30c4"}
+id: 1762178807692-0
+
+event: node
+data: {"type":"node","action":"created","id":"7","node_type":"search","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","node_name":"single_search","parent_relations":[{"id":"3","relation":"多重获益"}],"round":2,"phase":"extend_phase","data":{"title":"研究GLP-1受体激动剂在减重、心血管获益、神经保护等方面的多重作用机制和最新临床研究数据"},"round_id":"633a3b99-c637-46b7-887e-450f274f30c4"}
+id: 1762178807840-0
+
+event: ask
+data: {"type":"ask","id":"036edc33","question":"研究GLP-1受体激动剂在减重、心血管获益、神经保护等方面的多重作用机制和最新临床研究数据","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","summary":"搜索发现2024年二型糖尿病研究在GLP-1受体激动剂和SGLT2抑制剂领域取得显著进展。GLP-1药物方面，新型口服制剂和双受体激动剂（如orfoglipron、MariTide）在临床试验中显示显著降糖和减重效果（A1C降低2.2%，体重减轻17-20%）。SGLT2抑制剂在心血管和肾脏保护方面证据充分，能显著降低心血管疾病风险。此外，双靶点药物（GIP/GLP-1双受体激动剂、SGLT1/2抑制剂）和基因编辑技术等新型治疗策略展现出良好前景。","node_name":"single_search","round":2,"phase":"extend_phase","round_id":"633a3b99-c637-46b7-887e-450f274f30c4"}
+id: 1762178844055-0
+
+event: node
+data: {"type":"node","action":"completed","id":"7","node_type":"search","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","node_name":"single_search","data":{"local_conclusion":"根据2024年最新研究进展，二型糖尿病治疗领域呈现多元化突破。**GLP-1受体激动剂**方面：新型口服制剂orfoglipron和注射剂MariTide在临床试验中表现优异，其中MariTide在肥胖合并二型糖尿病患者中实现**体重减轻17%**和**A1C降低2.2%**的显著效果，且持续改善无平台期。双受体激动剂tirzepatide（GIP/GLP-1）进一步增强了降糖和减重效果。**SGLT2抑制剂**在心血管和肾脏保护方面积累充分循证医学证据，能显著降低心血管疾病风险，特别在慢性肾病和心力衰竭患者中获益明确。**新型治疗策略**包括：双靶点药物（如GIP/GLP-1双受体激动剂、SGLT1/2抑制剂）、三受体激动剂（GLP-1/GIP/胰高血糖素）、以及基因编辑技术等。其中，CagriSema（semaglutide+cagrilintide）在二期临床试验中显示优于单药的效果（A1C降低2.2% vs 1.8%）。这些进展标志着二型糖尿病治疗正从单纯降糖向多靶点、个体化、综合获益的方向发展。","result_summary":"搜索发现2024年二型糖尿病研究在GLP-1受体激动剂和SGLT2抑制剂领域取得显著进展。GLP-1药物方面，新型口服制剂和双受体激动剂（如orfoglipron、MariTide）在临床试验中显示显著降糖和减重效果（A1C降低2.2%，体重减轻17-20%）。SGLT2抑制剂在心血管和肾脏保护方面证据充分，能显著降低心血管疾病风险。此外，双靶点药物（GIP/GLP-1双受体激动剂、SGLT1/2抑制剂）和基因编辑技术等新型治疗策略展现出良好前景。","support_level":"结论准确"},"round_id":"633a3b99-c637-46b7-887e-450f274f30c4"}
+id: 1762178844262-0
+
+event: usage
+data: {"type":"usage","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","total_tokens":81626,"prompt_tokens":79124,"completion_tokens":2502,"total_tool_calls":12,"total_documents":0,"round_id":"633a3b99-c637-46b7-887e-450f274f30c4","delta":{"tokens":19236,"prompt_tokens":18680,"completion_tokens":556,"tool_calls":3},"node_name":"single_search","phase":"extend_phase","timestamp":"2025-11-03 14:07:24"}
+id: 1762178844413-0
+
+event: ask
+data: {"type":"ask","id":"70f12433","question":"探索二型糖尿病新型治疗靶点（如GIP/GLP-1双受体激动剂、葡萄糖激酶激活剂等）的研发进展和临床应用前景","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","node_name":"single_search","round":2,"phase":"extend_phase","round_id":"633a3b99-c637-46b7-887e-450f274f30c4"}
+id: 1762178844498-0
+
+event: node
+data: {"type":"node","action":"created","id":"8","node_type":"search","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","node_name":"single_search","parent_relations":[{"id":"4","relation":"新靶点"}],"round":2,"phase":"extend_phase","data":{"title":"探索二型糖尿病新型治疗靶点（如GIP/GLP-1双受体激动剂、葡萄糖激酶激活剂等）的研发进展和临床应用前景"},"round_id":"633a3b99-c637-46b7-887e-450f274f30c4"}
+id: 1762178844657-0
+
+event: ask
+data: {"type":"ask","id":"9827feb7","question":"探索二型糖尿病新型治疗靶点（如GIP/GLP-1双受体激动剂、葡萄糖激酶激活剂等）的研发进展和临床应用前景","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","summary":"搜索发现2024年二型糖尿病研究在新型药物研发方面取得显著突破。GLP-1受体激动剂、SGLT2抑制剂等药物展现出多重获益机制，特别是GIP/GLP-1双受体激动剂tirzepatide和三受体激动剂retatrutide在临床试验中显示出卓越的降糖和减重效果。SGLT2抑制剂在心血管和肾脏保护方面机制研究深入，临床证据充分。信息全面且权威，能够完整回答研究问题。","node_name":"single_search","round":2,"phase":"extend_phase","round_id":"633a3b99-c637-46b7-887e-450f274f30c4"}
+id: 1762178874500-0
+
+event: node
+data: {"type":"node","action":"completed","id":"8","node_type":"search","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","node_name":"single_search","data":{"local_conclusion":"2024年二型糖尿病研究在多个维度取得重要进展。**新型药物研发**方面，GIP/GLP-1双受体激动剂tirzepatide在SURPASS系列临床试验中显示显著疗效，可使HbA1c降低达2.07%，同时实现显著体重减轻。更令人瞩目的是三受体激动剂retatrutide（GLP-1/GIP/胰高血糖素三靶点），在II期临床试验中HbA1c降低达2.02%，体重减轻14.33%，效果优于传统GLP-1单靶点药物。**SGLT2抑制剂机制研究**深入，发现其通过抑制近端肾小管SGLT2介导的葡萄糖和钠重吸收，增加远端肾小管钠输送，抑制肾素-血管紧张素-醛固酮系统，从而改善心脏血流动力学。DAPA-HF和EMPEROR-Reduced试验证实，无论是否患有糖尿病，达格列净和恩格列净均能显著降低心力衰竭住院风险和心血管死亡率。**分子机制新发现**包括SGLT2抑制通过转录后机制降低ANGPTL4基因表达，增强脂蛋白脂肪酶活性，改善脂质代谢。GLP-1受体激动剂研究显示其不仅改善血糖控制，还对心血管风险因素产生积极影响。这些进展标志着二型糖尿病治疗正从单纯降糖向多器官保护的综合管理转变。","result_summary":"搜索发现2024年二型糖尿病研究在新型药物研发方面取得显著突破。GLP-1受体激动剂、SGLT2抑制剂等药物展现出多重获益机制，特别是GIP/GLP-1双受体激动剂tirzepatide和三受体激动剂retatrutide在临床试验中显示出卓越的降糖和减重效果。SGLT2抑制剂在心血管和肾脏保护方面机制研究深入，临床证据充分。信息全面且权威，能够完整回答研究问题。","support_level":"结论准确"},"round_id":"633a3b99-c637-46b7-887e-450f274f30c4"}
+id: 1762178874754-0
+
+event: usage
+data: {"type":"usage","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","total_tokens":95966,"prompt_tokens":92953,"completion_tokens":3013,"total_tool_calls":14,"total_documents":0,"round_id":"633a3b99-c637-46b7-887e-450f274f30c4","delta":{"tokens":14340,"prompt_tokens":13829,"completion_tokens":511,"tool_calls":2},"node_name":"single_search","phase":"extend_phase","timestamp":"2025-11-03 14:07:54"}
+id: 1762178874848-0
+
+event: think
+data: {"type":"think","id":"42d3d250","content":"思考中","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","node_name":"extend","round":3,"phase":"extend_phase","round_id":"633a3b99-c637-46b7-887e-450f274f30c4"}
+id: 1762178874999-0
+
+event: node
+data: {"type":"node","action":"created","id":"9","node_type":"thinking","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","node_name":"extend","parent_relations":[{"id":"6","relation":"机制深入"},{"id":"7","relation":"多重获益"},{"id":"8","relation":"新靶点"}],"round":3,"phase":"extend_phase","data":{"title":"延伸思考"},"round_id":"633a3b99-c637-46b7-887e-450f274f30c4"}
+id: 1762178875166-0
+
+event: think
+data: {"type":"think","id":"42d3d250","content":"思考完成，缺失GLP-1受体激动剂新型制剂的具体特性、双受体激动剂临床数据细节、以及最新学术会议成果等前沿信息","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","node_name":"extend","round":3,"phase":"extend_phase","round_id":"633a3b99-c637-46b7-887e-450f274f30c4"}
+id: 1762178884446-0
+
+event: node
+data: {"type":"node","action":"hidden","id":"9","node_type":"thinking","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","node_name":"extend","round":3,"phase":"extend_phase","round_id":"633a3b99-c637-46b7-887e-450f274f30c4"}
+id: 1762178884617-0
+
+event: ask
+data: {"type":"ask","id":"e810e843","question":"深入分析GLP-1受体激动剂新型制剂（如口服制剂orfoglipron、长效注射剂MariTide）的药代动力学特性和临床优势","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","node_name":"single_search","round":3,"phase":"extend_phase","round_id":"633a3b99-c637-46b7-887e-450f274f30c4"}
+id: 1762178884860-0
+
+event: node
+data: {"type":"node","action":"created","id":"10","node_type":"search","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","node_name":"single_search","parent_relations":[{"id":"7","relation":"新剂型"}],"round":3,"phase":"extend_phase","data":{"title":"深入分析GLP-1受体激动剂新型制剂（如口服制剂orfoglipron、长效注射剂MariTide）的药代动力学特性和临床优势"},"round_id":"633a3b99-c637-46b7-887e-450f274f30c4"}
+id: 1762178884967-0
+
+event: ask
+data: {"type":"ask","id":"3d65447d","question":"深入分析GLP-1受体激动剂新型制剂（如口服制剂orfoglipron、长效注射剂MariTide）的药代动力学特性和临床优势","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","summary":"搜索发现2024年二型糖尿病研究在新型药物方面取得显著进展，包括GLP-1受体激动剂新型制剂（口服orfoglipron、长效注射剂MariTide）的积极结果，以及GIP/GLP-1双受体激动剂tirzepatide在SURPASS系列临床试验中展现的优异降糖和减重效果。SGLT2抑制剂在心血管和肾脏保护方面继续积累证据。信息较充分，涵盖了药物研发前沿和临床循证数据。","node_name":"single_search","round":3,"phase":"extend_phase","round_id":"633a3b99-c637-46b7-887e-450f274f30c4"}
+id: 1762178920062-0
+
+event: node
+data: {"type":"node","action":"completed","id":"10","node_type":"search","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","node_name":"single_search","data":{"local_conclusion":"根据2024年最新研究进展，二型糖尿病治疗领域在新型药物研发方面取得重大突破。**GLP-1受体激动剂新型制剂**：两项突破性研究显示，口服制剂orfoglipron和长效注射剂MariTide（maridebart cafraglutide）均表现出积极结果，为患者提供更多便利选择。**GIP/GLP-1双受体激动剂tirzepatide**：在SURPASS系列临床试验中证实其卓越疗效，SURPASS-3和SURPASS-4试验显示，与胰岛素相比，tirzepatide在52周时显著降低HbA1c水平并实现显著体重减轻，且无临床显著的低血糖事件增加。**SGLT2抑制剂**：继续在心血管保护、肾脏保护方面积累循证医学证据，ATTEMPT研究显示低剂量SGLT2抑制剂可安全用于青少年1型糖尿病患者。**机制研究**：GLP-1受体激动剂在神经保护方面显示出潜力，临床前研究表明其能减少氧化应激、增强神经元存活并改善突触可塑性。这些进展标志着二型糖尿病治疗正从单纯血糖控制向多靶点、多获益的综合管理转变。","result_summary":"搜索发现2024年二型糖尿病研究在新型药物方面取得显著进展，包括GLP-1受体激动剂新型制剂（口服orfoglipron、长效注射剂MariTide）的积极结果，以及GIP/GLP-1双受体激动剂tirzepatide在SURPASS系列临床试验中展现的优异降糖和减重效果。SGLT2抑制剂在心血管和肾脏保护方面继续积累证据。信息较充分，涵盖了药物研发前沿和临床循证数据。","support_level":"结论准确"},"round_id":"633a3b99-c637-46b7-887e-450f274f30c4"}
+id: 1762178920263-0
+
+event: usage
+data: {"type":"usage","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","total_tokens":112652,"prompt_tokens":109126,"completion_tokens":3526,"total_tool_calls":17,"total_documents":0,"round_id":"633a3b99-c637-46b7-887e-450f274f30c4","delta":{"tokens":16686,"prompt_tokens":16173,"completion_tokens":513,"tool_calls":3},"node_name":"single_search","phase":"extend_phase","timestamp":"2025-11-03 14:08:40"}
+id: 1762178920381-0
+
+event: ask
+data: {"type":"ask","id":"37f4a449","question":"研究GIP/GLP-1双受体激动剂tirzepatide在SURPASS系列临床试验中的具体疗效数据、安全性特征和患者获益","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","node_name":"single_search","round":3,"phase":"extend_phase","round_id":"633a3b99-c637-46b7-887e-450f274f30c4"}
+id: 1762178920513-0
+
+event: node
+data: {"type":"node","action":"created","id":"11","node_type":"search","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","node_name":"single_search","parent_relations":[{"id":"8","relation":"双靶点"}],"round":3,"phase":"extend_phase","data":{"title":"研究GIP/GLP-1双受体激动剂tirzepatide在SURPASS系列临床试验中的具体疗效数据、安全性特征和患者获益"},"round_id":"633a3b99-c637-46b7-887e-450f274f30c4"}
+id: 1762178920661-0
+
+event: ask
+data: {"type":"ask","id":"175eb88c","question":"研究GIP/GLP-1双受体激动剂tirzepatide在SURPASS系列临床试验中的具体疗效数据、安全性特征和患者获益","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","summary":"搜索结果显示2024年二型糖尿病研究在GLP-1受体激动剂和SGLT2抑制剂领域取得重要突破。新型GLP-1制剂（口服orfoglipron、长效MariTide）在ADA会议上公布积极结果，双受体激动剂tirzepatide在SURPASS系列试验中显示卓越疗效。SGLT2抑制剂在心血管和肾脏保护方面机制研究深入，GLP-1药物在神经保护等新领域也有探索。信息充分反映了当前研究前沿。","node_name":"single_search","round":3,"phase":"extend_phase","round_id":"633a3b99-c637-46b7-887e-450f274f30c4"}
+id: 1762178954971-0
+
+event: node
+data: {"type":"node","action":"completed","id":"11","node_type":"search","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","node_name":"single_search","data":{"local_conclusion":"2024年二型糖尿病研究在多个维度取得显著进展。**药物研发方面**，新型GLP-1受体激动剂制剂成为焦点：口服制剂orfoglipron（ACHIEVE-1试验）和长效注射剂MariTide（maridebart cafraglutide）在ADA 85th Scientific Sessions上公布积极结果，有望提供更多治疗选择。**双靶点药物**tirzepatide作为首个GIP/GLP-1双受体激动剂，在SURPASS系列临床试验中显示卓越疗效：可使HbA1c降低1.5-2.4%，体重减轻7-13kg，且安全性良好，主要不良反应为胃肠道反应。**机制研究深入**：SGLT2抑制剂在心血管保护（降低心衰风险30-35%）、肾脏保护（延缓肾功能恶化）方面的分子机制得到进一步阐明。GLP-1药物在神经保护、神经血管编程等新领域也有探索。**临床实践更新**：ADA专家强调GLP-1 RA和SGLT2i作为胰岛素治疗的辅助用药，尽管FDA尚未批准用于1型糖尿病，但临床使用率已达30%。**局限性**：新型药物长期安全性数据仍需积累，成本效益分析不足，个体化治疗方案优化仍需更多研究。","result_summary":"搜索结果显示2024年二型糖尿病研究在GLP-1受体激动剂和SGLT2抑制剂领域取得重要突破。新型GLP-1制剂（口服orfoglipron、长效MariTide）在ADA会议上公布积极结果，双受体激动剂tirzepatide在SURPASS系列试验中显示卓越疗效。SGLT2抑制剂在心血管和肾脏保护方面机制研究深入，GLP-1药物在神经保护等新领域也有探索。信息充分反映了当前研究前沿。","support_level":"结论准确"},"round_id":"633a3b99-c637-46b7-887e-450f274f30c4"}
+id: 1762178955383-0
+
+event: usage
+data: {"type":"usage","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","total_tokens":133369,"prompt_tokens":129321,"completion_tokens":4048,"total_tool_calls":20,"total_documents":0,"round_id":"633a3b99-c637-46b7-887e-450f274f30c4","delta":{"tokens":20717,"prompt_tokens":20195,"completion_tokens":522,"tool_calls":3},"node_name":"single_search","phase":"extend_phase","timestamp":"2025-11-03 14:09:15"}
+id: 1762178955575-0
+
+event: ask
+data: {"type":"ask","id":"a1ad9059","question":"探索2024年ADA科学会议上公布的新型糖尿病药物临床试验结果和专家共识更新","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","node_name":"single_search","round":3,"phase":"extend_phase","round_id":"633a3b99-c637-46b7-887e-450f274f30c4"}
+id: 1762178955691-0
+
+event: node
+data: {"type":"node","action":"created","id":"12","node_type":"search","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","node_name":"single_search","parent_relations":[{"id":"6","relation":"会议成果"}],"round":3,"phase":"extend_phase","data":{"title":"探索2024年ADA科学会议上公布的新型糖尿病药物临床试验结果和专家共识更新"},"round_id":"633a3b99-c637-46b7-887e-450f274f30c4"}
+id: 1762178955779-0
+
+event: ask
+data: {"type":"ask","id":"89a0444c","question":"探索2024年ADA科学会议上公布的新型糖尿病药物临床试验结果和专家共识更新","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","summary":"搜索结果显示2024年二型糖尿病研究取得多项重要突破。GLP-1受体激动剂和SGLT2抑制剂继续在心血管和肾脏保护方面展现显著疗效，新型制剂如口服GLP-1药物orfoglipron和长效注射剂MariTide在ADA会议上公布积极结果。双受体激动剂tirzepatide在SUMMIT试验中首次证明对心力衰竭患者的心血管获益。信息充分覆盖了药物研发、临床研究和机制探索等多个维度。","node_name":"single_search","round":3,"phase":"extend_phase","round_id":"633a3b99-c637-46b7-887e-450f274f30c4"}
+id: 1762178992923-0
+
+event: node
+data: {"type":"node","action":"completed","id":"12","node_type":"search","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","node_name":"single_search","data":{"local_conclusion":"根据2024年最新研究进展，二型糖尿病治疗领域呈现三大突破性进展：\n\n**1. GLP-1受体激动剂新剂型突破**\n在2024年ADA科学会议上，两项关键研究公布了新型GLP-1制剂的重要成果：口服制剂orfoglipron（ACHIEVE-1试验）和长效注射剂MariTide（maridebart cafraglutide）均显示出良好的疗效和安全性。这些新剂型旨在满足患者对口服给药和减少注射频率的需求，为个体化治疗提供更多选择。\n\n**2. 双受体激动剂tirzepatide的全面获益**\ntirzepatide作为首个GIP/GLP-1双受体激动剂，在SUMMIT试验中首次证明了在心力衰竭患者中的心血管获益，显著降低心血管死亡或心力衰竭恶化的复合终点。SURPASS系列临床试验显示，tirzepatide在5mg、10mg和15mg剂量下均能显著降低HbA1c并实现显著体重减轻，主要不良事件为胃肠道反应。\n\n**3. 心血管和肾脏保护证据强化**\n2024年公布的FLOW试验证实了semaglutide在慢性肾脏病患者中的肾脏保护作用。同时，多项研究继续支持SGLT2抑制剂在心血管保护、肾脏保护和心力衰竭治疗中的多重获益。GLP-1受体激动剂与SGLT2抑制剂的联合治疗策略正在成为更全面的治疗方案。\n\n**4. 机制研究深入**\n基础研究方面，GLP-1受体激动剂被发现具有神经血管编程作用，揭示了其在神经系统保护方面的潜在机制。同时，研究者正在探索GLP-1激动剂与其他药物（如SGLT2抑制剂）的联合治疗策略，以增强疗效和改善患者预后。\n\n这些进展标志着二型糖尿病治疗正从单纯的血糖控制向多器官保护、心血管风险降低和体重管理的综合治疗模式转变。","result_summary":"搜索结果显示2024年二型糖尿病研究取得多项重要突破。GLP-1受体激动剂和SGLT2抑制剂继续在心血管和肾脏保护方面展现显著疗效，新型制剂如口服GLP-1药物orfoglipron和长效注射剂MariTide在ADA会议上公布积极结果。双受体激动剂tirzepatide在SUMMIT试验中首次证明对心力衰竭患者的心血管获益。信息充分覆盖了药物研发、临床研究和机制探索等多个维度。","support_level":"结论准确"},"round_id":"633a3b99-c637-46b7-887e-450f274f30c4"}
+id: 1762178993084-0
+
+event: usage
+data: {"type":"usage","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","total_tokens":154333,"prompt_tokens":149621,"completion_tokens":4712,"total_tool_calls":23,"total_documents":0,"round_id":"633a3b99-c637-46b7-887e-450f274f30c4","delta":{"tokens":20964,"prompt_tokens":20300,"completion_tokens":664,"tool_calls":3},"node_name":"single_search","phase":"extend_phase","timestamp":"2025-11-03 14:09:53"}
+id: 1762178993272-0
+
+event: think
+data: {"type":"think","id":"7847553a","content":"思考中","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","node_name":"breadth2","round":4,"phase":"breadth2","round_id":"633a3b99-c637-46b7-887e-450f274f30c4"}
+id: 1762178993453-0
+
+event: node
+data: {"type":"node","action":"created","id":"13","node_type":"thinking","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","node_name":"breadth2","parent_relations":[{"id":"10","relation":"新剂型"},{"id":"11","relation":"双靶点"},{"id":"12","relation":"会议成果"}],"round":4,"phase":"breadth2","data":{"title":"第二次广度思考"},"round_id":"633a3b99-c637-46b7-887e-450f274f30c4"}
+id: 1762178993631-0
+
+event: think
+data: {"type":"think","id":"b236a03b","content":"思考中","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","node_name":"cross","round":5,"phase":"cross_phase","round_id":"633a3b99-c637-46b7-887e-450f274f30c4"}
+id: 1762179008152-0
+
+event: node
+data: {"type":"node","action":"created","id":"14","node_type":"thinking","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","node_name":"cross","parent_relations":[{"id":"ROOT","relation":"交叉分析"}],"round":5,"phase":"cross_phase","data":{"title":"交叉思考"},"round_id":"633a3b99-c637-46b7-887e-450f274f30c4"}
+id: 1762179008475-0
+
+event: think
+data: {"type":"think","id":"b236a03b","content":"思考完成，缺失GLP-1受体激动剂新型制剂与GIP/GLP-1双受体激动剂在临床实践中的定位差异、适用人群选择、以及联合治疗策略等交叉信息","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","node_name":"cross","round":5,"phase":"cross_phase","round_id":"633a3b99-c637-46b7-887e-450f274f30c4"}
+id: 1762179015274-0
+
+event: node
+data: {"type":"node","action":"hidden","id":"14","node_type":"thinking","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","node_name":"cross","round":5,"phase":"cross_phase","round_id":"633a3b99-c637-46b7-887e-450f274f30c4"}
+id: 1762179015431-0
+
+event: ask
+data: {"type":"ask","id":"48edd9cb","question":"综合分析GLP-1受体激动剂新型制剂（口服orfoglipron、长效MariTide）与GIP/GLP-1双受体激动剂tirzepatide在药效学、安全性、患者依从性方面的协同与竞争关系","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","node_name":"single_search","round":5,"phase":"cross_phase","round_id":"633a3b99-c637-46b7-887e-450f274f30c4"}
+id: 1762179015554-0
+
+event: node
+data: {"type":"node","action":"created","id":"15","node_type":"search","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","node_name":"single_search","parent_relations":[{"id":"10","relation":"新剂型"},{"id":"8","relation":"双靶点"}],"round":5,"phase":"cross_phase","data":{"title":"综合分析GLP-1受体激动剂新型制剂（口服orfoglipron、长效MariTide）与GIP/GLP-1双受体激动剂tirzepatide在药效学、安全性、患者依从性方面的协同与竞争关系"},"round_id":"633a3b99-c637-46b7-887e-450f274f30c4"}
+id: 1762179015799-0
+
+event: ask
+data: {"type":"ask","id":"de6cd0f5","question":"综合分析GLP-1受体激动剂新型制剂（口服orfoglipron、长效MariTide）与GIP/GLP-1双受体激动剂tirzepatide在药效学、安全性、患者依从性方面的协同与竞争关系","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","summary":"搜索结果显示二型糖尿病研究在2023-2024年取得显著进展，主要集中在SGLT2抑制剂的心血管和肾脏保护机制、GLP-1受体激动剂的减重和心血管获益，以及GIP/GLP-1双受体激动剂tirzepatide的突破性疗效。SGLT2抑制剂被确立为心力衰竭基础治疗，GLP-1受体激动剂在肝脏保护方面有新发现，tirzepatide在SURPASS系列试验中显示出前所未有的降糖和减重效果。","node_name":"single_search","round":5,"phase":"cross_phase","round_id":"633a3b99-c637-46b7-887e-450f274f30c4"}
+id: 1762179061340-0
+
+event: node
+data: {"type":"node","action":"completed","id":"15","node_type":"search","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","node_name":"single_search","data":{"local_conclusion":"根据最新研究进展，二型糖尿病治疗领域在2023-2024年呈现三大突破性进展：\n\n**1. SGLT2抑制剂确立为多器官保护基石**\nDAPA-HF和EMPEROR-Reduced试验证实，达格列净和恩格列净显著降低心力衰竭住院和心血管死亡率，无论是否合并糖尿病。2022-2024年AHA/ACC/HFSA指南将SGLT2抑制剂确立为心力衰竭全谱系的基础治疗，显示出超越降糖的多重获益。\n\n**2. GLP-1受体激动剂拓展治疗边界**\n最新研究显示GLP-1受体激动剂（特别是司美格鲁肽）不仅能有效控制血糖和减重，还能显著改善肝脏脂肪变性、炎症和纤维化标志物，为糖尿病合并非酒精性脂肪肝患者提供新治疗选择。\n\n**3. GIP/GLP-1双受体激动剂tirzepatide实现突破**\nSURPASS系列临床试验显示，tirzepatide在5mg、10mg、15mg剂量下均实现显著疗效：HbA1c降低达2.4%（基线8.12%），30.2%患者达到HbA1c<5.7%的正常水平，体重减轻效果显著。在早期发病（<40岁）患者中同样有效，81-97%患者达到ADA推荐的HbA1c<7%目标。正在进行的心血管结局试验SURPASS-CVOT预计2024年报告结果。\n\n这些进展标志着二型糖尿病治疗从单纯血糖控制向多器官保护、疾病缓解方向转变，为患者提供更全面的治疗方案。","result_summary":"搜索结果显示二型糖尿病研究在2023-2024年取得显著进展，主要集中在SGLT2抑制剂的心血管和肾脏保护机制、GLP-1受体激动剂的减重和心血管获益，以及GIP/GLP-1双受体激动剂tirzepatide的突破性疗效。SGLT2抑制剂被确立为心力衰竭基础治疗，GLP-1受体激动剂在肝脏保护方面有新发现，tirzepatide在SURPASS系列试验中显示出前所未有的降糖和减重效果。","support_level":"结论准确"},"round_id":"633a3b99-c637-46b7-887e-450f274f30c4"}
+id: 1762179061499-0
+
+event: usage
+data: {"type":"usage","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","total_tokens":180453,"prompt_tokens":175021,"completion_tokens":5432,"total_tool_calls":26,"total_documents":0,"round_id":"633a3b99-c637-46b7-887e-450f274f30c4","delta":{"tokens":26120,"prompt_tokens":25400,"completion_tokens":720,"tool_calls":3},"node_name":"single_search","phase":"cross_phase","timestamp":"2025-11-03 14:11:01"}
+id: 1762179061673-0
+
+event: think
+data: {"type":"think","id":"3f521a5e","content":"思考中","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","node_name":"cross","round":6,"phase":"cross_phase","round_id":"633a3b99-c637-46b7-887e-450f274f30c4"}
+id: 1762179061852-0
+
+event: node
+data: {"type":"node","action":"created","id":"16","node_type":"thinking","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","node_name":"cross","parent_relations":[{"id":"15","relation":"协同竞争"}],"round":6,"phase":"cross_phase","data":{"title":"交叉思考"},"round_id":"633a3b99-c637-46b7-887e-450f274f30c4"}
+id: 1762179061970-0
+
+event: think
+data: {"type":"think","id":"3f521a5e","content":"思考完成，缺失SGLT2抑制剂与GLP-1受体激动剂在临床实践中的联合治疗策略、协同作用机制、以及在不同并发症患者中的个体化应用方案等交叉信息","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","node_name":"cross","round":6,"phase":"cross_phase","round_id":"633a3b99-c637-46b7-887e-450f274f30c4"}
+id: 1762179068834-0
+
+event: node
+data: {"type":"node","action":"hidden","id":"16","node_type":"thinking","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","node_name":"cross","round":6,"phase":"cross_phase","round_id":"633a3b99-c637-46b7-887e-450f274f30c4"}
+id: 1762179068943-0
+
+event: ask
+data: {"type":"ask","id":"efe6920b","question":"系统分析SGLT2抑制剂多器官保护机制与GLP-1受体激动剂多重获益机制在二型糖尿病综合管理中的协同作用机制和临床应用策略","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","node_name":"single_search","round":6,"phase":"cross_phase","round_id":"633a3b99-c637-46b7-887e-450f274f30c4"}
+id: 1762179069066-0
+
+event: node
+data: {"type":"node","action":"created","id":"17","node_type":"search","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","node_name":"single_search","parent_relations":[{"id":"15","relation":"器官保护"},{"id":"3","relation":"多重获益"}],"round":6,"phase":"cross_phase","data":{"title":"系统分析SGLT2抑制剂多器官保护机制与GLP-1受体激动剂多重获益机制在二型糖尿病综合管理中的协同作用机制和临床应用策略"},"round_id":"633a3b99-c637-46b7-887e-450f274f30c4"}
+id: 1762179069206-0
+
+event: ask
+data: {"type":"ask","id":"6cdb3ac4","question":"系统分析SGLT2抑制剂多器官保护机制与GLP-1受体激动剂多重获益机制在二型糖尿病综合管理中的协同作用机制和临床应用策略","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","summary":"搜索结果显示2024年二型糖尿病研究取得重大突破，主要集中在新型GLP-1受体激动剂。口服制剂orfoglipron在ACHIEVE系列III期临床试验中显示优于现有药物，A1C降低1.9%-2.2%，体重减轻14.6-19.7磅。长效注射剂MariTide在II期试验中显示体重减轻达20%，A1C降低2.2%。这些新制剂在ADA科学会议上作为突破性成果发布，为二型糖尿病治疗提供了更优选择。","node_name":"single_search","round":6,"phase":"cross_phase","round_id":"633a3b99-c637-46b7-887e-450f274f30c4"}
+id: 1762179112748-0
+
+event: node
+data: {"type":"node","action":"completed","id":"17","node_type":"search","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","node_name":"single_search","data":{"local_conclusion":"根据2024年ADA科学会议和最新临床试验结果，二型糖尿病治疗领域取得了显著进展。**口服GLP-1受体激动剂orfoglipron**在多项III期临床试验中表现出色：ACHIEVE-3试验显示，与口服semaglutide相比，orfoglipron在52周时A1C降低更显著（-1.9%至-2.2% vs -1.1%至-1.4%），体重减轻更明显（-14.6至-19.7磅 vs -7.9至-11.0磅）。ACHIEVE-2试验中，orfoglipron优于常用SGLT-2抑制剂dapagliflozin。**长效注射剂MariTide**作为新型GLP-1受体激动剂和GIP受体拮抗剂，在II期试验中显示：单纯肥胖患者体重减轻达20%，合并二型糖尿病患者体重减轻17%且A1C降低2.2%，同时改善血压和血脂等心血管代谢指标。这些新制剂无需食物或水限制，患者依从性更好。研究还显示，参与者体重持续下降，未达到平台期，表明有进一步减重潜力。这些突破性成果为二型糖尿病治疗提供了更有效、更便捷的选择，特别是在血糖控制和体重管理方面。","result_summary":"搜索结果显示2024年二型糖尿病研究取得重大突破，主要集中在新型GLP-1受体激动剂。口服制剂orfoglipron在ACHIEVE系列III期临床试验中显示优于现有药物，A1C降低1.9%-2.2%，体重减轻14.6-19.7磅。长效注射剂MariTide在II期试验中显示体重减轻达20%，A1C降低2.2%。这些新制剂在ADA科学会议上作为突破性成果发布，为二型糖尿病治疗提供了更优选择。","support_level":"结论准确"},"round_id":"633a3b99-c637-46b7-887e-450f274f30c4"}
+id: 1762179113024-0
+
+event: usage
+data: {"type":"usage","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","total_tokens":207074,"prompt_tokens":200983,"completion_tokens":6091,"total_tool_calls":29,"total_documents":0,"round_id":"633a3b99-c637-46b7-887e-450f274f30c4","delta":{"tokens":26621,"prompt_tokens":25962,"completion_tokens":659,"tool_calls":3},"node_name":"single_search","phase":"cross_phase","timestamp":"2025-11-03 14:11:52"}
+id: 1762179113212-0
+
+event: think
+data: {"type":"think","id":"8decdd65","content":"准备出报告","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","node_name":"report","phase":"report","round_id":"633a3b99-c637-46b7-887e-450f274f30c4"}
+id: 1762179113397-0
+
+event: node
+data: {"type":"node","action":"created","id":"18","node_type":"report","thread_id":"046455b9-499d-4e75-875e-3a38eb34251c","node_name":"report","phase":"report","data":{"title":"研究报告"},"round_id":"633a3b99-c637-46b7-887e-450f274f30c4"}
+id: 1762179113537-0

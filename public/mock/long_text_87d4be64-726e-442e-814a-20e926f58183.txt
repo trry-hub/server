@@ -1,0 +1,455 @@
+# 交叉思考深度研究 - 原始SSE流数据
+# 问题: 深度学习在医疗影像诊断中的最新进展有哪些？
+# 时间: 2025-11-05 11:05:44
+# URL: http://localhost:8000/api/chat/stream
+# ============================================================
+
+event: think
+data: {"type":"think","id":"e1","content":"正在评估研究价值...","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","node_name":"gatekeeper","phase":"gatekeeper","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c"}
+
+event: think
+data: {"type":"think","id":"e2","content":"问题值得深度研究，准备开始","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","node_name":"gatekeeper","phase":"gatekeeper","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c"}
+
+event: node
+data: {"type":"node","action":"created","id":"ROOT","node_type":"root","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","node_name":"breadth","round":0,"phase":"init","data":{"title":"深度学习在医疗影像诊断中的最新进展有哪些？"},"round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c"}
+
+event: think
+data: {"type":"think","id":"e4","content":"思考中","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","node_name":"breadth","round":1,"phase":"breadth_expand","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c"}
+
+event: node
+data: {"type":"node","action":"created","id":"e3","node_type":"thinking","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","node_name":"breadth","parent_relations":[{"node_id":"ROOT","relation":""}],"round":1,"phase":"breadth_expand","data":{"title":"广度思考"},"round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c"}
+
+event: think
+data: {"type":"think","id":"e5","content":"思考完成，缺失深度学习医疗影像诊断的技术突破、监管审批落地、临床应用效果等核心维度信息","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","node_name":"breadth","round":1,"phase":"breadth_expand","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c"}
+
+event: node
+data: {"type":"node","action":"hidden","id":"e3","node_type":"thinking","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","node_name":"breadth","round":1,"phase":"breadth_expand","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c"}
+
+event: ask
+data: {"type":"ask","id":"e7","question":"梳理2023-2024年深度学习在医疗影像诊断中的核心算法突破，包括Transformer、自监督学习、多模态融合等技术在CT、MRI、X光等影像中的应用","node_id":"e6","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","node_name":"single_search","round":1,"phase":"breadth_expand","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c"}
+
+event: node
+data: {"type":"node","action":"created","id":"e6","node_type":"search","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","node_name":"single_search","parent_relations":[{"node_id":"ROOT","relation":"技术突破"}],"round":1,"phase":"breadth_expand","data":{"title":"梳理2023-2024年深度学习在医疗影像诊断中的核心算法突破，包括Transformer、自监督学习、多模态融合等技术在CT、MRI、X光等影像中的应用"},"round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c"}
+
+event: ask
+data: {"type":"ask","id":"e8","question":"梳理2023-2024年深度学习在医疗影像诊断中的核心算法突破，包括Transformer、自监督学习、多模态融合等技术在CT、MRI、X光等影像中的应用","node_id":"e6","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","summary":"搜索发现2023-2024年深度学习在医疗影像诊断领域取得显著进展：技术层面，Transformer架构、自监督学习和多模态融合成为核心突破方向；监管层面，截至2024年10月已有222个商业化AI医疗影像产品，其中213个获得认证；临床应用层面，在妇科盆腔结构分割、淋巴瘤诊断、Long-COVID肺部分析等领域展现出优异性能。信息较为充分，覆盖技术、监管和应用多个维度。","node_name":"single_search","round":1,"phase":"breadth_expand","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c"}
+
+event: node
+data: {"type":"node","action":"completed","id":"e6","node_type":"search","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","node_name":"single_search","data":{"local_conclusion":"深度学习在医疗影像诊断领域的最新进展体现在三个关键维度：\n\n**技术突破方面**，Transformer架构成为主流。2025年3月发布的RoMedFormer模型采用旋转嵌入Transformer基础架构，结合自监督学习，实现了MRI和CT中女性盆腔结构的3D分割，在跨模态泛化能力上显著优于现有模型。多模态融合技术也取得重要进展，如2023年提出的基于证据理论的深度证据融合框架，在PET/CT淋巴瘤分割和多模态MRI脑肿瘤分割中均超越现有技术水平。此外，2024年6月针对Long-COVID肺部分析的多模态可变形图像配准方法，通过创新的多视角损失函数，实现了CT和质子密度MRI的精准对齐（Dice系数达0.913）。\n\n**监管落地方面**，商业化进程加速。截至2024年10月，全球已有222个商业化AI医疗影像产品，较2021年增长122%，其中213个已获得认证，增长150%。FDA数据显示，截至2024年12月，已授权1016个AI/ML医疗设备，其中放射学产品占77%（956个）。这些产品涵盖CT、MRI、超声等多种影像模态，在神经、心血管、肿瘤等领域广泛应用。\n\n**临床价值方面**，AI工具展现出显著的诊断辅助能力。例如，2024年开发的AI超声工具使无超声培训的护士能够以100%敏感性和97.8%特异性诊断腹主动脉瘤。然而，仍存在临床验证不足的问题，部分获监管授权的AI工具缺乏充分的临床验证研究。","result_summary":"搜索发现2023-2024年深度学习在医疗影像诊断领域取得显著进展：技术层面，Transformer架构、自监督学习和多模态融合成为核心突破方向；监管层面，截至2024年10月已有222个商业化AI医疗影像产品，其中213个获得认证；临床应用层面，在妇科盆腔结构分割、淋巴瘤诊断、Long-COVID肺部分析等领域展现出优异性能。信息较为充分，覆盖技术、监管和应用多个维度。","support_level":"结论准确"},"round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c"}
+
+event: usage
+data: {"type":"usage","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","total_tokens":15511,"prompt_tokens":14918,"completion_tokens":593,"total_tool_calls":2,"total_documents":0,"round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","delta":{"tokens":15511,"prompt_tokens":14918,"completion_tokens":593,"tool_calls":2},"node_name":"single_search","phase":"breadth_expand","timestamp":"2025-11-05 11:06:46"}
+
+event: ask
+data: {"type":"ask","id":"e10","question":"调研FDA、NMPA等监管机构批准的AI医疗影像诊断产品清单、临床验证要求、审批标准及商业化落地现状","node_id":"e9","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","node_name":"single_search","round":1,"phase":"breadth_expand","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c"}
+
+event: node
+data: {"type":"node","action":"created","id":"e9","node_type":"search","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","node_name":"single_search","parent_relations":[{"node_id":"ROOT","relation":"监管落地"}],"round":1,"phase":"breadth_expand","data":{"title":"调研FDA、NMPA等监管机构批准的AI医疗影像诊断产品清单、临床验证要求、审批标准及商业化落地现状"},"round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c"}
+
+event: ask
+data: {"type":"ask","id":"e11","question":"调研FDA、NMPA等监管机构批准的AI医疗影像诊断产品清单、临床验证要求、审批标准及商业化落地现状","node_id":"e9","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","summary":"搜索发现2023-2024年深度学习在医疗影像诊断领域取得显著进展：技术层面，Transformer架构、自监督学习和多模态融合成为核心突破方向；监管层面，截至2024年10月已有222个商业化AI医疗影像产品，其中213个获得认证；临床应用层面，在妇科盆腔结构分割、淋巴瘤诊断、Long-COVID肺部分析等领域展现出优异性能。信息较为充分，覆盖技术、监管和应用多个维度。","node_name":"single_search","round":1,"phase":"breadth_expand","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c"}
+
+event: node
+data: {"type":"node","action":"completed","id":"e9","node_type":"search","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","node_name":"single_search","data":{"local_conclusion":"深度学习在医疗影像诊断领域的最新进展体现在三个关键维度：\n\n**技术突破方面**，Transformer架构成为主流。2025年3月发布的RoMedFormer模型采用旋转嵌入Transformer基础架构，结合自监督学习，实现了MRI和CT中女性盆腔结构的3D分割，在跨模态泛化能力上显著优于现有模型。多模态融合技术也取得重要进展，如2023年提出的基于证据理论的深度证据融合框架，在PET/CT淋巴瘤分割和多模态MRI脑肿瘤分割中均超越现有技术水平。此外，2024年6月针对Long-COVID肺部分析的多模态可变形图像配准方法，通过创新的多视角损失函数，实现了CT和质子密度MRI的精准对齐（Dice系数达0.913）。\n\n**监管落地方面**，商业化进程加速。截至2024年10月，全球已有222个商业化AI医疗影像产品，较2021年增长122%，其中213个已获得认证，增长150%。FDA数据显示，截至2024年12月，已授权1016个AI/ML医疗设备，其中放射学产品占77%（956个）。这些产品涵盖CT、MRI、超声等多种影像模态，在神经、心血管、肿瘤等领域广泛应用。\n\n**临床价值方面**，AI工具展现出显著的诊断辅助能力。例如，2024年开发的AI超声工具使无超声培训的护士能够以100%敏感性和97.8%特异性诊断腹主动脉瘤。然而，仍存在临床验证不足的问题，部分获监管授权的AI工具缺乏充分的临床验证研究。","result_summary":"搜索发现2023-2024年深度学习在医疗影像诊断领域取得显著进展：技术层面，Transformer架构、自监督学习和多模态融合成为核心突破方向；监管层面，截至2024年10月已有222个商业化AI医疗影像产品，其中213个获得认证；临床应用层面，在妇科盆腔结构分割、淋巴瘤诊断、Long-COVID肺部分析等领域展现出优异性能。信息较为充分，覆盖技术、监管和应用多个维度。","support_level":"结论准确"},"round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c"}
+
+event: usage
+data: {"type":"usage","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","total_tokens":25513,"prompt_tokens":24406,"completion_tokens":1107,"total_tool_calls":2,"total_documents":0,"round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","delta":{"tokens":10002,"prompt_tokens":9488,"completion_tokens":514},"node_name":"single_search","phase":"breadth_expand","timestamp":"2025-11-05 11:07:04"}
+
+event: ask
+data: {"type":"ask","id":"e13","question":"分析深度学习医疗影像诊断在不同疾病领域（如肿瘤、心血管、神经疾病）的应用效果、准确率提升和临床价值差异","node_id":"e12","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","node_name":"single_search","round":1,"phase":"breadth_expand","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c"}
+
+event: node
+data: {"type":"node","action":"created","id":"e12","node_type":"search","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","node_name":"single_search","parent_relations":[{"node_id":"ROOT","relation":"临床应用"}],"round":1,"phase":"breadth_expand","data":{"title":"分析深度学习医疗影像诊断在不同疾病领域（如肿瘤、心血管、神经疾病）的应用效果、准确率提升和临床价值差异"},"round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c"}
+
+event: ask
+data: {"type":"ask","id":"e14","question":"分析深度学习医疗影像诊断在不同疾病领域（如肿瘤、心血管、神经疾病）的应用效果、准确率提升和临床价值差异","node_id":"e12","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","summary":"搜索发现2023-2024年深度学习在医疗影像诊断领域取得显著进展：技术层面，Transformer架构、自监督学习和多模态融合成为核心突破方向；监管层面，截至2024年10月已有222个商业化AI医疗影像产品，其中213个获得认证；临床应用层面，在妇科盆腔结构分割、淋巴瘤诊断、Long-COVID肺部分析等领域展现出优异性能。信息较为充分，覆盖技术、监管和应用多个维度。","node_name":"single_search","round":1,"phase":"breadth_expand","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c"}
+
+event: node
+data: {"type":"node","action":"completed","id":"e12","node_type":"search","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","node_name":"single_search","data":{"local_conclusion":"深度学习在医疗影像诊断领域的最新进展体现在三个关键维度：\n\n**技术突破方面**，Transformer架构成为主流。2025年3月发布的RoMedFormer模型采用旋转嵌入Transformer基础架构，结合自监督学习，实现了MRI和CT中女性盆腔结构的3D分割，在跨模态泛化能力上显著优于现有模型。多模态融合技术也取得重要进展，如2023年提出的基于证据理论的深度证据融合框架，在PET/CT淋巴瘤分割和多模态MRI脑肿瘤分割中均超越现有技术水平。此外，2024年6月针对Long-COVID肺部分析的多模态可变形图像配准方法，通过创新的多视角损失函数，实现了CT和质子密度MRI的精准对齐（Dice系数达0.913）。\n\n**监管落地方面**，商业化进程加速。截至2024年10月，全球已有222个商业化AI医疗影像产品，较2021年增长122%，其中213个已获得认证，增长150%。FDA数据显示，截至2024年12月，已授权1016个AI/ML医疗设备，其中放射学产品占77%（956个）。这些产品涵盖CT、MRI、超声等多种影像模态，在神经、心血管、肿瘤等领域广泛应用。\n\n**临床价值方面**，AI工具展现出显著的诊断辅助能力。例如，2024年开发的AI超声工具使无超声培训的护士能够以100%敏感性和97.8%特异性诊断腹主动脉瘤。然而，仍存在临床验证不足的问题，部分获监管授权的AI工具缺乏充分的临床验证研究。","result_summary":"搜索发现2023-2024年深度学习在医疗影像诊断领域取得显著进展：技术层面，Transformer架构、自监督学习和多模态融合成为核心突破方向；监管层面，截至2024年10月已有222个商业化AI医疗影像产品，其中213个获得认证；临床应用层面，在妇科盆腔结构分割、淋巴瘤诊断、Long-COVID肺部分析等领域展现出优异性能。信息较为充分，覆盖技术、监管和应用多个维度。","support_level":"结论准确"},"round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c"}
+
+event: usage
+data: {"type":"usage","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","total_tokens":38295,"prompt_tokens":36674,"completion_tokens":1621,"total_tool_calls":2,"total_documents":0,"round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","delta":{"tokens":12782,"prompt_tokens":12268,"completion_tokens":514},"node_name":"single_search","phase":"breadth_expand","timestamp":"2025-11-05 11:07:24"}
+
+event: think
+data: {"type":"think","id":"e16","content":"思考中","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","node_name":"extend","round":2,"phase":"extend_phase","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c"}
+
+event: node
+data: {"type":"node","action":"created","id":"e15","node_type":"thinking","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","node_name":"extend","parent_relations":[{"node_id":"e6","relation":""},{"node_id":"e9","relation":""},{"node_id":"e12","relation":""}],"round":2,"phase":"extend_phase","data":{"title":"延伸思考"},"round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c"}
+
+event: think
+data: {"type":"think","id":"e17","content":"思考完成，缺失Transformer架构在医疗影像中的具体实现机制、多模态融合技术的详细技术方案、以及AI医疗产品临床验证标准体系等深度信息","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","node_name":"extend","round":2,"phase":"extend_phase","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c"}
+
+event: node
+data: {"type":"node","action":"hidden","id":"e15","node_type":"thinking","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","node_name":"extend","round":2,"phase":"extend_phase","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c"}
+
+event: ask
+data: {"type":"ask","id":"e19","question":"深入分析RoMedFormer等Transformer架构在医疗影像分割中的技术优势、自监督学习机制和跨模态泛化能力的具体实现方式","node_id":"e18","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","node_name":"single_search","round":2,"phase":"extend_phase","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c"}
+
+event: node
+data: {"type":"node","action":"created","id":"e18","node_type":"search","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","node_name":"single_search","parent_relations":[{"node_id":"e6","relation":"深入机制"}],"round":2,"phase":"extend_phase","data":{"title":"深入分析RoMedFormer等Transformer架构在医疗影像分割中的技术优势、自监督学习机制和跨模态泛化能力的具体实现方式"},"round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c"}
+
+event: ask
+data: {"type":"ask","id":"e20","question":"深入分析RoMedFormer等Transformer架构在医疗影像分割中的技术优势、自监督学习机制和跨模态泛化能力的具体实现方式","node_id":"e18","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","summary":"搜索发现2023-2024年深度学习在医疗影像诊断领域取得显著进展：技术层面，Transformer架构、自监督学习和多模态融合成为核心突破方向；监管层面，截至2024年10月已有222个商业化AI医疗影像产品，其中213个获得认证；临床应用层面，在妇科盆腔结构分割、淋巴瘤诊断、Long-COVID肺部分析等领域展现出优异性能。信息较为充分，覆盖技术、监管和应用多个维度。","node_name":"single_search","round":2,"phase":"extend_phase","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c"}
+
+event: node
+data: {"type":"node","action":"completed","id":"e18","node_type":"search","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","node_name":"single_search","data":{"local_conclusion":"深度学习在医疗影像诊断领域的最新进展体现在三个关键维度：\n\n**技术突破方面**，Transformer架构成为主流。2025年3月发布的RoMedFormer模型采用旋转嵌入Transformer基础架构，结合自监督学习，实现了MRI和CT中女性盆腔结构的3D分割，在跨模态泛化能力上显著优于现有模型。多模态融合技术也取得重要进展，如2023年提出的基于证据理论的深度证据融合框架，在PET/CT淋巴瘤分割和多模态MRI脑肿瘤分割中均超越现有技术水平。此外，2024年6月针对Long-COVID肺部分析的多模态可变形图像配准方法，通过创新的多视角损失函数，实现了CT和质子密度MRI的精准对齐（Dice系数达0.913）。\n\n**监管落地方面**，商业化进程加速。截至2024年10月，全球已有222个商业化AI医疗影像产品，较2021年增长122%，其中213个已获得认证，增长150%。FDA数据显示，截至2024年12月，已授权1016个AI/ML医疗设备，其中放射学产品占77%（956个）。这些产品涵盖CT、MRI、超声等多种影像模态，在神经、心血管、肿瘤等领域广泛应用。\n\n**临床价值方面**，AI工具展现出显著的诊断辅助能力。例如，2024年开发的AI超声工具使无超声培训的护士能够以100%敏感性和97.8%特异性诊断腹主动脉瘤。然而，仍存在临床验证不足的问题，部分获监管授权的AI工具缺乏充分的临床验证研究。","result_summary":"搜索发现2023-2024年深度学习在医疗影像诊断领域取得显著进展：技术层面，Transformer架构、自监督学习和多模态融合成为核心突破方向；监管层面，截至2024年10月已有222个商业化AI医疗影像产品，其中213个获得认证；临床应用层面，在妇科盆腔结构分割、淋巴瘤诊断、Long-COVID肺部分析等领域展现出优异性能。信息较为充分，覆盖技术、监管和应用多个维度。","support_level":"结论准确"},"round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c"}
+
+event: usage
+data: {"type":"usage","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","total_tokens":54125,"prompt_tokens":51990,"completion_tokens":2135,"total_tool_calls":2,"total_documents":0,"round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","delta":{"tokens":15830,"prompt_tokens":15316,"completion_tokens":514},"node_name":"single_search","phase":"extend_phase","timestamp":"2025-11-05 11:08:00"}
+
+event: ask
+data: {"type":"ask","id":"e22","question":"探究多模态医疗影像融合技术（如PET/CT、MRI/CT）中深度证据融合框架和可变形图像配准方法的技术细节与临床适用场景","node_id":"e21","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","node_name":"single_search","round":2,"phase":"extend_phase","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c"}
+
+event: node
+data: {"type":"node","action":"created","id":"e21","node_type":"search","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","node_name":"single_search","parent_relations":[{"node_id":"e6","relation":"技术细节"}],"round":2,"phase":"extend_phase","data":{"title":"探究多模态医疗影像融合技术（如PET/CT、MRI/CT）中深度证据融合框架和可变形图像配准方法的技术细节与临床适用场景"},"round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c"}
+
+event: ask
+data: {"type":"ask","id":"e23","question":"探究多模态医疗影像融合技术（如PET/CT、MRI/CT）中深度证据融合框架和可变形图像配准方法的技术细节与临床适用场景","node_id":"e21","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","summary":"搜索发现2023-2024年深度学习在医疗影像诊断领域取得显著进展：技术层面，Transformer架构、自监督学习和多模态融合成为核心突破方向；监管层面，截至2024年10月已有222个商业化AI医疗影像产品，其中213个获得认证；临床应用层面，在妇科盆腔结构分割、淋巴瘤诊断、Long-COVID肺部分析等领域展现出优异性能。信息较为充分，覆盖技术、监管和应用多个维度。","node_name":"single_search","round":2,"phase":"extend_phase","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c"}
+
+event: node
+data: {"type":"node","action":"completed","id":"e21","node_type":"search","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","node_name":"single_search","data":{"local_conclusion":"深度学习在医疗影像诊断领域的最新进展体现在三个关键维度：\n\n**技术突破方面**，Transformer架构成为主流。2025年3月发布的RoMedFormer模型采用旋转嵌入Transformer基础架构，结合自监督学习，实现了MRI和CT中女性盆腔结构的3D分割，在跨模态泛化能力上显著优于现有模型。多模态融合技术也取得重要进展，如2023年提出的基于证据理论的深度证据融合框架，在PET/CT淋巴瘤分割和多模态MRI脑肿瘤分割中均超越现有技术水平。此外，2024年6月针对Long-COVID肺部分析的多模态可变形图像配准方法，通过创新的多视角损失函数，实现了CT和质子密度MRI的精准对齐（Dice系数达0.913）。\n\n**监管落地方面**，商业化进程加速。截至2024年10月，全球已有222个商业化AI医疗影像产品，较2021年增长122%，其中213个已获得认证，增长150%。FDA数据显示，截至2024年12月，已授权1016个AI/ML医疗设备，其中放射学产品占77%（956个）。这些产品涵盖CT、MRI、超声等多种影像模态，在神经、心血管、肿瘤等领域广泛应用。\n\n**临床价值方面**，AI工具展现出显著的诊断辅助能力。例如，2024年开发的AI超声工具使无超声培训的护士能够以100%敏感性和97.8%特异性诊断腹主动脉瘤。然而，仍存在临床验证不足的问题，部分获监管授权的AI工具缺乏充分的临床验证研究。","result_summary":"搜索发现2023-2024年深度学习在医疗影像诊断领域取得显著进展：技术层面，Transformer架构、自监督学习和多模态融合成为核心突破方向；监管层面，截至2024年10月已有222个商业化AI医疗影像产品，其中213个获得认证；临床应用层面，在妇科盆腔结构分割、淋巴瘤诊断、Long-COVID肺部分析等领域展现出优异性能。信息较为充分，覆盖技术、监管和应用多个维度。","support_level":"结论准确"},"round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c"}
+
+event: usage
+data: {"type":"usage","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","total_tokens":72735,"prompt_tokens":70086,"completion_tokens":2649,"total_tool_calls":2,"total_documents":0,"round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","delta":{"tokens":18610,"prompt_tokens":18096,"completion_tokens":514},"node_name":"single_search","phase":"extend_phase","timestamp":"2025-11-05 11:08:18"}
+
+event: ask
+data: {"type":"ask","id":"e25","question":"分析FDA批准的AI医疗影像产品在临床验证方面的不足，以及如何建立更完善的临床验证标准和真实世界证据体系","node_id":"e24","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","node_name":"single_search","round":2,"phase":"extend_phase","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c"}
+
+event: node
+data: {"type":"node","action":"created","id":"e24","node_type":"search","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","node_name":"single_search","parent_relations":[{"node_id":"e6","relation":"验证局限"}],"round":2,"phase":"extend_phase","data":{"title":"分析FDA批准的AI医疗影像产品在临床验证方面的不足，以及如何建立更完善的临床验证标准和真实世界证据体系"},"round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c"}
+
+event: ask
+data: {"type":"ask","id":"e26","question":"分析FDA批准的AI医疗影像产品在临床验证方面的不足，以及如何建立更完善的临床验证标准和真实世界证据体系","node_id":"e24","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","summary":"搜索发现2023-2024年深度学习在医疗影像诊断领域取得显著进展：技术层面，Transformer架构、自监督学习和多模态融合成为核心突破方向；监管层面，截至2024年10月已有222个商业化AI医疗影像产品，其中213个获得认证；临床应用层面，在妇科盆腔结构分割、淋巴瘤诊断、Long-COVID肺部分析等领域展现出优异性能。信息较为充分，覆盖技术、监管和应用多个维度。","node_name":"single_search","round":2,"phase":"extend_phase","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c"}
+
+event: node
+data: {"type":"node","action":"completed","id":"e24","node_type":"search","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","node_name":"single_search","data":{"local_conclusion":"深度学习在医疗影像诊断领域的最新进展体现在三个关键维度：\n\n**技术突破方面**，Transformer架构成为主流。2025年3月发布的RoMedFormer模型采用旋转嵌入Transformer基础架构，结合自监督学习，实现了MRI和CT中女性盆腔结构的3D分割，在跨模态泛化能力上显著优于现有模型。多模态融合技术也取得重要进展，如2023年提出的基于证据理论的深度证据融合框架，在PET/CT淋巴瘤分割和多模态MRI脑肿瘤分割中均超越现有技术水平。此外，2024年6月针对Long-COVID肺部分析的多模态可变形图像配准方法，通过创新的多视角损失函数，实现了CT和质子密度MRI的精准对齐（Dice系数达0.913）。\n\n**监管落地方面**，商业化进程加速。截至2024年10月，全球已有222个商业化AI医疗影像产品，较2021年增长122%，其中213个已获得认证，增长150%。FDA数据显示，截至2024年12月，已授权1016个AI/ML医疗设备，其中放射学产品占77%（956个）。这些产品涵盖CT、MRI、超声等多种影像模态，在神经、心血管、肿瘤等领域广泛应用。\n\n**临床价值方面**，AI工具展现出显著的诊断辅助能力。例如，2024年开发的AI超声工具使无超声培训的护士能够以100%敏感性和97.8%特异性诊断腹主动脉瘤。然而，仍存在临床验证不足的问题，部分获监管授权的AI工具缺乏充分的临床验证研究。","result_summary":"搜索发现2023-2024年深度学习在医疗影像诊断领域取得显著进展：技术层面，Transformer架构、自监督学习和多模态融合成为核心突破方向；监管层面，截至2024年10月已有222个商业化AI医疗影像产品，其中213个获得认证；临床应用层面，在妇科盆腔结构分割、淋巴瘤诊断、Long-COVID肺部分析等领域展现出优异性能。信息较为充分，覆盖技术、监管和应用多个维度。","support_level":"结论准确"},"round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c"}
+
+event: usage
+data: {"type":"usage","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","total_tokens":94130,"prompt_tokens":90967,"completion_tokens":3163,"total_tool_calls":2,"total_documents":0,"round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","delta":{"tokens":21395,"prompt_tokens":20881,"completion_tokens":514},"node_name":"single_search","phase":"extend_phase","timestamp":"2025-11-05 11:08:40"}
+
+event: think
+data: {"type":"think","id":"e28","content":"思考中","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","node_name":"extend","round":3,"phase":"extend_phase","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c"}
+
+event: node
+data: {"type":"node","action":"created","id":"e27","node_type":"thinking","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","node_name":"extend","parent_relations":[{"node_id":"e18","relation":""},{"node_id":"e21","relation":""},{"node_id":"e24","relation":""}],"round":3,"phase":"extend_phase","data":{"title":"延伸思考"},"round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c"}
+
+event: think
+data: {"type":"think","id":"e30","content":"思考中","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","node_name":"breadth2","round":4,"phase":"breadth2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c"}
+
+event: node
+data: {"type":"node","action":"created","id":"e29","node_type":"thinking","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","node_name":"breadth2","parent_relations":[{"node_id":"ROOT","relation":""}],"round":4,"phase":"breadth2","data":{"title":"第二次广度思考"},"round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c"}
+
+event: think
+data: {"type":"think","id":"e32","content":"思考中","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","node_name":"cross","round":5,"phase":"cross_phase","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c"}
+
+event: node
+data: {"type":"node","action":"created","id":"e31","node_type":"thinking","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","node_name":"cross","parent_relations":[{"node_id":"ROOT","relation":""}],"round":5,"phase":"cross_phase","data":{"title":"交叉思考"},"round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c"}
+
+event: think
+data: {"type":"think","id":"e33","content":"思考完成，缺失AI医疗技术与监管政策的互动关系、相互影响机制等交叉信息","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","node_name":"cross","round":5,"phase":"cross_phase","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c"}
+
+event: node
+data: {"type":"node","action":"hidden","id":"e31","node_type":"thinking","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","node_name":"cross","round":5,"phase":"cross_phase","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c"}
+
+event: ask
+data: {"type":"ask","id":"e35","question":"系统分析AI医疗诊断技术的突破（如准确率提升、新病种覆盖）如何推动FDA等监管机构调整审批标准，以及更严格的监管政策如何反向驱动技术创新方向和临床验证方法的演进","node_id":"e34","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","node_name":"single_search","round":5,"phase":"cross_phase","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c"}
+
+event: node
+data: {"type":"node","action":"created","id":"e34","node_type":"search","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","node_name":"single_search","parent_relations":[{"node_id":"e6","relation":"技术视角"},{"node_id":"e9","relation":"政策视角"}],"round":5,"phase":"cross_phase","data":{"title":"系统分析AI医疗诊断技术的突破（如准确率提升、新病种覆盖）如何推动FDA等监管机构调整审批标准，以及更严格的监管政策如何反向驱动技术创新方向和临床验证方法的演进"},"round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c"}
+
+event: ask
+data: {"type":"ask","id":"e36","question":"系统分析AI医疗诊断技术的突破（如准确率提升、新病种覆盖）如何推动FDA等监管机构调整审批标准，以及更严格的监管政策如何反向驱动技术创新方向和临床验证方法的演进","node_id":"e34","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","summary":"搜索发现2023-2024年深度学习在医疗影像诊断领域取得显著进展：技术层面，Transformer架构、自监督学习和多模态融合成为核心突破方向；监管层面，截至2024年10月已有222个商业化AI医疗影像产品，其中213个获得认证；临床应用层面，在妇科盆腔结构分割、淋巴瘤诊断、Long-COVID肺部分析等领域展现出优异性能。信息较为充分，覆盖技术、监管和应用多个维度。","node_name":"single_search","round":5,"phase":"cross_phase","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c"}
+
+event: node
+data: {"type":"node","action":"completed","id":"e34","node_type":"search","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","node_name":"single_search","data":{"local_conclusion":"深度学习在医疗影像诊断领域的最新进展体现在三个关键维度：\n\n**技术突破方面**，Transformer架构成为主流。2025年3月发布的RoMedFormer模型采用旋转嵌入Transformer基础架构，结合自监督学习，实现了MRI和CT中女性盆腔结构的3D分割，在跨模态泛化能力上显著优于现有模型。多模态融合技术也取得重要进展，如2023年提出的基于证据理论的深度证据融合框架，在PET/CT淋巴瘤分割和多模态MRI脑肿瘤分割中均超越现有技术水平。此外，2024年6月针对Long-COVID肺部分析的多模态可变形图像配准方法，通过创新的多视角损失函数，实现了CT和质子密度MRI的精准对齐（Dice系数达0.913）。\n\n**监管落地方面**，商业化进程加速。截至2024年10月，全球已有222个商业化AI医疗影像产品，较2021年增长122%，其中213个已获得认证，增长150%。FDA数据显示，截至2024年12月，已授权1016个AI/ML医疗设备，其中放射学产品占77%（956个）。这些产品涵盖CT、MRI、超声等多种影像模态，在神经、心血管、肿瘤等领域广泛应用。\n\n**临床价值方面**，AI工具展现出显著的诊断辅助能力。例如，2024年开发的AI超声工具使无超声培训的护士能够以100%敏感性和97.8%特异性诊断腹主动脉瘤。然而，仍存在临床验证不足的问题，部分获监管授权的AI工具缺乏充分的临床验证研究。","result_summary":"搜索发现2023-2024年深度学习在医疗影像诊断领域取得显著进展：技术层面，Transformer架构、自监督学习和多模态融合成为核心突破方向；监管层面，截至2024年10月已有222个商业化AI医疗影像产品，其中213个获得认证；临床应用层面，在妇科盆腔结构分割、淋巴瘤诊断、Long-COVID肺部分析等领域展现出优异性能。信息较为充分，覆盖技术、监管和应用多个维度。","support_level":"结论准确"},"round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c"}
+
+event: usage
+data: {"type":"usage","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","total_tokens":119505,"prompt_tokens":115828,"completion_tokens":3677,"total_tool_calls":2,"total_documents":0,"round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","delta":{"tokens":25375,"prompt_tokens":24861,"completion_tokens":514},"node_name":"single_search","phase":"cross_phase","timestamp":"2025-11-05 11:11:29"}
+
+event: think
+data: {"type":"think","id":"e38","content":"思考中","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","node_name":"cross","round":6,"phase":"cross_phase","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c"}
+
+event: node
+data: {"type":"node","action":"created","id":"e37","node_type":"thinking","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","node_name":"cross","parent_relations":[{"node_id":"e34","relation":""}],"round":6,"phase":"cross_phase","data":{"title":"交叉思考"},"round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c"}
+
+event: think
+data: {"type":"think","id":"e40","content":"准备出报告","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","node_name":"report","phase":"report","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c"}
+
+event: node
+data: {"type":"node","action":"created","id":"e39","node_type":"report","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","node_name":"report","phase":"report","data":{"title":"研究报告"},"round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c"}
+
+event: stream
+data: {"type":"stream","chunk":"{\"","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:49"}
+
+event: stream
+data: {"type":"stream","chunk":"result_summary\":\"","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:49"}
+
+event: stream
+data: {"type":"stream","chunk":"搜索发现2","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:49"}
+
+event: stream
+data: {"type":"stream","chunk":"023","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:49"}
+
+event: stream
+data: {"type":"stream","chunk":"-2024年","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:49"}
+
+event: stream
+data: {"type":"stream","chunk":"深度学习在医疗影像诊断","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:49"}
+
+event: stream
+data: {"type":"stream","chunk":"领域取得显著进展","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:49"}
+
+event: stream
+data: {"type":"stream","chunk":"：技术层面，Transformer架构","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:49"}
+
+event: stream
+data: {"type":"stream","chunk":"、自监督学习和多","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:49"}
+
+event: stream
+data: {"type":"stream","chunk":"模态融合成为核心突破","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:49"}
+
+event: stream
+data: {"type":"stream","chunk":"方向；监管层面，截至","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:49"}
+
+event: stream
+data: {"type":"stream","chunk":"2024年1","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:50"}
+
+event: stream
+data: {"type":"stream","chunk":"0月已有222","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:50"}
+
+event: stream
+data: {"type":"stream","chunk":"个商业化AI医疗影像产品","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:50"}
+
+event: stream
+data: {"type":"stream","chunk":"，其中213个","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:50"}
+
+event: stream
+data: {"type":"stream","chunk":"获得认证；临床应用层面","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:50"}
+
+event: stream
+data: {"type":"stream","chunk":"，在妇科盆腔结构分割","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:50"}
+
+event: stream
+data: {"type":"stream","chunk":"、淋巴瘤诊断、Long","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:50"}
+
+event: stream
+data: {"type":"stream","chunk":"-COVID肺部分析","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:50"}
+
+event: stream
+data: {"type":"stream","chunk":"等领域展现出优异性能。信息","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:50"}
+
+event: stream
+data: {"type":"stream","chunk":"较为充分，覆盖技术、","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:50"}
+
+event: stream
+data: {"type":"stream","chunk":"监管和应用多个维度。","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:50"}
+
+event: stream
+data: {"type":"stream","chunk":"\",\"local_conclusion\":\"深度","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:50"}
+
+event: stream
+data: {"type":"stream","chunk":"学习在医疗影像诊断领域的","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:51"}
+
+event: stream
+data: {"type":"stream","chunk":"最新进展体现在三个关键维度","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:51"}
+
+event: stream
+data: {"type":"stream","chunk":"：\\n\\n**技术","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:51"}
+
+event: stream
+data: {"type":"stream","chunk":"突破方面**，Transformer架构","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:51"}
+
+event: stream
+data: {"type":"stream","chunk":"成为主流。202","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:51"}
+
+event: stream
+data: {"type":"stream","chunk":"5年3月发布的Ro","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:51"}
+
+event: stream
+data: {"type":"stream","chunk":"MedFormer模型采用旋转嵌","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:51"}
+
+event: stream
+data: {"type":"stream","chunk":"入Transformer基础架构，结合","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:51"}
+
+event: stream
+data: {"type":"stream","chunk":"自监督学习，实现了MRI","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:51"}
+
+event: stream
+data: {"type":"stream","chunk":"和CT中女性盆腔","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:51"}
+
+event: stream
+data: {"type":"stream","chunk":"结构的3D分割，在","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:52"}
+
+event: stream
+data: {"type":"stream","chunk":"跨模态泛化能力","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:52"}
+
+event: stream
+data: {"type":"stream","chunk":"上显著优于现有模型。","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:52"}
+
+event: stream
+data: {"type":"stream","chunk":"多模态融合技术也","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:52"}
+
+event: stream
+data: {"type":"stream","chunk":"取得重要进展，如2","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:52"}
+
+event: stream
+data: {"type":"stream","chunk":"023年提出的基于","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:52"}
+
+event: stream
+data: {"type":"stream","chunk":"证据理论的深度证据融合","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:52"}
+
+event: stream
+data: {"type":"stream","chunk":"框架，在PET/CT淋巴","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:52"}
+
+event: stream
+data: {"type":"stream","chunk":"瘤分割和多模态","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:52"}
+
+event: stream
+data: {"type":"stream","chunk":"MRI脑肿瘤分割中均","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:52"}
+
+event: stream
+data: {"type":"stream","chunk":"超越现有技术水平。此外，","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:53"}
+
+event: stream
+data: {"type":"stream","chunk":"2024年6","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:53"}
+
+event: stream
+data: {"type":"stream","chunk":"月针对Long-COVID","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:53"}
+
+event: stream
+data: {"type":"stream","chunk":"肺部分析的多模","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:53"}
+
+event: stream
+data: {"type":"stream","chunk":"态可变形图像配准","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:53"}
+
+event: stream
+data: {"type":"stream","chunk":"方法，通过创新的多","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:53"}
+
+event: stream
+data: {"type":"stream","chunk":"视角损失函数，实现了CT","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:53"}
+
+event: stream
+data: {"type":"stream","chunk":"和质子密度MRI的","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:53"}
+
+event: stream
+data: {"type":"stream","chunk":"精准对齐（Dice系数","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:53"}
+
+event: stream
+data: {"type":"stream","chunk":"达0.913","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:53"}
+
+event: stream
+data: {"type":"stream","chunk":"）。\\n\\n**监管","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:53"}
+
+event: stream
+data: {"type":"stream","chunk":"落地方面**，商业化进程","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:53"}
+
+event: stream
+data: {"type":"stream","chunk":"加速。截至202","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:54"}
+
+event: stream
+data: {"type":"stream","chunk":"4年10月，","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:54"}
+
+event: stream
+data: {"type":"stream","chunk":"全球已有222个","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:54"}
+
+event: stream
+data: {"type":"stream","chunk":"商业化AI医疗影像产品，","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:54"}
+
+event: stream
+data: {"type":"stream","chunk":"较2021年","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:54"}
+
+event: stream
+data: {"type":"stream","chunk":"增长122%，其中","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:54"}
+
+event: stream
+data: {"type":"stream","chunk":"213个已获得","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:54"}
+
+event: stream
+data: {"type":"stream","chunk":"认证，增长150","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:54"}
+
+event: stream
+data: {"type":"stream","chunk":"%。FDA数据显示，截至","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:54"}
+
+event: stream
+data: {"type":"stream","chunk":"2024年1","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:54"}
+
+event: stream
+data: {"type":"stream","chunk":"2月，已授权1","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:54"}
+
+event: stream
+data: {"type":"stream","chunk":"016个AI/","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:55"}
+
+event: stream
+data: {"type":"stream","chunk":"ML医疗设备，其中放射","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:55"}
+
+event: stream
+data: {"type":"stream","chunk":"学产品占77%","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:55"}
+
+event: stream
+data: {"type":"stream","chunk":"（956个）。","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:55"}
+
+event: stream
+data: {"type":"stream","chunk":"这些产品涵盖CT、MRI","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:55"}
+
+event: stream
+data: {"type":"stream","chunk":"、超声等多种影像模","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:55"}
+
+event: stream
+data: {"type":"stream","chunk":"态，在神经、心血管、","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:55"}
+
+event: stream
+data: {"type":"stream","chunk":"肿瘤等领域广泛应用。\\n\\n","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:55"}
+
+event: stream
+data: {"type":"stream","chunk":"**临床价值方面**，","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:55"}
+
+event: stream
+data: {"type":"stream","chunk":"AI工具展现出显著的诊断","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:55"}
+
+event: stream
+data: {"type":"stream","chunk":"辅助能力。例如，2","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:56"}
+
+event: stream
+data: {"type":"stream","chunk":"024年开发的","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:56"}
+
+event: stream
+data: {"type":"stream","chunk":"AI超声工具使无","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:56"}
+
+event: stream
+data: {"type":"stream","chunk":"超声培训的护士能够","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:56"}
+
+event: stream
+data: {"type":"stream","chunk":"以100%敏感","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:56"}
+
+event: stream
+data: {"type":"stream","chunk":"性和97.8%","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:56"}
+
+event: stream
+data: {"type":"stream","chunk":"特异性诊断腹主动脉","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:56"}
+
+event: stream
+data: {"type":"stream","chunk":"瘤。然而，仍存在","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:56"}
+
+event: stream
+data: {"type":"stream","chunk":"临床验证不足的问题，部分","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:56"}
+
+event: stream
+data: {"type":"stream","chunk":"获监管授权的AI工具","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:56"}
+
+event: stream
+data: {"type":"stream","chunk":"缺乏充分的临床验证研究","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:57"}
+
+event: stream
+data: {"type":"stream","chunk":"。\",\"support_level\":\"结论","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:57"}
+
+event: stream
+data: {"type":"stream","chunk":"准确\"}","node_type":"report","id":"e39","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","timestamp":"2025-11-05 11:13:57"}
+
+event: node
+data: {"type":"node","action":"completed","id":"e39","node_type":"report","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","node_name":"report","phase":"report","data":{"report":"{\"result_summary\":\"搜索发现2023-2024年深度学习在医疗影像诊断领域取得显著进展：技术层面，Transformer架构、自监督学习和多模态融合成为核心突破方向；监管层面，截至2024年10月已有222个商业化AI医疗影像产品，其中213个获得认证；临床应用层面，在妇科盆腔结构分割、淋巴瘤诊断、Long-COVID肺部分析等领域展现出优异性能。信息较为充分，覆盖技术、监管和应用多个维度。\",\"local_conclusion\":\"深度学习在医疗影像诊断领域的最新进展体现在三个关键维度：\\n\\n**技术突破方面**，Transformer架构成为主流。2025年3月发布的RoMedFormer模型采用旋转嵌入Transformer基础架构，结合自监督学习，实现了MRI和CT中女性盆腔结构的3D分割，在跨模态泛化能力上显著优于现有模型。多模态融合技术也取得重要进展，如2023年提出的基于证据理论的深度证据融合框架，在PET/CT淋巴瘤分割和多模态MRI脑肿瘤分割中均超越现有技术水平。此外，2024年6月针对Long-COVID肺部分析的多模态可变形图像配准方法，通过创新的多视角损失函数，实现了CT和质子密度MRI的精准对齐（Dice系数达0.913）。\\n\\n**监管落地方面**，商业化进程加速。截至2024年10月，全球已有222个商业化AI医疗影像产品，较2021年增长122%，其中213个已获得认证，增长150%。FDA数据显示，截至2024年12月，已授权1016个AI/ML医疗设备，其中放射学产品占77%（956个）。这些产品涵盖CT、MRI、超声等多种影像模态，在神经、心血管、肿瘤等领域广泛应用。\\n\\n**临床价值方面**，AI工具展现出显著的诊断辅助能力。例如，2024年开发的AI超声工具使无超声培训的护士能够以100%敏感性和97.8%特异性诊断腹主动脉瘤。然而，仍存在临床验证不足的问题，部分获监管授权的AI工具缺乏充分的临床验证研究。\",\"support_level\":\"结论准确\"}","title":"研究报告"},"round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c"}
+
+event: think
+data: {"type":"think","id":"e41","content":"报告完成","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","node_name":"report","phase":"report","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c"}
+
+event: complete
+data: {"type":"complete","complete_type":"research_completed","thread_id":"f7716cb4-02d3-49c0-8fd4-99f71fccf7f2","timestamp":"2025-11-05 11:13:57","round_id":"7afaf7e7-5e38-4065-afd5-0ee63503188c","node_name":"report","data":{"report_node_id":"e39","total_search_nodes":7,"total_rounds":6}}

@@ -2,9 +2,12 @@ import express from 'express';
 import cors from 'cors';
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
+import { readFile } from 'fs/promises';
 // import { arr } from '../public/mock/simple.js'
 // import { arr } from '../public/mock/I4ULQL7gGWnAEj_n9QogF.js'
-import { arr } from '../public/mock/0bUvp2pD8iATNId3YNgVR.js'
+// import { arr } from '../public/mock/0bUvp2pD8iATNId3YNgVR.js'
+// import { arr } from '../public/mock/019a215955c91b42a9871f198619aac027.js'
+import { arr } from '../public/mock/cross-thinking.js'
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -81,14 +84,8 @@ function calculateDynamicDelay(line, eventType = 'message_chunk', customConfig =
   return Math.round(delay);
 }
 
-// 从行内容中提取事件类型
-function extractEventType(line) {
-  const eventMatch = line.match(/^event:\s*(\w+)/);
-  return eventMatch ? eventMatch[1] : 'message_chunk';
-}
-
-// SSE 流式返回接口 - 真正的流式实现
-app.post('/api/fast/chat/stream', async (req, res) => {
+// SSE 流式返回接口 - 真正的流式实现（旧版本）
+app.get('/api/chat/events-old', async (req, res) => {
   // 设置 SSE 响应头
   res.setHeader('Content-Type', 'text/event-stream');
   res.setHeader('Cache-Control', 'no-cache');
@@ -185,6 +182,116 @@ app.post('/api/fast/chat/stream', async (req, res) => {
   });
 });
 
+// 新的 SSE 流式返回接口 - 返回 cross-thinking.txt 数据
+app.get('/api/chat/events', async (req, res) => {
+  // 设置 SSE 响应头
+  res.setHeader('Content-Type', 'text/event-stream');
+  res.setHeader('Cache-Control', 'no-cache');
+  res.setHeader('Connection', 'keep-alive');
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('X-Accel-Buffering', 'no'); // 禁用 Nginx 缓冲
+
+  console.log('新的 SSE 流启动 - 使用 cross-thinking.txt 数据');
+
+  try {
+    // 读取 cross-thinking.txt 文件
+    const filePath = join(__dirname, '../public/mock/long_text_7b5997e9-247c-4208-af56-ba4d994f97da.txt');
+    const fileContent = await readFile(filePath, 'utf-8');
+
+    // 按行分割文件内容
+    const lines = fileContent.split('\n');
+
+    let messageCount = 0;
+    let currentEvent = null;
+    let currentData = null;
+
+    for (const line of lines) {
+      // 检查客户端是否断开连接
+      if (res.writableEnded) {
+        break;
+      }
+
+      const trimmedLine = line.trim();
+
+      // 跳过注释行、空行和分隔线
+      if (!trimmedLine || trimmedLine.startsWith('#') || trimmedLine.startsWith('====')) {
+        continue;
+      }
+
+      // 解析 event 行
+      if (trimmedLine.startsWith('event:')) {
+        currentEvent = trimmedLine.substring(6).trim();
+      }
+      // 解析 data 行
+      else if (trimmedLine.startsWith('data:')) {
+        currentData = trimmedLine.substring(5).trim();
+
+        // 当同时有 event 和 data 时，发送 SSE 消息
+        if (currentEvent && currentData) {
+          // 输出标准SSE格式
+          res.write(`event: ${currentEvent}\n`);
+          res.write(`data: ${currentData}\n\n`);
+
+          messageCount++;
+          console.log(`发送消息 #${messageCount}: ${currentEvent}`);
+
+          // 添加延时，模拟真实流式传输
+          const delay = 200 + Math.random() * 300; // 200-500ms 随机延时
+          await new Promise(resolve => setTimeout(resolve, delay));
+
+          // 重置当前事件和数据
+          currentEvent = null;
+          currentData = null;
+        }
+      }
+    }
+
+    console.log(`✅ 流式传输完成，共发送 ${messageCount} 条消息`);
+    res.end();
+  } catch (error) {
+    console.error('Error streaming data:', error);
+    if (!res.writableEnded) {
+      res.write(`event: error\ndata: ${JSON.stringify({ error: 'Failed to stream data' })}\n\n`);
+      res.end();
+    }
+  }
+
+  // 处理客户端断开连接
+  req.on('close', () => {
+    console.log('Client disconnected from new SSE stream');
+  });
+});
+
+app.get('/api/threads/detail', async (req, res) => {
+    let data = {
+      "thread": {
+          "id": "019a215955c91b42a9871f198619aac027",
+          "type": 1,
+          "title": "埃菲尔铁塔比世界最高建筑高多少…",
+          "status": "running",
+          "start_at": "2025:10:28 19:28:29",
+          "end_at": "2025:10:29 10:04:30",
+          "message_count": null
+      },
+      "effective_status": "success",
+      "terminal": true,
+      "last_event_id": null,
+      "last_event_type": null,
+      "last_event_timestamp": null,
+      "last_round_id": "87df590c-6e9e-4d97-bd9b-3be5b0cb5be6",
+      "stats": {
+          "total_llm_calls": 6,
+          "total_llm_tokens_in": 8548,
+          "total_llm_tokens_out": 300,
+          "total_llm_tokens": 8848,
+          "total_tool_calls": 4,
+          "total_search_results": 0,
+          "total_crawl_success": 0
+      }
+  }
+  res.json(data);
+})
+
 // 直接返回组装好的数据接口
 app.get('/api/config', async (req, res) => {
   try {
@@ -222,7 +329,8 @@ app.get('/health', (req, res) => {
 // 启动服务器
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
-  console.log(`SSE Stream endpoint: http://localhost:${PORT}/api/chat/stream`);
+  console.log(`SSE Stream endpoint (new): http://localhost:${PORT}/api/chat/events`);
+  console.log(`SSE Stream endpoint (old): http://localhost:${PORT}/api/chat/events-old`);
   console.log(`Report Detail endpoint: http://localhost:${PORT}/api/config`);
 });
 
