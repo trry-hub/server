@@ -1,0 +1,531 @@
+=== React Agent V2 原始SSE事件 ===
+时间: 2025-11-12 09:57:44
+问题: 前列腺癌治疗的最新方向
+线程ID: test_search_095744
+轮次ID: round_001
+==================================================
+
+event: tool_call
+data: {"type": "tool_call", "action": "start", "id": "3e22636f-45d9-4d61-b7b2-ad3742488e4d", "tool_name": "web_search_pubmed", "input": {"query": "前列腺癌治疗最新进展 2024"}, "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:57:47", "event": "on_tool_start", "name": "web_search_pubmed", "tags": ["seq:step:1"]}
+
+event: tool_call
+data: {"type": "tool_call", "action": "start", "id": "4e664d08-97e0-41a8-92d0-a2ebb01f2594", "tool_name": "web_search_searx", "input": {"query": "前列腺癌治疗最新方向 2024"}, "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:57:47", "event": "on_tool_start", "name": "web_search_searx", "tags": ["seq:step:1"]}
+
+event: tool_call
+data: {"type": "tool_call", "action": "end", "id": "3e22636f-45d9-4d61-b7b2-ad3742488e4d", "tool_name": "web_search_pubmed", "output": "[]", "input": {"query": "前列腺癌治疗最新进展 2024"}, "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:57:47", "event": "on_tool_end", "name": "web_search_pubmed", "tags": ["seq:step:1"]}
+
+event: tool_call
+data: {"type": "tool_call", "action": "end", "id": "4e664d08-97e0-41a8-92d0-a2ebb01f2594", "tool_name": "web_search_searx", "output": "[{\"type\": \"page\", \"title\": \"前列腺癌研究突破性进展（2024-2025）-今日头条\", \"url\": \"https://m.toutiao.com/w/1835953169160200/\", \"content\": \"前列腺癌研究突破性进展（2024-2025） 一、靶向治疗：精准杀伤新突破 1. 铁死亡诱导剂L14-8 ◦ 直击AR信号失活的神经内分泌前列腺癌（NEPC），通过激活PLK1/TP53通路触发癌细胞铁死亡。 ◦ 动物实验显示：单药或联合低剂量AR抑制剂可显著抑制肿瘤生长，无明显毒性。\", \"score\": 1.0}, {\"type\": \"page\", \"title\": \"CACA年中盘点 | 2024前列腺癌前沿进展-360doc个人图书馆\", \"url\": \"https://www.360doc.cn/article/0_1149116656.html\", \"content\": \"包括发病机制、诊断方案、放疗技术、手术技术和靶向治疗等。这些成果不断丰富前列腺癌患者的诊治手段，改善其预后。\", \"score\": 0.8}, {\"type\": \"page\", \"title\": \"重磅来袭!2024 ASCO-GU前列腺癌精准诊疗内容抢先看(治疗篇)_...\", \"url\": \"https://www.sogou.com/link?url=hedJjaC291Ok-E9WTygIKtXlE0qcN_CekiW1YYUfdjfoOgBhEcai79wJesaHVa4n\", \"content\": \"2024年1月24日- 编者按 随着精准诊疗在前列腺癌中发挥着愈来愈重要的地位，以HRR基因为基础的靶点研究开启了mCRPC靶向治疗的新时代。2024年美国临床肿瘤学会泌...\", \"score\": 0.6}, {\"type\": \"page\", \"title\": \"2024版AUA指南更新 | 前列腺癌的挽救治疗\", \"url\": \"https://www.yxj.org.cn/detailPage?articleId=434454\", \"content\": \"首页课程直播调研会议临床指南关于 医学界 登录移动端 医学界医生站临床决策助手中文 中文 EN 首页文章详情页 点赞 收藏 医学界综合整理 分享: 提交...\", \"score\": 0.4}, {\"type\": \"page\", \"title\": \"革新药物助力前列腺癌治疗：中国八月新增六款特效药-北京大众健康科普促进会\", \"url\": \"https://www.dzjkkp.com/kepuhuodong/665418.html\", \"content\": \"这些新药物的上市标志着治疗手段的重大进步，它们具有创新的作用机制，为前列腺癌患者带来了新的治疗希望。在传统的前列腺癌治疗手段中，手术、放疗和化疗是最常用的方法。然而，这些传统方法常...\", \"score\": 0.19999999999999996}]", "input": {"query": "前列腺癌治疗最新方向 2024"}, "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:57:49", "event": "on_tool_end", "name": "web_search_searx", "tags": ["seq:step:1"]}
+
+event: tool_call
+data: {"type": "tool_call", "action": "start", "id": "b8e1c156-9755-4ab9-aa77-7b4d42c2d3ef", "tool_name": "crawl_tool", "input": {"url": "https://m.toutiao.com/w/1835953169160200/"}, "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:57:53", "event": "on_tool_start", "name": "crawl_tool", "tags": ["seq:step:1"]}
+
+event: tool_call
+data: {"type": "tool_call", "action": "start", "id": "6d9836e0-d13c-49c5-a3e9-ca84ed954519", "tool_name": "crawl_tool", "input": {"url": "https://www.360doc.cn/article/0_1149116656.html"}, "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:57:53", "event": "on_tool_start", "name": "crawl_tool", "tags": ["seq:step:1"]}
+
+event: tool_call
+data: {"type": "tool_call", "action": "end", "id": "6d9836e0-d13c-49c5-a3e9-ca84ed954519", "tool_name": "crawl_tool", "output": "{\"url\": \"https://www.360doc.cn/article/0_1149116656.html\", \"crawled_content\": \"# 403 Forbidden\\n\\n---\\n\\nnginx\"}", "input": {"url": "https://www.360doc.cn/article/0_1149116656.html"}, "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:58:00", "event": "on_tool_end", "name": "crawl_tool", "tags": ["seq:step:1"]}
+
+event: tool_call
+data: {"type": "tool_call", "action": "end", "id": "b8e1c156-9755-4ab9-aa77-7b4d42c2d3ef", "tool_name": "crawl_tool", "output": "{\"url\": \"https://m.toutiao.com/w/1835953169160200/\", \"crawled_content\": \"# 知情达理冰淇淋：前列腺癌研究突破性进展（2024-2025）\\n\\n一、靶向治疗：精准杀伤新突破\\n\\n1. 铁死亡诱导剂L14-8\\n\\n◦ 直击AR信号失活的神经内分泌前列腺癌（NEPC），通过激活PLK1/TP53通路触发癌细胞铁死亡。\\n\\n◦ 动物实验显示：单药或联合低剂量AR抑制剂可显著抑制肿瘤生长，无明显毒性。\\n\\n2. PSMA靶向放射性配体疗法\\n\\n◦ 诺华药物Pluvicto（177Lu-特昔维匹...\\n\\n前列腺癌研究突破性进展（2024-2025）\\n\\n一、靶向治疗：精准杀伤新突破\\n\\n1. 铁死亡诱导剂L14-8\\n\\n◦ 直击AR信号失活的神经内分泌前列腺癌（NEPC），通过激活PLK1/TP53通路触发癌细胞铁死亡。\\n\\n◦ 动物实验显示：单药或联合低剂量AR抑制剂可显著抑制肿瘤生长，无明显毒性。\\n\\n2. PSMA靶向放射性配体疗法\\n\\n◦ 诺华药物Pluvicto（177Lu-特昔维匹肽）：III期试验证实，使mCRPC患者疾病进展风险降低60%，已提交上市申请。\\n\\n3. PARP抑制剂联合方案升级\\n\\n◦ 尼拉帕利+泼尼松：针对BRCA1/2突变患者，延长影像学无进展生存期（rPFS），延缓化疗启动。\\n\\n◦ 他拉唑帕利+恩扎卢胺：HRR基因突变患者疾病进展风险降低55%，完全缓解率达38.4%。\\n\\n4. EZH2抑制剂潜力显现\\n\\n◦ 辉瑞PF-06821497联合恩扎卢胺：经治mCRPC患者中位rPFS达17.1个月，III期试验进行中。\\n\\n二、基因检测：精准分型新依据\\n\\n1. PIK3CA突变的临床价值\\n\\n◦ 携带该突变的肿瘤具高TMB、MSI-H及HRD特征，提示对PIK3CA靶向药和免疫治疗敏感。\\n\\n2. HRR基因突变的预后意义\\n\\n◦ mHSPC患者中，HRR突变（如BRCA2、ATM）缩短至去势抵抗时间（TTCR），CDK12突变者预后更差。\\n\\n◦ PROact研究：奥拉帕利+阿比特龙使HRR突变患者客观缓解率达84.6%，部分实现完全缓解。\\n\\n三、免疫治疗：个性化疫苗新突破\\n\\n1. 肿瘤疫苗革新\\n\\n◦ SV-102疫苗：肿瘤内输注激活免疫应答，84.6% mCRPC患者肿瘤缓解，50%骨转移消退，中位PFS超200天。\\n\\n◦ 中国团队新型佐剂疫苗：激活免疫微环境，疗效提升5倍，相关研究发表于《自然》。\\n\\n2. 免疫检查点抑制剂的局限\\n\\n◦ 仅MSI-H\"}", "input": {"url": "https://m.toutiao.com/w/1835953169160200/"}, "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:58:11", "event": "on_tool_end", "name": "crawl_tool", "tags": ["seq:step:1"]}
+
+event: tool_call
+data: {"type": "tool_call", "action": "start", "id": "4e3360ee-9c66-47b2-a25f-a96735225b2d", "tool_name": "crawl_tool", "input": {"url": "https://www.sogou.com/link?url=hedJjaC291Ok-E9WTygIKtXlE0qcN_CekiW1YYUfdjfoOgBhEcai79wJesaHVa4n"}, "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:58:22", "event": "on_tool_start", "name": "crawl_tool", "tags": ["seq:step:1"]}
+
+event: tool_call
+data: {"type": "tool_call", "action": "end", "id": "4e3360ee-9c66-47b2-a25f-a96735225b2d", "tool_name": "crawl_tool", "output": "{\"url\": \"https://www.sogou.com/link?url=hedJjaC291Ok-E9WTygIKtXlE0qcN_CekiW1YYUfdjfoOgBhEcai79wJesaHVa4n\", \"crawled_content\": \"# 重磅来袭！2024 ASCO-GU前列腺癌精准诊疗内容抢先看（治疗篇）\\n\\n随着精准诊疗在前列腺癌中发挥着愈来愈重要的地位，以HRR基因为基础的靶点研究开启了mCRPC靶向治疗的新时代。2024年美国临床肿瘤学会泌尿男生殖系肿瘤分会 (ASCO-GU 2024) 年会将于当地时间1月25日~27日在美国旧金山举行。会议将展示该领域最具创新性的科学进展，并探讨泌尿男生殖系肿瘤未来的治疗方向。在ASCO-GU大会揭幕前，《肿瘤瞭望》遴选已公布的前列腺癌靶向治疗相关研究进行编译，以飨读者。\\n\\n在PROpel研究中，奥拉帕利(O)+阿比特龙(A)与安慰剂(P)+A在转移性去势抵抗性前列腺癌(mCRPC)同源重组修复基因突变(HRRm)患者中的单基因疗效比较\\n\\nPROpel研究达到了其主要终点，并在mCRPC一线中显示出奥拉帕利（Olaparib，O）与阿比特龙（Abiraterone，A）相比，在研究者评估的影像学进展无进展生存（rPFS）方面取得了显著获益（HR 0.66，P<0.001）。在最终分析中，O+A与P+A的中位总生存期（OS）分别为42.1个月与34.7个月（HR 0.81，P=0.0544）。本次大会报导了PROpel研究中携带HRRm患者接受O+A和P+A的单基因疗效。\\n\\nPROpel是一项3期随机(1:1)，双盲试验。无论生物标志物状态如何，患者接受奥拉帕利+阿比特龙或安慰剂+阿比特龙治疗。研究者评估的rPFS是主要终点。OS是关键次要终点。在随机化之后和初步分析之前，通过肿瘤组织和ctDNA检测评估HRRm状态，并根据两种测试的综合结果进行评估。评估的基因有ATM、BRCA1、BRCA2、BARD1、BRIP1、CDK12、CHEK1、CHEK2、FANCL、PALB2、RAD51B、RAD51C、RAD51D和RAD54L。对于rPFS和OS，如果有不到5次事件的亚组，HR和CI将不会报告。\\n\\n28.4%的患者携带HRRm。对于大多数单基因HRRm患者，与P+A组相比，O+A组的rPFS事件和死亡比例较低。最常见的基因突变是BRCA2、ATM和CDK12；rPFS和OS的HR在数值上更倾向于O+A组(**rPFS:**BRCA2, HR 0.20; ATM, HR 0.55; CDK12, HR 0.51. **OS:**BRCA2, HR 0.\"}", "input": {"url": "https://www.sogou.com/link?url=hedJjaC291Ok-E9WTygIKtXlE0qcN_CekiW1YYUfdjfoOgBhEcai79wJesaHVa4n"}, "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:00", "event": "on_tool_end", "name": "crawl_tool", "tags": ["seq:step:1"]}
+
+event: tool_call
+data: {"type": "tool_call", "action": "start", "id": "be615a6e-1d17-41f2-9e8e-21f450dfae7c", "tool_name": "web_search_pubmed", "input": {"query": "prostate cancer treatment advances 2024 PSMA PARP inhibitors immunotherapy"}, "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:03", "event": "on_tool_start", "name": "web_search_pubmed", "tags": ["seq:step:1"]}
+
+event: tool_call
+data: {"type": "tool_call", "action": "end", "id": "be615a6e-1d17-41f2-9e8e-21f450dfae7c", "tool_name": "web_search_pubmed", "output": "[{\"type\": \"paper\", \"title\": \"Isolation of Plasma Extracellular Vesicles for High-Depth Analysis of Proteomic Biomarkers in Metastatic Castration-Resistant Prostate Cancer Patients.\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/39766159\", \"content\": \"Introduction: Prostate cancer treatment has been revolutionized by targeted therapies, including PARP inhibitors, checkpoint immunotherapies, and PSMA-targeted radiotherapies. Despite such advancements, accurate patient stratification remains a challenge, with current methods relying on genomic markers, tissue staining, and imaging. Extracellular vesicle (EV)-derived proteins offer a novel non-invasive alternative for biomarker discovery, holding promise for improving treatment precision. However, the characterization of plasma-derived EVs in prostate cancer patients remains largely unexplored. Methods: We conducted proteomic analyses on EVs isolated from plasma in 27 metastatic castration-resistant prostate cancer (mCRPC) patients. EVs were purified using ultracentrifugation and analyzed via mass spectrometry. Proteomic data were correlated with clinical markers such as serum prostate-specific antigen (PSA) and bone lesion counts. Statistical significance was assessed using Mann-Whitney t-tests and Spearman correlation. Results: The median age of patients was 74 (range: 44-94) years. At the time of blood collection, the median PSA level was 70 (range: 0.5-1000) ng/mL. All patients had bone metastasis. A total of 5213 proteins were detected, including EV-related proteins (CD9, CD81, CD63, FLOT1, TSG101) and cancer-related proteins (PSMA, B7-H3, PD-L1). Proteomic profiling of plasma EVs revealed a significant correlation between specific EV-derived proteins and clinical prognostic markers. B7-H3, LAT1, and SLC29A1 showed a strong association with serum PSA levels and number of bone lesions, indicating potential for these proteins to serve as biomarkers of disease burden and therapy response. Conclusions: Our findings demonstrate the potential of EV-based proteomics for identifying biomarkers in mCRPC patients. Proteins such as B7-H3 and LAT1 could guide precision oncology approaches, improving patient stratification. Future research incorporating outcomes data and EV subpopulation analysis is needed to establish clinical relevance.\\n\", \"score\": 1.0, \"authors\": \"\", \"published\": \"2024-01-01\", \"entry_id\": \"39766159\"}, {\"type\": \"paper\", \"title\": \"New target therapies in prostate cancer: from radioligand therapy, to PARP-inhibitors and immunotherapy.\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/38860274\", \"content\": \"Prostate cancer (PCa) remains a significant global health challenge, particularly in its advanced stages. Despite progress in early detection and treatment, PCa is the second most common cancer diagnosis among men. This review aims to provide an overview of current therapeutic approaches and innovations in PCa management, focusing on the latest advancements and ongoing challenges. We conducted a narrative review of clinical trials and research studies, focusing on PARP inhibitors (PARPis), phosphoinositide 3 kinase-protein kinase B inhibitors, immunotherapy, and radioligand therapies (RLTs). Data was sourced from major clinical trial databases and peer-reviewed journals. Androgen deprivation therapy and androgen-receptor pathway inhibitors remain foundational in managing castration-sensitive and early-stage castration-resistant PCa (CRPC). PARPi's, such as olaparib and rucaparib, have emerged as vital treatments for metastatic CRPC with homologous recombination repair gene mutations, highlighting the importance of personalized medicine. Immune checkpoint inhibitors (ICIs) have shown clinical benefit limited to specific subgroups of PCa, demonstrating significant improvement in efficacy in patients with microsatellite instability/mismatch repair or cyclin-dependent kinase 12 alteration, highlighting the importance of focusing ongoing research on identifying and characterizing these subgroups to maximize the clinical benefits of ICIs. RLTs have shown effectiveness in treating mCRPC. Different alpha emitters (like [225Ac]PSMA) and beta emitters compounds (like [177Lu]PSMA) impact treatment differently due to their energy transfer characteristics. Clinical trials like VISION and TheraP have demonstrated positive outcomes with RLT, particularly [177Lu]PSMA-617, leading to FDA approval. Ongoing trials and future perspectives explore the potential of [225Ac]PSMA, aiming to improve outcomes for patients with mCRPC. The landscape of PCa treatment is evolving, with significant advancements in both established and novel therapies. The combination of hormonal therapies, chemotherapy, PARPis, immunotherapy, and RLTs, guided by genetic and molecular insights, opens new possibilities for personalized treatment.\\n\", \"score\": 0.99, \"authors\": \"\", \"published\": \"2024-01-01\", \"entry_id\": \"38860274\"}]", "input": {"query": "prostate cancer treatment advances 2024 PSMA PARP inhibitors immunotherapy"}, "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:06", "event": "on_tool_end", "name": "web_search_pubmed", "tags": ["seq:step:1"]}
+
+event: tool_call
+data: {"type": "tool_call", "action": "start", "id": "6afa9774-f5c7-42e7-b9cf-11c05df34588", "tool_name": "got_enough_information", "input": {"plan": "综合分析2024年前列腺癌治疗的最新方向，包括靶向治疗（铁死亡诱导剂、PSMA靶向放射性配体疗法、PARP抑制剂联合方案、EZH2抑制剂）、基因检测指导的精准分型、以及免疫治疗（个性化疫苗和免疫检查点抑制剂）等主要进展。"}, "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:12", "event": "on_tool_start", "name": "got_enough_information", "tags": ["seq:step:1"]}
+
+event: tool_call
+data: {"type": "tool_call", "action": "end", "id": "6afa9774-f5c7-42e7-b9cf-11c05df34588", "tool_name": "got_enough_information", "output": "OK", "input": {"plan": "综合分析2024年前列腺癌治疗的最新方向，包括靶向治疗（铁死亡诱导剂、PSMA靶向放射性配体疗法、PARP抑制剂联合方案、EZH2抑制剂）、基因检测指导的精准分型、以及免疫治疗（个性化疫苗和免疫检查点抑制剂）等主要进展。"}, "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:12", "event": "on_tool_end", "name": "got_enough_information", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "#", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:14", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": " 前列腺", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:14", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "癌治疗的", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:14", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "最新方向（202", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:14", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "4-202", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:14", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "5）\n\n根据最新", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:15", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "研究和临床进展，前列腺", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:15", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "癌治疗正朝着更加", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:15", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "精准化、个体化的方向", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:15", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "发展。以下是当前主要的", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:15", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "治疗新方向：\n\n##", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:15", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": " 一、靶向", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:15", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "治疗新突破\n\n###", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:16", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": " 1. 铁", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:16", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "死亡诱导剂L", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:16", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "14-8\n-", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:16", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": " **作用机制**：", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:16", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "针对AR信号失", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:16", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "活的神经内分泌前列腺癌", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:16", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "(NEPC)，", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:17", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "通过激活PLK1/", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:17", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "TP53通路触发", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:17", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "癌细胞铁死亡\n-", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:17", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": " **疗效**：动物", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:17", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "实验显示单药或联合", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:17", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "低剂量AR抑制剂可", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:17", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "显著抑制肿瘤生长，且", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:18", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "无明显毒性\n\n", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:18", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "### 2. PSMA", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:18", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "靶向放射性配体", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:18", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "疗法\n- **代表", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:18", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "药物**：诺华的", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:18", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "Pluvicto(", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:18", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "177Lu-特", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:19", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "昔维匹肽)\n-", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:19", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": " **临床效果**：III", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:19", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "期试验证实可", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:19", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "使转移性去势", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:19", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "抵抗性前列腺癌(mCR", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:19", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "PC)患者疾病进展风险", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:19", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "降低60%\n", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:19", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "- **进展**：已", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:20", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "提交上市申请\n\n### ", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:20", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "3. PARP抑制剂", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:20", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "联合方案升级\n- **", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:20", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "尼拉帕利+泼", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:20", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "尼松**：针对BR", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:20", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "CA1/2突变", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:20", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "患者，延长影像学无", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:20", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "进展生存期(r", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:21", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "PFS)，延缓化疗", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:21", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "启动\n- **他", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:21", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "拉唑帕利+恩", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:21", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "扎卢胺**：H", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:21", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "RR基因突变患者疾病", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:21", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "进展风险降低55%，", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:21", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "完全缓解率达38.", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:21", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "4%\n- **奥", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:22", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "拉帕利+阿比特", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:22", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "龙**：PRO", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:22", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "pel研究显示，在", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:22", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "HRR突变患者中", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:22", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "rPFS显著", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:22", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "获益(HR 0", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:22", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": ".66)，", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:23", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "特别是BRCA2", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:23", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "突变患者(H", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:23", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "R 0.20", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:23", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": ")\n\n### 4. EZ", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:23", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "H2抑制剂\n", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:23", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "- **代表药物**：", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:23", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "辉瑞PF-06", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:23", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "821497", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:24", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "联合恩扎卢", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:24", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "胺\n- **疗效", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:24", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "**：经治mCR", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:24", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "PC患者中位rP", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:24", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "FS达17.1", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:24", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "个月\n- **现状", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:24", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "**：III期试验正在进行", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:24", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "中\n\n## 二、", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:25", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "基因检测指导的", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:25", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "精准分型\n\n###", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:25", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": " 1. PIK3", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:25", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "CA突变的临床价值", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:25", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "\n- 携带", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:25", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "该突变的肿瘤具有", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:25", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "高TMB、MSI", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:25", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "-H及HRD特征\n", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:26", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "- 提示对PI", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:26", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "K3CA靶向药", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:26", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "和免疫治疗敏感\n\n###", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:26", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": " 2. HRR基因", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:26", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "突变的预后意义", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:26", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "\n- mHSPC", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:26", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "患者中，HRR突", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:26", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "变(如BRCA", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:27", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "2、ATM)缩短", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:27", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "至去势抵抗时间(T", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:27", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "TCR)\n- CDK", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:27", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "12突变者预", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:27", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "后更差\n- PRO", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:27", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "act研究显示：", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:27", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "奥拉帕利+阿", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:27", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "比特龙使HRR突", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:28", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "变患者客观缓解率达8", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:28", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "4.6%\n\n", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:28", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "## 三、免疫治疗", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:28", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "新进展\n\n### ", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:28", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "1. 肿瘤", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:28", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "疫苗革新\n- **", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:28", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "SV-102疫苗", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:28", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "**：肿瘤内输注", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:29", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "激活免疫应答，8", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:29", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "4.6% m", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:29", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "CRPC患者肿瘤缓解，", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:29", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "50%骨转移消", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:29", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "退，中位P", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:29", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "FS超200天", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:29", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "\n- **中国团队新型", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:29", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "佐剂疫苗**：激活", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:30", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "免疫微环境，疗效提升", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:30", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "5倍，相关研究发表", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:30", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "于《自然》\n\n###", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:30", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": " 2. 免疫", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:30", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "检查点抑制剂的应用", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:30", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "局限\n- 主", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:30", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "要在MSI-H/d", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:31", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "MMR或CD", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:31", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "K12改变", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:31", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "的特定亚群", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:31", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "中显示出临床获", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:31", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "益\n- 研", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:31", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "究重点转向识别和表", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:32", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "征这些特定亚群以", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:32", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "最大化免疫治疗效果", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:32", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "\n\n## 四、未来", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:32", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "展望\n\n前列腺癌", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:32", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "治疗正从传统的手术", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:32", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "、放疗和化疗向", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:32", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "多模式联合治疗转变", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:33", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "，结合激素治疗", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:33", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "、化疗、PARP", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:33", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "抑制剂、免疫治疗和", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:33", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "放射性配体", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:33", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "疗法，并通过基因和", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:33", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "分子标志物指导个性化", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:33", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "治疗方案的选择。", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:34", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "外泌体蛋白", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:34", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "等新型生物标志物", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:34", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "的发现也为精准治疗", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:34", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "提供了新的可能性。\n\n这些进展", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:34", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "共同构成了前列腺癌精准", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:35", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "治疗的新时代，", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:35", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "有望显著改善患者的", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:35", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "110da406-e780-4aaa-b8ee-aca74b13d17a", "chunk": "预后和生活质量。", "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:35", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+
+event: final_answer
+data: {"type": "final_answer", "id": "final_answer", "data": {"content": "# 前列腺癌治疗的最新方向（2024-2025）\n\n根据最新研究和临床进展，前列腺癌治疗正朝着更加精准化、个体化的方向发展。以下是当前主要的治疗新方向：\n\n## 一、靶向治疗新突破\n\n### 1. 铁死亡诱导剂L14-8\n- **作用机制**：针对AR信号失活的神经内分泌前列腺癌(NEPC)，通过激活PLK1/TP53通路触发癌细胞铁死亡\n- **疗效**：动物实验显示单药或联合低剂量AR抑制剂可显著抑制肿瘤生长，且无明显毒性\n\n### 2. PSMA靶向放射性配体疗法\n- **代表药物**：诺华的Pluvicto(177Lu-特昔维匹肽)\n- **临床效果**：III期试验证实可使转移性去势抵抗性前列腺癌(mCRPC)患者疾病进展风险降低60%\n- **进展**：已提交上市申请\n\n### 3. PARP抑制剂联合方案升级\n- **尼拉帕利+泼尼松**：针对BRCA1/2突变患者，延长影像学无进展生存期(rPFS)，延缓化疗启动\n- **他拉唑帕利+恩扎卢胺**：HRR基因突变患者疾病进展风险降低55%，完全缓解率达38.4%\n- **奥拉帕利+阿比特龙**：PROpel研究显示，在HRR突变患者中rPFS显著获益(HR 0.66)，特别是BRCA2突变患者(HR 0.20)\n\n### 4. EZH2抑制剂\n- **代表药物**：辉瑞PF-06821497联合恩扎卢胺\n- **疗效**：经治mCRPC患者中位rPFS达17.1个月\n- **现状**：III期试验正在进行中\n\n## 二、基因检测指导的精准分型\n\n### 1. PIK3CA突变的临床价值\n- 携带该突变的肿瘤具有高TMB、MSI-H及HRD特征\n- 提示对PIK3CA靶向药和免疫治疗敏感\n\n### 2. HRR基因突变的预后意义\n- mHSPC患者中，HRR突变(如BRCA2、ATM)缩短至去势抵抗时间(TTCR)\n- CDK12突变者预后更差\n- PROact研究显示：奥拉帕利+阿比特龙使HRR突变患者客观缓解率达84.6%\n\n## 三、免疫治疗新进展\n\n### 1. 肿瘤疫苗革新\n- **SV-102疫苗**：肿瘤内输注激活免疫应答，84.6% mCRPC患者肿瘤缓解，50%骨转移消退，中位PFS超200天\n- **中国团队新型佐剂疫苗**：激活免疫微环境，疗效提升5倍，相关研究发表于《自然》\n\n### 2. 免疫检查点抑制剂的应用局限\n- 主要在MSI-H/dMMR或CDK12改变的特定亚群中显示出临床获益\n- 研究重点转向识别和表征这些特定亚群以最大化免疫治疗效果\n\n## 四、未来展望\n\n前列腺癌治疗正从传统的手术、放疗和化疗向多模式联合治疗转变，结合激素治疗、化疗、PARP抑制剂、免疫治疗和放射性配体疗法，并通过基因和分子标志物指导个性化治疗方案的选择。外泌体蛋白等新型生物标志物的发现也为精准治疗提供了新的可能性。\n\n这些进展共同构成了前列腺癌精准治疗的新时代，有望显著改善患者的预后和生活质量。"}, "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:35"}
+
+event: usage
+data: {"type": "usage", "id": "usage_stats", "data": {"total_tokens": 0, "prompt_tokens": 0, "completion_tokens": 0, "total_tool_calls": 6, "total_documents": 0}, "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:35"}
+
+event: complete
+data: {"type": "complete", "id": "complete", "data": {}, "thread_id": "test_search_095744", "round_id": "round_001", "timestamp": "2025-11-12 09:59:35"}
+
+
+
+=== 收集完成 ===
+总共收集事件数: 173
+结束时间: 2025-11-12 09:59:36

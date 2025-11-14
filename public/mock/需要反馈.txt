@@ -1,0 +1,8 @@
+event: think
+data: {"type":"think","id":"e1","content":"正在评估研究价值...","thread_id":"23665e71-bee8-4735-8d58-993c9ccf9fdd","node_name":"gatekeeper","phase":"gatekeeper","round_id":"87a165a0-e6f4-4f93-9e02-4c032c24ddba"}
+id: 1762740818553-0
+
+event: think
+data: {"type":"think","id":"e3","content":"需要收集3个问题的反馈","thread_id":"23665e71-bee8-4735-8d58-993c9ccf9fdd","node_name":"gatekeeper","phase":"gatekeeper","round_id":"87a165a0-e6f4-4f93-9e02-4c032c24ddba"}
+id: 1762740826788-0
+
