@@ -6,14 +6,23 @@
   "type": "module",
   "scripts": {
     "start": "node src/index.js",
-    "dev": "node --watch src/index.js"
+    "dev": "node --watch src/index.js",
+    "https": "node src/https-server.js",
+    "dev:https": "node --watch src/https-server.js"
   },
-  "keywords": ["sse", "report", "stream"],
+  "keywords": [
+    "sse",
+    "report",
+    "stream"
+  ],
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "axios": "^1.13.2",
+    "cors": "^2.8.5",
     "express": "^4.18.2",
-    "cors": "^2.8.5"
+    "fs-extra": "^11.3.2",
+    "http-proxy-middleware": "^3.0.5",
+    "https": "^1.0.0"
   }
 }
-

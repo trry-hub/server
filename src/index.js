@@ -8,6 +8,8 @@ import { readFile } from 'fs/promises';
 // import { arr } from '../public/mock/0bUvp2pD8iATNId3YNgVR.js'
 // import { arr } from '../public/mock/019a215955c91b42a9871f198619aac027.js'
 import { arr } from '../public/mock/cross-thinking.js'
+// 导入代理拦截器模块
+import { tenSecondDelayProxy } from './proxy-interceptor.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -18,6 +20,9 @@ const PORT = process.env.PORT || 8000;
 // 允许跨域
 app.use(cors());
 app.use(express.json());
+
+// 使用代理拦截器模块 - 拦截 /up 接口并延时10秒后转发到目标服务器
+app.use(tenSecondDelayProxy);
 
 // 静态文件服务
 app.use('/public', express.static(join(__dirname, '../public')));
@@ -195,7 +200,7 @@ app.get('/api/chat/events', async (req, res) => {
 
   try {
     // 读取 cross-thinking.txt 文件
-    const filePath = join(__dirname, '../public/mock/raw_sse_search_010428.txt');
+    const filePath = join(__dirname, '../public/mock/long_text_93f6f30f-123e-4206-abb9-08822c3257a7.txt');
     const fileContent = await readFile(filePath, 'utf-8');
 
     // 按行分割文件内容
@@ -319,6 +324,21 @@ app.get('/api/config', async (req, res) => {
     console.error('Error reading report data:', error);
     res.status(500).json({ error: 'Failed to load report data' });
   }
+});
+
+// /up 接口 - 被拦截器延时10秒后处理
+app.all('/up', (req, res) => {
+  console.log(`📤 处理 /up 请求: ${req.method}`);
+  
+  // 返回成功响应
+  res.json({
+    success: true,
+    message: '请求已成功处理（经过10秒延时）',
+    timestamp: new Date().toISOString(),
+    method: req.method,
+    query: req.query,
+    body: req.body
+  });
 });
 
 // 健康检查接口

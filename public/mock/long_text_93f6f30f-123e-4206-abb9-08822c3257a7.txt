@@ -1,0 +1,960 @@
+event: task_starting
+data: {"thread_id":"788233d7-ac25-4e07-81bb-304073631870","round_id":"78391be9-ac67-4000-9234-aa7d0dc31ed8","status":"starting","message":"Task is initializing..."}
+id: 1763623017167-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "3512ad9c-6614-476c-9686-f28206afdcd5", "chunk": "【", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:00", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623020212-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "3512ad9c-6614-476c-9686-f28206afdcd5", "chunk": "问题分析】", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:00", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623020288-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "3512ad9c-6614-476c-9686-f28206afdcd5", "chunk": "\n- ", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:00", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623020361-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "3512ad9c-6614-476c-9686-f28206afdcd5", "chunk": "问题类型：", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:00", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623020441-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "3512ad9c-6614-476c-9686-f28206afdcd5", "chunk": "事实性查询，需要收集", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:00", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623020705-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "3512ad9c-6614-476c-9686-f28206afdcd5", "chunk": "特定制药公司的药品", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:00", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623020928-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "3512ad9c-6614-476c-9686-f28206afdcd5", "chunk": "和文献信息\n-", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:01", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623021156-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "3512ad9c-6614-476c-9686-f28206afdcd5", "chunk": " 关键信息需求：山东", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:01", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623021315-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "3512ad9c-6614-476c-9686-f28206afdcd5", "chunk": "齐鲁制药有限公司的药品注册", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:01", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623021471-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "3512ad9c-6614-476c-9686-f28206afdcd5", "chunk": "信息、产品列表", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:01", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623021626-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "3512ad9c-6614-476c-9686-f28206afdcd5", "chunk": "以及相关的学术文献", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:01", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623021850-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "3512ad9c-6614-476c-9686-f28206afdcd5", "chunk": "\n- 时间范围：无", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:02", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623022062-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "3512ad9c-6614-476c-9686-f28206afdcd5", "chunk": "特定限制，需要", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:02", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623022224-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "3512ad9c-6614-476c-9686-f28206afdcd5", "chunk": "最新的全面信息\n\n【", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:02", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623022448-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "3512ad9c-6614-476c-9686-f28206afdcd5", "chunk": "信息获取策略】\n-", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:02", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623022587-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "3512ad9c-6614-476c-9686-f28206afdcd5", "chunk": " 搜索方向：首先获取", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:02", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623022725-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "3512ad9c-6614-476c-9686-f28206afdcd5", "chunk": "齐鲁制药的官方", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:02", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623022876-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "3512ad9c-6614-476c-9686-f28206afdcd5", "chunk": "药品信息和产品", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:03", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623023010-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "3512ad9c-6614-476c-9686-f28206afdcd5", "chunk": "列表，然后搜索", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:03", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623023154-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "3512ad9c-6614-476c-9686-f28206afdcd5", "chunk": "相关的学术研究文献", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:03", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623023370-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "3512ad9c-6614-476c-9686-f28206afdcd5", "chunk": "\n- 查询重点：公司", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:03", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623023510-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "3512ad9c-6614-476c-9686-f28206afdcd5", "chunk": "官网产品信息、国家", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:03", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623023815-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "3512ad9c-6614-476c-9686-f28206afdcd5", "chunk": "药品监督管理局注册", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:03", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623023973-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "3512ad9c-6614-476c-9686-f28206afdcd5", "chunk": "信息、PubMed等", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:04", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623024129-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "3512ad9c-6614-476c-9686-f28206afdcd5", "chunk": "医学文献数据库中的相关研究", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:04", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623024286-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "3512ad9c-6614-476c-9686-f28206afdcd5", "chunk": "\n\n【执行计划】\n", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:04", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623024442-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "3512ad9c-6614-476c-9686-f28206afdcd5", "chunk": "1. 搜索齐鲁制药", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:04", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623024589-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "3512ad9c-6614-476c-9686-f28206afdcd5", "chunk": "的官方药品和", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:04", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623024742-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "3512ad9c-6614-476c-9686-f28206afdcd5", "chunk": "产品信息\n2.", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:04", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623024909-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "3512ad9c-6614-476c-9686-f28206afdcd5", "chunk": " 查询生物医学文献数据库", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:05", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623025144-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "3512ad9c-6614-476c-9686-f28206afdcd5", "chunk": "中关于齐鲁制药药品", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:05", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623025314-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "3512ad9c-6614-476c-9686-f28206afdcd5", "chunk": "的研究文章\n3.", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:05", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623025547-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "3512ad9c-6614-476c-9686-f28206afdcd5", "chunk": " 整合信息", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:05", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623025706-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "3512ad9c-6614-476c-9686-f28206afdcd5", "chunk": "形成JSON格式的结构化", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:06", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623026034-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "3512ad9c-6614-476c-9686-f28206afdcd5", "chunk": "数据\n\n", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:06", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623026199-0
+
+event: final_answer
+data: {"type": "final_answer", "id": "final_answer", "data": {"content": "【问题分析】\n- 问题类型：事实性查询，需要收集特定制药公司的药品和文献信息\n- 关键信息需求：山东齐鲁制药有限公司的药品注册信息、产品列表以及相关的学术文献\n- 时间范围：无特定限制，需要最新的全面信息\n\n【信息获取策略】\n- 搜索方向：首先获取齐鲁制药的官方药品信息和产品列表，然后搜索相关的学术研究文献\n- 查询重点：公司官网产品信息、国家药品监督管理局注册信息、PubMed等医学文献数据库中的相关研究\n\n【执行计划】\n1. 搜索齐鲁制药的官方药品和产品信息\n2. 查询生物医学文献数据库中关于齐鲁制药药品的研究文章\n3. 整合信息形成JSON格式的结构化数据\n\n"}, "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:08"}
+id: 1763623028337-0
+
+event: tool_call
+data: {"type": "tool_call", "action": "start", "id": "4a0de4bd-8e89-4c4f-8254-1a2af28bb3d6", "tool_name": "web_search_pubmed", "input": {"query": "Qilu Pharmaceutical drugs clinical trials"}, "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:08", "event": "on_tool_start", "name": "web_search_pubmed", "tags": ["seq:step:1"]}
+id: 1763623028363-0
+
+event: tool_call
+data: {"type": "tool_call", "action": "start", "id": "807f0258-0ff7-4a95-ad70-009c4cf2fd75", "tool_name": "web_search_searx", "input": {"query": "山东齐鲁制药 药品目录 产品列表 官方网站"}, "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:08", "event": "on_tool_start", "name": "web_search_searx", "tags": ["seq:step:1"]}
+id: 1763623028382-0
+
+event: tool_call
+data: {"type": "tool_call", "action": "end", "id": "807f0258-0ff7-4a95-ad70-009c4cf2fd75", "tool_name": "web_search_searx", "output": "[{\"type\": \"page\", \"title\": \"齐鲁制药3款产品新增纳入2024年国家医保目录_齐鲁制药 | 用科技表达...\", \"url\": \"https://www.sogou.com/link?url=hedJjaC291NpiIVdPbMfm_LlpTbQFCLhhSZ1_a1txCnXEPb4dU3NEW1gPeECLCajri2jTBr9OJ8.\", \"content\": \"2024年11月29日-新版国家医保药品目录将于2025年1月1日在全国范围内正式实施。 本次目录... 目前，齐鲁制药累计纳入国家医保的产品已有208个。 在此次目录更新中，齐...\", \"score\": 1.0}, {\"type\": \"page\", \"title\": \"齐鲁制药3款产品新增纳入2024年国家医保药品目录 _ 东方财富网\", \"url\": \"https://www.sogou.com/link?url=hedJjaC291P33igiXMgxhGHC47y42-qmWXnFBhwhaxSH2MUdw4AwFhw93yY7GnslI3KL6f8gRA4.\", \"content\": \"2024年11月29日-药品目录（2024年）》，目录内产品伊鲁阿克片成功扩大医保支付范围。目前，齐鲁制药累计纳入国家医保的产品已有208个。 具体来看，在此次目录更新中...\", \"score\": 0.8}, {\"type\": \"page\", \"title\": \"齐鲁制药有限公司产品目录_第1页_Chemicalbook\", \"url\": \"https://www.sogou.com/link?url=hedJjaC291NJA2XvEEtIBvPZZf_T18Sk2lLgd3r0Y9SgJUR1G8ciNRld8g_m_7GRbzziLAaCQpER_qpD1CAlKq3mlRzfPLR2\", \"content\": \"2024年3月28日- 齐鲁制药有限公司产品目录，Chemicalbook提供查询齐鲁制药有限公司联系方式、产品、价格、现货和用户评价。\", \"score\": 0.6}, {\"type\": \"page\", \"title\": \"山东齐鲁制药集团有限公司\", \"url\": \"http://mp.weixin.qq.com/s?src=11&timestamp=1763623029&ver=6369&signature=y4hM2c3bvEWT8dR0Xsrw8YcADBTN2S7KW1mYQ7mSI5qoRJX1V9FMd5V3GCapVg3Ep9D20zeEtwA6coS0cTXwv5R44qFRm7B3R0GqF02E-z9DKfWGFojTCJsp6BtSeB4y&new=1\", \"content\": \"6年前 - 首家通过美国食品药品监督管理局(FDA)无菌产品认证企业首家欧洲药品质量管理委员会(EDQM)无菌产品认证企业首家通过英国药品和健康产品管理局(MHRA)无菌产品认证企业...招聘专业及学历要求招聘岗位及工作地点联系方系公司地址:济南市旅游路8888号邮政编码:250100联系电话:0531-83129033;55820779;55820615;55820614;5582061...\", \"score\": 0.4}, {\"type\": \"page\", \"title\": \"齐鲁制药集团\", \"url\": \"https://www.sogou.com/link?url=6IqLFeTuIygVnikme0BXhydQRoztLvNXVx8fqvZDCS_QdrdyAM3e0A..\", \"content\": \"充分释放出齐鲁兽药完善的产品线结构在动物保健领域上的显著优势。以替奥福、畜可健... 获山东省科技进步奖1项 获济南市科技进步奖10余项 首家研制成功的药品 2000年:头孢...\", \"score\": 0.19999999999999996}]", "input": {"query": "山东齐鲁制药 药品目录 产品列表 官方网站"}, "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:10", "event": "on_tool_end", "name": "web_search_searx", "tags": ["seq:step:1"]}
+id: 1763623030061-0
+
+event: tool_call
+data: {"type": "tool_call", "action": "end", "id": "4a0de4bd-8e89-4c4f-8254-1a2af28bb3d6", "tool_name": "web_search_pubmed", "output": "[{\"type\": \"paper\", \"title\": \"Gut microbiome-related effects of berberine and probiotics on type 2 diabetes (the PREMOTE study).\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/33024120\", \"content\": \"Human gut microbiome is a promising target for managing type 2 diabetes (T2D). Measures altering gut microbiota like oral intake of probiotics or berberine (BBR), a bacteriostatic agent, merit metabolic homoeostasis. We hence conducted a randomized, double-blind, placebo-controlled trial with newly diagnosed T2D patients from 20 centres in China. Four-hundred-nine eligible participants were enroled, randomly assigned (1:1:1:1) and completed a 12-week treatment of either BBR-alone, probiotics+BBR, probiotics-alone, or placebo, after a one-week run-in of gentamycin pretreatment. The changes in glycated haemoglobin, as the primary outcome, in the probiotics+BBR (least-squares mean [95% CI], -1.04[-1.19, -0.89]%) and BBR-alone group (-0.99[-1.16, -0.83]%) were significantly greater than that in the placebo and probiotics-alone groups (-0.59[-0.75, -0.44]%, -0.53[-0.68, -0.37]%, P < 0.001). BBR treatment induced more gastrointestinal side effects. Further metagenomics and metabolomic studies found that the hypoglycaemic effect of BBR is mediated by the inhibition of DCA biotransformation by Ruminococcus bromii. Therefore, our study reports a human microbial related mechanism underlying the antidiabetic effect of BBR on T2D. (Clinicaltrial.gov Identifier: NCT02861261).\\n\", \"score\": 1.0, \"authors\": \"\", \"published\": \"2020-01-01\", \"entry_id\": \"33024120\"}, {\"type\": \"paper\", \"title\": \"The traditional Chinese medicine Qiliqiangxin in heart failure with reduced ejection fraction: a randomized, double-blind, placebo-controlled trial.\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/39095596\", \"content\": \"Previous findings have indicated the potential benefits of the Chinese traditional medicine Qiliqiangxin (QLQX) in heart failure. Here we performed a double-blind, randomized controlled trial to evaluate the efficacy and safety of QLQX in patients with heart failure and reduced ejection fraction (HFrEF). This multicenter trial, conducted in 133 hospitals in China, enrolled 3,110 patients with HFrEF with NT-proBNP levels of ≥450 pg ml-1 and left ventricular ejection fraction of ≤40%. Participants were randomized to receive either QLQX capsules or placebo (four capsules three times daily) alongside standard heart failure therapy. The trial met its primary outcome, which was a composite of hospitalization for heart failure and cardiovascular death: over a median follow-up of 18.3 months, the primary outcome occurred in 389 patients (25.02%) in the QLQX group and 467 patients (30.03%) in the placebo group (hazard ratio (HR), 0.78; 95% confidence interval (CI), 0.68-0.90; P < 0.001). In an analysis of secondary outcomes, the QLQX group showed reductions in both hospitalization for heart failure (15.63% versus 19.16%; HR, 0.76; 95% CI, 0.64-0.90; P = 0.002) and cardiovascular death (13.31% versus 15.95%; HR, 0.83; 95% CI, 0.68-0.996; P = 0.045) compared to the placebo group. All-cause mortality did not differ significantly between the two groups (HR, 0.84; 95% CI, 0.70-1.01; P = 0.058) and adverse events were also comparable between the groups. The results of this trial indicate that QLQX may improve clinical outcomes in patients with HFrEF when added to conventional therapy. ChiCTR registration: ChiCTR1900021929 .\\n\", \"score\": 0.95, \"authors\": \"\", \"published\": \"2024-01-01\", \"entry_id\": \"39095596\"}, {\"type\": \"paper\", \"title\": \"mRNA-Laden Lipid-Nanoparticle-Enabled in Situ CAR-Macrophage Engineering for the Eradication of Multidrug-Resistant Bacteria in a Sepsis Mouse Model.\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/38207332\", \"content\": \"Sepsis, which is the most severe clinical manifestation of acute infection and has a mortality rate higher than that of cancer, represents a significant global public health burden. Persistent methicillin-resistant Staphylococcus aureus (MRSA) infection and further host immune paralysis are the leading causes of sepsis-associated death, but limited clinical interventions that target sepsis have failed to effectively restore immune homeostasis to enable complete eradication of MRSA. To restimulate anti-MRSA innate immunity, we developed CRV peptide-modified lipid nanoparticles (CRV/LNP-RNAs) for transient in situ programming of macrophages (MΦs). The CRV/LNP-RNAs enabled the delivery of MRSA-targeted chimeric antigen receptor (CAR) mRNA (SasA-CAR mRNA) and CASP11 (a key MRSA intracellular evasion target) siRNA to MΦs in situ, yielding CAR-MΦs with boosted bactericidal potency. Specifically, our results demonstrated that the engineered MΦs could efficiently phagocytose and digest MRSA intracellularly, preventing immune evasion by the \\\"superbug\\\" MRSA. Our findings highlight the potential of nanoparticle-enabled in vivo generation of CAR-MΦs as a therapeutic platform for multidrug-resistant (MDR) bacterial infections and should be confirmed in clinical trials.\\n\", \"score\": 0.9, \"authors\": \"\", \"published\": \"2024-01-01\", \"entry_id\": \"38207332\"}, {\"type\": \"paper\", \"title\": \"Intracavitary Spraying of Nanoregulator-Encased Hydrogel Modulates Cholesterol Metabolism of Glioma-Supportive Macrophage for Postoperative Glioblastoma Immunotherapy.\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/38127403\", \"content\": \"Glioblastoma multiforme (GBM) is notoriously resistant to immunotherapy due to its intricate immunosuppressive tumor microenvironment (TME). Dysregulated cholesterol metabolism is implicated in the TME and promotes tumor progression. Here, it is found that cholesterol levels in GBM tissues are abnormally high, and glioma-supportive macrophages (GSMs), an essential \\\"cholesterol factory\\\", demonstrate aberrantly hyperactive cholesterol metabolism and efflux, providing cholesterol to fuel GBM growth and induce CD8+ T cells exhaustion. Bioinformatics analysis confirms that high 7-dehydrocholesterol reductase (DHCR7) level in GBM tissues associates with increased cholesterol biosynthesis, suppressed tumoricidal immune response, and poor patient survival, and DHCR7 expression level is significantly elevated in GSMs. Therefore, an intracavitary sprayable nanoregulator (NR)-encased hydrogel system to modulate cholesterol metabolism of GSMs is reported. The degradable NR-mediated ablation of DHCR7 in GSMs effectively suppresses cholesterol supply and activates T-cell immunity. Moreover, the combination of Toll-like receptor 7/8 (TLR7/8) agonists significantly promotes GSM polarization to antitumor phenotypes and ameliorates the TME. Treatment with the hybrid system exhibits superior antitumor effects in the orthotopic GBM model and postsurgical recurrence model. Altogether, the findings unravel the role of GSMs DHCR7/cholesterol signaling in the regulation of TME, presenting a potential treatment strategy that warrants further clinical trials.\\n\", \"score\": 0.85, \"authors\": \"\", \"published\": \"2024-01-01\", \"entry_id\": \"38127403\"}, {\"type\": \"paper\", \"title\": \"Iruplinalkib (WX-0593) Versus Crizotinib in ALK TKI-Naive Locally Advanced or Metastatic ALK-Positive NSCLC: Interim Analysis of a Randomized, Open-Label, Phase 3 Study (INSPIRE).\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/38280448\", \"content\": \"INTRODUCTION: Iruplinalkib (WX-0593) is a new-generation, potent ALK tyrosine kinase inhibitor (TKI) that has been found to have systemic and central nervous system (CNS) efficacy in ALK-positive NSCLC. We compared the efficacy and safety of iruplinalkib with crizotinib in patients with ALK TKI-naive, locally advanced or metastatic ALK-positive NSCLC.\\nMETHODS: In this open-label, randomized, multicenter, phase 3 study, patients with ALK-positive NSCLC were randomly assigned to receive iruplinalkib 180 mg once daily (7-d run-in at 60 mg once daily) or crizotinib 250 mg twice daily. The primary end point was progression-free survival (PFS) assessed by Independent Review Committee (IRC) per Response Evaluation Criteria in Solid Tumors version 1.1. Secondary end points included PFS by investigator, objective response rate (ORR), time to response, duration of response, intracranial ORR and time to CNS progression by IRC and investigator, overall survival, and safety. An interim analysis was planned after approximately 70% (134 events) of all 192 expected PFS events assessed by IRC were observed. Efficacy was analyzed in the intention-to-treat population. Safety was assessed in the safety population, which included all randomized patients who received at least one dose of the study drugs. This study is registered with Center for Drug Evaluation of China National Medical Products Administration (CTR20191231) and Clinicaltrials.gov (NCT04632758).\\nRESULTS: From September 4, 2019, to December 2, 2020, a total of 292 patients were randomized and treated; 143 with iruplinalkib and 149 with crizotinib. At this interim analysis (145 events), the median follow-up time was 26.7 months (range: 3.7-37.7) in the iruplinalkib group and 25.9 months (range: 0.5-35.9) in the crizotinib group. The PFS assessed by IRC was significantly longer among patients in the iruplinalkib group (median PFS, 27.7 mo [95% confidence interval (CI): 26.3-not estimable] versus 14.6 mo [95% CI: 11.1-16.5] in the crizotinib group; hazard ratio, 0.34 [98.02% CI: 0.23-0.52], p < 0.0001). The ORR assessed by IRC was 93.0% (95% CI: 87.5-96.6) in the iruplinalkib group and 89.3% (95% CI: 83.1-93.7) in the crizotinib group. The intracranial ORR was 90.9% (10 of 11, 95% CI: 58.7-99.8) in the iruplinalkib group and 60.0% (nine of 15, 95% CI: 32.3-83.7) in the crizotinib group for patients with measurable baseline CNS metastases. Incidence of grade 3 or 4 treatment-related adverse events was 51.7% in the iruplinalkib group and 49.7% in the crizotinib group.\\nCONCLUSIONS: Iruplinalkib was found to have significantly improved PFS and improved intracranial antitumor activity versus crizotinib. Iruplinalkib may be a new treatment option for patients with advanced ALK-positive and ALK TKI-naive NSCLC.\\nFUNDING: This study was funded by Qilu Pharmaceutical Co., Ltd., Jinan, People's Republic of China, and partly supported by the National Science and Technology Major Project for Key New Drug Development (2017ZX09304015).\\n\", \"score\": 0.8, \"authors\": \"\", \"published\": \"2024-01-01\", \"entry_id\": \"38280448\"}, {\"type\": \"paper\", \"title\": \"Efficacy and safety of weekly paclitaxel with or without ramucirumab as second-line therapy for the treatment of advanced gastric or gastroesophageal junction adenocarcinoma (RAINBOW-Asia): a randomised, multicentre, double-blind, phase 3 trial.\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/34626550\", \"content\": \"BACKGROUND: In the global phase 3 RAINBOW study, ramucirumab plus paclitaxel significantly improved overall survival compared with placebo plus paclitaxel in patients with advanced gastric or gastro-oesophageal junction (GEJ) adenocarcinoma. RAINBOW-Asia, a bridging study with similar design to RAINBOW, aimed to evaluate the efficacy and safety of ramucirumab plus paclitaxel for advanced gastric or GEJ adenocarcinoma in Asian, predominantly Chinese, patients.\\nMETHODS: RAINBOW-Asia was a randomised, double-blind, placebo-controlled, phase 3 trial done at 32 centres in China, Malaysia, the Philippines, and Thailand. Adult patients (≥18 years) with metastatic or locally advanced, unresectable gastric or GEJ adenocarcinoma who previously received fluoropyrimidine-platinum-based chemotherapy were randomly assigned with a centralised interactive web response system in a 2:1 ratio to receive ramucirumab 8 mg/kg or placebo intravenously on days 1 and 15 plus paclitaxel 80 mg/m2 intravenously on days 1, 8, and 15 of every 28-day cycle. Randomisation was stratified by Eastern Cooperative Oncology Group performance status and presence of peritoneal metastases. The co-primary endpoints were progression-free survival and overall survival. Efficacy analyses were done in the intention-to-treat population, and safety analysis included patients who received at least one dose of study treatment. This trial is registered with ClinicalTrials.gov, NCT02898077, and has been completed.\\nFINDINGS: Between March 2, 2017, and June 30, 2020, 440 patients were randomly assigned to receive ramucirumab plus paclitaxel (n=294) or placebo plus paclitaxel (n=146). Median progression-free survival was 4·14 months (95% CI 3·71-4·30) in the ramucirumab plus paclitaxel group compared with 3·15 months (2·83-4·14) in the placebo plus paclitaxel group (hazard ratio [HR] 0·765, 95% CI 0·613-0·955, p=0·0184). Median overall survival was 8·71 months (95% CI 7·98-9·49) in the ramucirumab plus paclitaxel group and 7·92 months (6·31-9·10) in the placebo plus paclitaxel group (HR 0·963, 95% CI 0·771-1·203, p=0·7426). The most common grade 3 or worse treatment-emergent adverse events were decreased neutrophil count (159 [54%] of 293 patients in the ramucirumab plus paclitaxel group vs 56 [39%] of 145 in the placebo plus paclitaxel group), decreased white blood cell count (127 [43%] vs 42 [29%]), anaemia (46 [16%] vs 24 [17%]), hypertension (21 [7%] vs nine [6%]), and febrile neutropenia (18 [6%] vs one [<1%]).\\nINTERPRETATION: These findings, along with the results from RAINBOW, support the use of ramucirumab plus paclitaxel as second-line therapy in a predominantly Chinese population with advanced gastric or GEJ adenocarcinoma.\\nFUNDING: Eli Lilly and Company, USA.\\nTRANSLATION: For the Chinese translation of the abstract see Supplementary Materials section.\\n\", \"score\": 0.75, \"authors\": \"\", \"published\": \"2021-01-01\", \"entry_id\": \"34626550\"}, {\"type\": \"paper\", \"title\": \"A 36-week multicenter, randomized, double-blind, placebo-controlled, parallel-group, phase 3 clinical trial of sodium oligomannate for mild-to-moderate Alzheimer's dementia.\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/33731209\", \"content\": \"BACKGROUND: New therapies are urgently needed for Alzheimer's disease (AD). Sodium oligomannate (GV-971) is a marine-derived oligosaccharide with a novel proposed mechanism of action. The first phase 3 clinical trial of GV-971 has been completed in China.\\nMETHODS: We conducted a phase 3, double-blind, placebo-controlled trial in participants with mild-to-moderate AD to assess GV-971 efficacy and safety. Participants were randomized to placebo or GV-971 (900 mg) for 36 weeks. The primary outcome was the drug-placebo difference in change from baseline on the 12-item cognitive subscale of the Alzheimer's Disease Assessment Scale (ADAS-cog12). Secondary endpoints were drug-placebo differences on the Clinician's Interview-Based Impression of Change with caregiver input (CIBIC+), Alzheimer's Disease Cooperative Study-Activities of Daily Living (ADCS-ADL) scale, and Neuropsychiatric Inventory (NPI). Safety and tolerability were monitored.\\nRESULTS: A total of 818 participants were randomized: 408 to GV-971 and 410 to placebo. A significant drug-placebo difference on the ADAS-Cog12 favoring GV-971 was present at each measurement time point, measurable at the week 4 visit and continuing throughout the trial. The difference between the groups in change from baseline was - 2.15 points (95% confidence interval, - 3.07 to - 1.23; p < 0.0001; effect size 0.531) after 36 weeks of treatment. Treatment-emergent adverse event incidence was comparable between active treatment and placebo (73.9%, 75.4%). Two deaths determined to be unrelated to drug effects occurred in the GV-971 group.\\nCONCLUSIONS: GV-971 demonstrated significant efficacy in improving cognition with sustained improvement across all observation periods of a 36-week trial. GV-971 was safe and well-tolerated.\\nTRIAL REGISTRATION: ClinicalTrials.gov, NCT0229391 5. Registered on November 19, 2014.\\n\", \"score\": 0.7, \"authors\": \"\", \"published\": \"2021-01-01\", \"entry_id\": \"33731209\"}, {\"type\": \"paper\", \"title\": \"Nivolumab plus chemotherapy in first-line metastatic non-small-cell lung cancer: results of the phase III CheckMate 227 Part 2 trial.\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/37988950\", \"content\": \"BACKGROUND: In CheckMate 227 Part 1, first-line nivolumab plus ipilimumab prolonged overall survival (OS) in patients with metastatic non-small-cell lung cancer (NSCLC) and tumor programmed death-ligand 1 (PD-L1) expression ≥1% versus chemotherapy. We report results from CheckMate 227 Part 2, which evaluated nivolumab plus chemotherapy versus chemotherapy in patients with metastatic NSCLC regardless of tumor PD-L1 expression.\\nPATIENTS AND METHODS: Seven hundred and fifty-five patients with systemic therapy-naive, stage IV/recurrent NSCLC without EGFR mutations or ALK alterations were randomized 1 : 1 to nivolumab 360 mg every 3 weeks plus chemotherapy or chemotherapy. Primary endpoint was OS with nivolumab plus chemotherapy versus chemotherapy in patients with nonsquamous NSCLC. OS in all randomized patients was a hierarchically tested secondary endpoint.\\nRESULTS: At 19.5 months' minimum follow-up, no significant improvement in OS was seen with nivolumab plus chemotherapy versus chemotherapy in patients with nonsquamous NSCLC [median OS 18.8 versus 15.6 months, hazard ratio (HR) 0.86, 95.62% confidence interval (CI) 0.69-1.08, P = 0.1859]. Descriptive analyses showed OS improvement with nivolumab plus chemotherapy versus chemotherapy in all randomized patients (median OS 18.3 versus 14.7 months, HR 0.81, 95.62% CI 0.67-0.97) and in an exploratory analysis in squamous NSCLC (median OS 18.3 versus 12.0 months, HR 0.69, 95% CI 0.50-0.97). A trend toward improved OS was seen with nivolumab plus chemotherapy versus chemotherapy, regardless of the tumor mutation status of STK11 or TP53, regardless of tumor mutational burden, and in patients with intermediate/poor Lung Immune Prognostic Index scores. Safety with nivolumab plus chemotherapy was consistent with previous reports of first-line settings.\\nCONCLUSIONS: CheckMate 227 Part 2 did not meet the primary endpoint of OS with nivolumab plus chemotherapy versus chemotherapy in patients with metastatic nonsquamous NSCLC. Descriptive analyses showed prolonged OS with nivolumab plus chemotherapy in all-randomized and squamous NSCLC populations, suggesting that this combination may benefit patients with untreated metastatic NSCLC.\\n\", \"score\": 0.65, \"authors\": \"\", \"published\": \"2023-01-01\", \"entry_id\": \"37988950\"}, {\"type\": \"paper\", \"title\": \"Effect of Anlotinib as a Third-Line or Further Treatment on Overall Survival of Patients With Advanced Non-Small Cell Lung Cancer: The ALTER 0303 Phase 3 Randomized Clinical Trial.\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/30098152\", \"content\": \"Importance: Anlotinib is a novel multitarget tyrosine kinase inhibitor for tumor angiogenesis and proliferative signaling. A phase 2 trial showed anlotinib to improve progression-free survival with a potential benefit of overall survival, leading to the phase 3 trial to confirm the drug's efficacy in advanced non-small cell lung cancer (NSCLC).\\nObjective: To investigate the efficacy of anlotinib on overall survival of patients with advanced NSCLC progressing after second-line or further treatment.\\nDesign, Setting, and Participants: The ALTER 0303 trial was a multicenter, double-blind, phase 3 randomized clinical trial designed to evaluate the efficacy and safety of anlotinib in patients with advanced NSCLC. Patients from 31 grade-A tertiary hospitals in China were enrolled between March 1, 2015, and August 31, 2016. Those aged 18 to 75 years who had histologically or cytologically confirmed NSCLC were eligible (n = 606), and those who had centrally located squamous cell carcinoma with cavitary features or brain metastases that were uncontrolled or controlled for less than 2 months were excluded. Patients (n = 440) were randomly assigned in a 2-to-1 ratio to receive either 12 mg/d of anlotinib or a matched placebo. All cases were treated with study drugs at least once in accordance with the intention-to-treat principle.\\nMain Outcomes and Measures: The primary end point was overall survival. The secondary end points were progression-free survival, objective response rate, disease control rate, quality of life, and safety.\\nResults: In total, 439 patients were randomized, 296 to the anlotinib group (106 [36.1%] were female and 188 [64.0%] were male, with a mean [SD] age of 57.9 [9.1] years) and 143 to the placebo group (46 [32.2%] were female and 97 [67.8%] were male, with a mean [SD] age of 56.8 [9.1] years). Overall survival was significantly longer in the anlotinib group (median, 9.6 months; 95% CI, 8.2-10.6) than the placebo group (median, 6.3 months; 95% CI, 5.0-8.1), with a hazard ratio (HR) of 0.68 (95% CI, 0.54-0.87; P = .002). A substantial increase in progression-free survival was noted in the anlotinib group compared with the placebo group (median, 5.4 months [95% CI, 4.4-5.6] vs 1.4 months [95% CI, 1.1-1.5]; HR, 0.25 [95% CI, 0.19-0.31]; P < .001). Considerable improvement in objective response rate and disease control rate was observed in the anlotinib group over the placebo group. The most common grade 3 or higher adverse events in the anlotinib arm were hypertension and hyponatremia.\\nConclusions and Relevance: Among the Chinese patients in this trial, anlotinib appears to lead to prolonged overall survival and progression-free survival. This finding suggests that anlotinib is well tolerated and is a potential third-line or further therapy for patients with advanced NSCLC.\\nTrial Registration: ClinicalTrials.gov identifier: NCT02388919.\\n\", \"score\": 0.6, \"authors\": \"\", \"published\": \"2018-01-01\", \"entry_id\": \"30098152\"}, {\"type\": \"paper\", \"title\": \"Glecirasib in KRASG12C-mutated nonsmall-cell lung cancer: a phase 2b trial.\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/39762419\", \"content\": \"Glecirasib (JAB-21822) is a new covalent oral KRAS-G12C inhibitor. This multicenter, single-arm phase 2b study assessed the efficacy and safety of glecirasib administered orally at 800 mg daily in patients with locally advanced or metastatic KRASG12C-mutated nonsmall-cell lung cancer. The primary endpoint was the objective response rate (ORR) assessed by an independent review committee (IRC). Between 15 September 2022 and 28 September 2023, 119 patients with a median age of 62 years were enrolled. As of the data cut-off date on 28 March 2024, the ORR assessed by IRC was 47.9% (56/117; 95% confidence interval: 38.5-57.3%). The incidence of treatment-related adverse events (TRAEs) of any grade was 97.5% (116/119). The incidence of grades 3 and 4 TRAEs was 38.7% (46/119). A total of 5.0% (6/119) of patients discontinued the treatment due to TRAEs. No treatment-related deaths occurred. Glecirasib exhibited promising clinical efficacy and manageable safety profiles in these patient populations. ClinicalTrials.gov identifier: NCT05009329 .\\n\", \"score\": 0.55, \"authors\": \"\", \"published\": \"2025-01-01\", \"entry_id\": \"39762419\"}, {\"type\": \"paper\", \"title\": \"Expert Consensus on the Diagnosis and Treatment of NRG1/2 Gene Fusion Solid Tumors.\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/38414979\", \"content\": \"The fusion genes NRG1 and NRG2 , members of the epidermal growth factor (EGF) receptor family, have emerged as key drivers in cancer. Upon fusion, NRG1 retains its EGF-like active domain, binds to the ERBB ligand family, and triggers intracellular signaling cascades, promoting uncontrolled cell proliferation. The incidence of NRG1 gene fusion varies across cancer types, with lung cancer being the most prevalent at 0.19 to 0.27%. CD74 and SLC3A2 are the most frequently observed fusion partners. RNA-based next-generation sequencing is the primary method for detecting NRG1 and NRG2 gene fusions, whereas pERBB3 immunohistochemistry can serve as a rapid prescreening tool for identifying NRG1 -positive patients. Currently, there are no approved targeted drugs for NRG1 and NRG2 . Common treatment approaches involve pan-ERBB inhibitors, small molecule inhibitors targeting ERBB2 or ERBB3, and monoclonal antibodies. Given the current landscape of NRG1 and NRG2 in solid tumors, a consensus among diagnostic and treatment experts is proposed, and clinical trials hold promise for benefiting more patients with NRG1 and NRG2 gene fusion solid tumors.\\n\", \"score\": 0.5, \"authors\": \"\", \"published\": \"2024-01-01\", \"entry_id\": \"38414979\"}, {\"type\": \"paper\", \"title\": \"The efficacy and safety of iGlarLixi versus IDegAsp in Chinese people with type 2 diabetes suboptimally controlled with oral antidiabetic drugs: The Soli-D randomized controlled trial.\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/38922731\", \"content\": \"AIM: To compare the efficacy and safety of a fixed-ratio combination of insulin glargine 100 U/mL plus lixisenatide (iGlarLixi) with premixed insulin, insulin degludec plus insulin aspart (IDegAsp), in Chinese people with type 2 diabetes (T2D) suboptimally controlled with oral antidiabetic drug(s) (OADs).\\nMETHODS: In Soli-D, a 24-week, multicentre, open-label, study, insulin-naïve adults were randomized 1:1 to once-daily injections of iGlarLixi (n = 291) or IDegAsp (n = 291), with continued metformin ± sodium-glucose co-transporter-2 inhibitors. The primary endpoint was non-inferiority in HbA1c change from baseline to week 24. Key secondary endpoints included superiority in HbA1c change and body weight (BW) change at week 24. Hypoglycaemia rates were also assessed.\\nRESULTS: At week 24, iGlarLixi showed non-inferiority and superiority over IDegAsp in HbA1c reduction (least squares [LS] mean difference: -0.20 [95% confidence interval {CI}: -0.33, -0.07]; P < .001 for non-inferiority; [97.5% CI: -0.35, -0.05]; P = .003 for superiority). iGlarLixi decreased BW and IDegAsp increased BW from baseline to week 24, with a statistically significant LS mean difference of -1.49 kg in favour of iGlarLixi (97.5% CI: -2.32, -0.66; P < .001). Event rates (per person-year) for American Diabetes Association (ADA) Level 1, 2 or 3 hypoglycaemia were lower for iGlarLixi (1.90) versus IDegAsp (2.72) (relative risk: 0.71; 95% CI: 0.52, 0.98). No ADA Level 3 hypoglycaemia or unexpected safety findings were reported.\\nCONCLUSIONS: In Chinese people with T2D suboptimally controlled with OADs, once-daily iGlarLixi provided better glycaemic control with BW benefit and lower hypoglycaemia event rates versus IDegAsp.\\n\", \"score\": 0.44999999999999996, \"authors\": \"\", \"published\": \"2024-01-01\", \"entry_id\": \"38922731\"}, {\"type\": \"paper\", \"title\": \"Balanced Solution Versus Normal Saline in Predicted Severe Acute Pancreatitis: A Stepped Wedge Cluster Randomized Trial.\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/38708888\", \"content\": \"OBJECTIVE: To compare the effect of balanced multielectrolyte solutions (BMESs) versus normal saline (NS) for intravenous fluid on chloride levels and clinical outcomes in patients with predicted severe acute pancreatitis (pSAP).\\nBACKGROUND: Isotonic crystalloids are recommended for initial fluid therapy in acute pancreatitis, but whether the use of BMES in preference to NS confers clinical benefits is unknown.\\nMETHODS: In this multicenter, stepped-wedge, cluster-randomized trial, we enrolled patients with pSAP (acute physiology and chronic health evaluation II score ≥8 and C-reactive protein >150 mg/L) admitted within 72 hours of the advent of symptoms. The study sites were randomly assigned to staggered start dates for a one-way crossover from the NS phase (NS for intravenous fluid) to the BMES phase (sterofudin for intravenous fluid). The primary endpoint was the serum chloride concentration on trial day 3. Secondary endpoints included a composite of clinical and laboratory measures.\\nRESULTS: Overall, 259 patients were enrolled from 11 sites to receive NS (n = 147) or BMES (n = 112). On trial day 3, the mean chloride level was significantly lower in patients who received BMES [101.8 mmol/L (SD: 4.8) vs 105.8 mmol/L (SD: 5.9), difference -4.3 mmol/L (95% CI: -5.6 to -3.0 mmol/L) ; P < 0.001]. For secondary endpoints, patients who received BMES had less systemic inflammatory response syndrome (19/112, 17.0% vs 43/147, 29.3%, P = 0.024) and increased organ failure-free days [3.9 days (SD: 2.7) vs 3.5 days (SD: 2.7), P < 0.001] by trial day 7. They also spent more time alive and out of the intensive care unit [26.4 days (SD: 5.2) vs 25.0 days (SD: 6.4), P = 0.009] and hospital [19.8 days (SD: 6.1) vs 16.3 days (SD: 7.2), P < 0.001] by trial day 30.\\nCONCLUSIONS: Among patients with pSAP, using BMES in preference to NS resulted in a significantly more physiological serum chloride level, which was associated with multiple clinical benefits (Trial registration number: ChiCTR2100044432).\\n\", \"score\": 0.4, \"authors\": \"\", \"published\": \"2025-01-01\", \"entry_id\": \"38708888\"}, {\"type\": \"paper\", \"title\": \"Efficacy and safety of ZX-7101A, an inhibitor of influenza cap-dependent endonuclease, in adults with uncomplicated influenza: a randomized, double-blind, placebo-controlled phase 2/3 trial.\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/39490410\", \"content\": \"OBJECTIVES: To evaluate the efficacy and safety of ZX-7101A: an inhibitor of influenza viral cap-dependent endonuclease, in adults with uncomplicated influenza and explore treatment-emergent resistance.\\nMETHODS: We conducted a randomized, double-blind, placebo-controlled, adaptive-design phase 2 and phase 3 studies (ZX-7101A-202) in adults with uncomplicated influenza. Eligible patients were randomized 1:1:1 to receive a single dose of 40 or 80 mg ZX-7101A or placebo, stratified by body weight and baseline composite symptom score. The primary efficacy endpoint was time to alleviation of influenza symptoms (TTAS) in intention-to-treat infected population.\\nRESULTS: The phase 2 trial suggested significantly shorter TTAS for ZX-7101A compared with placebo: the median TTAS of 40 or 80 mg ZX-7101A groups were 34.7 hours (95% CI, 22.8-43.4; p 0.005) and 45.8 hours (95% CI, 32.0-66.3; p 0.020), compared with 63.6 hours (95% CI, 43.9-93.4) in the placebo group. In the phase 3 trial, the TTAS of both ZX-7101A dose groups was significantly shortened relative to the that of placebo group: the median TTAS was shortened to 48.4 hours (95% CI, 40.5-55.6) for 40 mg group and 39.4 hours (95% CI, 35.8-49.3) for 80 mg group, compared with 62.9 hours (95% CI, 56.4-69.3) for placebo group (p 0.003 and p < 0.001, respectively). In the safety population, ZX-7101A treatment was associated with fewer adverse events, with 41.8% (100/239) in the 40 mg group, 44.2% (106/240) in the 80 mg group, and 53.8% (129/240) in the placebo group. The majority of adverse events were mild or moderate. Emergence of resistance to ZX-7101A through I38T amino acid substitution was detected in 5/278 (1.8%) patients.\\nDISCUSSION: ZX-7101A was an effective treatment for influenza with a single dose of either 40 mg or 80 mg, with more rapid alleviation of influenza symptoms vs. placebo. No safety concerns were identified with single dose treatment of ZX-7101A.\\n\", \"score\": 0.35, \"authors\": \"\", \"published\": \"2025-01-01\", \"entry_id\": \"39490410\"}, {\"type\": \"paper\", \"title\": \"Systematic evaluation of combined herbal adjuvant therapy for proliferative diabetic retinopathy.\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/37274344\", \"content\": \"Objective: To evaluate the efficacy and safety of combined traditional Chinese medicine in the adjuvant treatment of proliferative diabetic retinopathy (PDR) by Meta-analysis.\\nMethods: PubMed, Embase, Web of Science, Cochrane Library, China National Knowledge Infrastructure (CNKI), Wanfang databases were searched by computer. Random controlled clinical trials (RCTS) using traditional Chinese medicine as adjuvant therapy for proliferative diabetic retinopathy were screened, and Stata16.0 software was used to perform meta-analysis on the final included literatures.\\nResults: A total of 18 studies involving 1392 patients were included. Meta-analysis showed that the clinical effective rate OR=2.99 (CI: 2.18-4.10, I2 = 42.7%, P<0.05); Visual acuity MD=0.10(CI: 0.06-0.13, I2 = 0%, P<0.05); Fundus efficacy OR=5.47 (CI: 1.33-22.51, I2 = 71.4%, P<0.05); Neovascularisation regression rate OR=8 (CI: 3.83-16.71, I2 = 30.1%, P<0.05); Macular foveal thickness MD=-44.24 (CI: -84.55-3.93, I2 = 95.6%, P<0.05); Absorption of vitreous hemorrhage OR=4.7 (CI: 2.26-9.77, I2 = 0%, P<0.05); Fasting blood glucose MD=-0.23, (CI: -0.38-0.07, I2 = 0%, P<0.05); 2h postprandial blood glucose MD=-0.19 (CI: -0.52-0.14, I2 = 0%, P=0.25). From the results, the combined Chinese medicine adjuvant therapy showed better efficacy than the control group. A total of 69 kinds of traditional Chinese medicine were involved in 18 studies, among which the top four applied frequencies were Panax notoginseng, Rehmannia rehmannii, Astragalus membranaceus and Poria cocos. Most of the medicines were sweet and bitter in taste, the qi tended to be slight cold and cold, and the meridian tropism belongs to the liver meridian.\\nConclusion: The combination of traditional Chinese medicine adjuvant therapy has a good curative effect on PDR patients. However, the relevant clinical trials are few and more high-quality clinical trials are still needed, what's more the attention should be paid to the exploration of its safety.\\n\", \"score\": 0.30000000000000004, \"authors\": \"\", \"published\": \"2023-01-01\", \"entry_id\": \"37274344\"}, {\"type\": \"paper\", \"title\": \"Ivarmacitinib, a selective Janus kinase 1 inhibitor, in patients with moderate-to-severe active rheumatoid arthritis and inadequate response to conventional synthetic DMARDs: results from a phase III randomised clinical trial.\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/39919893\", \"content\": \"OBJECTIVE: To assess the efficacy/safety of ivarmacitinib, a selective Janus kinase (JAK) 1 inhibitor, in patients with moderate-to-severe active rheumatoid arthritis (RA) who had an inadequate response to conventional synthetic disease-modifying antirheumatic drugs (csDMARDs).\\nMETHODS: Patients were randomised (1:1:1) to receive either placebo (n=188), ivarmacitinib 4 mg (n=189) or ivarmacitinib 8 mg (n=189) once daily, with background csDMARDs allowed. After 24 weeks, patients on placebo switched to ivarmacitinib 4 mg for an additional 28 weeks, while those on ivarmacitinib continued their initial dosage. The primary endpoint was the proportion of patients achieving a 20% improvement in the American College of Rheumatology response criteria (ACR20) at week 24.\\nRESULTS: At week 24, ACR20 response rates were significantly higher in the ivarmacitinib 4 mg (70.4%) and 8 mg (75.1%) groups compared with the placebo group (40.4%; both p<0.0001). Both ivarmacitinib doses achieved numerically higher Disease Activity Score 28-joint count C reactive protein of <2.6/≤3.2 response rates compared with placebo. Improvements in efficacy and patient-reported outcomes were sustained through 52 weeks and were noted in patients who switched from placebo after week 24. During the placebo-controlled period, treatment-emergent adverse events (TEAEs) occurred in 81.5% and 90.5% of patients in the ivarmacitinib 4 mg and 8 mg groups, versus 79.3% in the placebo group. Infection-related TEAEs were slightly higher in the ivarmacitinib groups.\\nCONCLUSIONS: Ivarmacitinib may offer a potential therapeutic option for patients with RA who have an inadequate response to csDMARDs, with a safety profile that was generally manageable over 1 year of treatment and similar to other JAK inhibitors.\\nTRIAL REGISTRATION NUMBER: NCT04333771.\\n\", \"score\": 0.25, \"authors\": \"\", \"published\": \"2025-01-01\", \"entry_id\": \"39919893\"}, {\"type\": \"paper\", \"title\": \"Comparative efficacy and safety of Chinese patent medicines as an adjunctive therapy for diabetic peripheral neuropathy: systematic review and network meta-analysis of randomized controlled trials.\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/39497372\", \"content\": \"CONTEXT: Diabetic peripheral neuropathy (DPN) is the most common complication of diabetes mellitus. Chinese patent medicines (CPMs) are widely used in clinical practice to treat DPN.\\nOBJECTIVE: This study aims to summarize the latest evidence on the harms and benefits of CPMs as adjunctive therapy for DPN.\\nMATERIALS AND METHODS: We conducted searches for randomized controlled trials (RCTs) evaluating CPMs in conjunction with mecobalamin (Mec) or alpha-lipoic acid (αLA) across eight databases up to July 2024. The surface under the cumulative ranking area (SUCRA) was utilized to assess the clinical efficacy rate (CER), the peroneal motor nerve conduction velocity (pMNCV), the peroneal sensory nerve conduction velocity (pSNCV), the median motor nerve conduction velocity (mMNCV), and the median sensory nerve conduction velocity (mSNCV).\\nRESULTS: The search yielded 128 eligible studies with 31 CPMs with Mec and 39 eligible studies with 17 CPMs with αLA. SUCRA rankings indicated that, when combined with Mec, Mailuoning liquid (lMLN) was the most effective regimen for CER, Honghua injection (iHH) for pMNCV, Maixuekang capsule (cMXK) for pSNCV, Dengzhanxixin injection (iDZXX) for mMNCV, and Tongxinluo capsule (cTXL) for mSNCV. Combined with αLA, Danhong injection (iDH) showed the highest efficacy for CER, pSNCV, and mSNCV, while Xueshuantong injection (iXShT) was the most effective for pMNCV and mMNCV.\\nCONCLUSION: This network meta-analysis confirms the efficacy and safety of 37 CPMs combined with Mec or αLA for treating DPN. However, given the potential risk of bias and the very low certainty of the evidence, these recommendations should be adopted with caution.\\n\", \"score\": 0.19999999999999996, \"authors\": \"\", \"published\": \"2024-01-01\", \"entry_id\": \"39497372\"}, {\"type\": \"paper\", \"title\": \"Off-label use of tacrolimus in children with glomerular disease: Effectiveness, safety and pharmacokinetics.\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/31725919\", \"content\": \"Glomerular diseases are leading causes of end-stage renal disease in children. Tacrolimus is frequently used off-label in the treatment of glomerular diseases. The effectiveness, safety and pharmacokinetic data of tacrolimus in the treatment of glomerular diseases in children are reviewed in this paper to provide evidence to support its rational use in clinical practice. The remission rates in previously published studies were different. In 19 clinical trials on children with nephrotic syndrome, the overall remission rate was 52.6-97.6%. In four clinical trials on children with lupus nephritis, the overall remission rate was 81.8-89.5%. In a pilot study with paediatric Henoch-Schönlein purpura nephritis patients, the overall remission rate was 100.0%. Infection, nephrotoxicity, gastrointestinal symptoms and hypertension are the most common adverse events. Body weight, age, CYP3A5 genotype, cystatin-C and daily dose of tacrolimus may have significant effects on the pharmacokinetics of tacrolimus in children with glomerular disease. More prospective controlled trials with long follow-up are needed to demonstrate definitely the effectiveness, safety and pharmacokinetics of tacrolimus in children with glomerular diseases.\\n\", \"score\": 0.15000000000000002, \"authors\": \"\", \"published\": \"2020-01-01\", \"entry_id\": \"31725919\"}, {\"type\": \"paper\", \"title\": \"Traditional Chinese medication for cardiovascular disease.\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/25384847\", \"content\": \"Traditional Chinese medication (TCM) is increasingly used to treat cardiovascular disease (CVD) in China and some other Asian countries. However, therapeutic efficacy and adverse effects of TCM are difficult to evaluate because few large-scale, randomized controlled trials (RCTs) enrolling patients with CVD have been performed. In this Review, we critically examine the current evidence on the cardiovascular effects of TCM. We reviewed 68 RCTs that included a total of 16,171 patients. The methodological quality of the trials was generally low. Only three reports described adverse cardiovascular events specifically, although in most studies TCM was associated with significant improvements in surrogate end points for hypertension, coronary heart disease, cardiac arrhythmias, and heart failure. The risk of adverse effects was not increased compared with no intervention, placebo, or Western medications. However, whether TCM is effective in reducing the all-cause or cardiovascular mortality in patients with CVD remains unknown and must be tested in large-scale RCTs with adverse cardiovascular events as primary end points. \\n\", \"score\": 0.09999999999999998, \"authors\": \"\", \"published\": \"2015-01-01\", \"entry_id\": \"25384847\"}, {\"type\": \"paper\", \"title\": \"XueBiJing Injection Versus Placebo for Critically Ill Patients With Severe Community-Acquired Pneumonia: A Randomized Controlled Trial.\", \"url\": \"https://pubmed.ncbi.nlm.nih.gov/31162191\", \"content\": \"OBJECTIVES: To investigate whether XueBiJing injection improves clinical outcomes in critically ill patients with severe community-acquired pneumonia.\\nDESIGN: Prospective, randomized, controlled study.\\nSETTING: Thirty-three hospitals in China.\\nPATIENTS: A total of 710 adults 18-75 years old with severe community-acquired pneumonia.\\nINTERVENTIONS: Participants in the XueBiJing group received XueBiJing, 100 mL, q12 hours, and the control group received a visually indistinguishable placebo.\\nMEASUREMENTS AND MAIN RESULTS: The primary outcome was 8-day improvement in the pneumonia severity index risk rating. Secondary outcomes were 28-day mortality rate, duration of mechanical ventilation and total duration of ICU stay. Improvement in the pneumonia severity index risk rating, from a previously defined endpoint, occurred in 203 (60.78%) participants receiving XueBiJing and in 158 (46.33%) participants receiving placebo (between-group difference [95% CI], 14.4% [6.9-21.8%]; p < 0.001). Fifty-three (15.87%) XueBiJing recipients and 84 (24.63%) placebo recipients (8.8% [2.4-15.2%]; p = 0.006) died within 28 days. XueBiJing administration also decreased the mechanical ventilation time and the total ICU stay duration. The median mechanical ventilation time was 11.0 versus 16.5 days for the XueBiJing and placebo groups, respectively (p = 0.012). The total duration of ICU stay was 12 days for XueBiJing recipients versus 16 days for placebo recipients (p = 0.004). A total of 256 patients experienced adverse events (119 [35.63%] vs 137 [40.18%] in the XueBiJing and placebo groups, respectively [p = 0.235]).\\nCONCLUSIONS: In critically ill patients with severe community-acquired pneumonia, XueBiJing injection led to a statistically significant improvement in the primary endpoint of the pneumonia severity index as well a significant improvement in the secondary clinical outcomes of mortality, duration of mechanical ventilation and duration of ICU stay.\\n\", \"score\": 0.050000000000000044, \"authors\": \"\", \"published\": \"2019-01-01\", \"entry_id\": \"31162191\"}]", "input": {"query": "Qilu Pharmaceutical drugs clinical trials"}, "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:10", "event": "on_tool_end", "name": "web_search_pubmed", "tags": ["seq:step:1"]}
+id: 1763623030594-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "5f81f4fc-03d7-460c-afbc-cd03489dba2c", "chunk": "【", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:16", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623036773-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "5f81f4fc-03d7-460c-afbc-cd03489dba2c", "chunk": "当前进展】", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:16", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623036820-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "5f81f4fc-03d7-460c-afbc-cd03489dba2c", "chunk": "\n-", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:16", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623036873-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "5f81f4fc-03d7-460c-afbc-cd03489dba2c", "chunk": " 已获取信息", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:16", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623036925-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "5f81f4fc-03d7-460c-afbc-cd03489dba2c", "chunk": "：齐鲁制药官网", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:17", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623037074-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "5f81f4fc-03d7-460c-afbc-cd03489dba2c", "chunk": "相关信息显示其有", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:17", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623037153-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "5f81f4fc-03d7-460c-afbc-cd03489dba2c", "chunk": "208个产品", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:17", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623037241-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "5f81f4fc-03d7-460c-afbc-cd03489dba2c", "chunk": "纳入国家医保目录", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:17", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623037338-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "5f81f4fc-03d7-460c-afbc-cd03489dba2c", "chunk": "，但缺乏具体药品", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:17", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623037488-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "5f81f4fc-03d7-460c-afbc-cd03489dba2c", "chunk": "清单；PubMed搜索结果中", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:17", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623037691-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "5f81f4fc-03d7-460c-afbc-cd03489dba2c", "chunk": "仅发现1篇明确", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:17", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623037892-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "5f81f4fc-03d7-460c-afbc-cd03489dba2c", "chunk": "由齐鲁制药资助", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:17", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623037996-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "5f81f4fc-03d7-460c-afbc-cd03489dba2c", "chunk": "的研究（关于Irup", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:18", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623038196-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "5f81f4fc-03d7-460c-afbc-cd03489dba2c", "chunk": "linalkib药物", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:18", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623038296-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "5f81f4fc-03d7-460c-afbc-cd03489dba2c", "chunk": "）\n- 信息充分度", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:18", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623038454-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "5f81f4fc-03d7-460c-afbc-cd03489dba2c", "chunk": "：较低，无法", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:18", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623038550-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "5f81f4fc-03d7-460c-afbc-cd03489dba2c", "chunk": "获得完整的药品目录", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:18", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623038647-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "5f81f4fc-03d7-460c-afbc-cd03489dba2c", "chunk": "和全面的文献列表", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:18", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623038745-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "5f81f4fc-03d7-460c-afbc-cd03489dba2c", "chunk": "\n- 发现的问题：", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:18", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623038843-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "5f81f4fc-03d7-460c-afbc-cd03489dba2c", "chunk": "通用搜索引擎未能提供齐鲁", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:19", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623039069-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "5f81f4fc-03d7-460c-afbc-cd03489dba2c", "chunk": "制药完整的药品目录", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:19", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623039140-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "5f81f4fc-03d7-460c-afbc-cd03489dba2c", "chunk": "，PubMed中直接", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:19", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623039281-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "5f81f4fc-03d7-460c-afbc-cd03489dba2c", "chunk": "关联齐鲁制药的文献", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:19", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623039384-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "5f81f4fc-03d7-460c-afbc-cd03489dba2c", "chunk": "非常有限\n\n【", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:19", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623039486-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "5f81f4fc-03d7-460c-afbc-cd03489dba2c", "chunk": "下一步行动】\n-", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:19", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623039589-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "5f81f4fc-03d7-460c-afbc-cd03489dba2c", "chunk": " 需要补充：", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:19", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623039693-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "5f81f4fc-03d7-460c-afbc-cd03489dba2c", "chunk": "搜索更具体的齐鲁", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:19", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623039802-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "5f81f4fc-03d7-460c-afbc-cd03489dba2c", "chunk": "制药药品注册信息和", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:19", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623039945-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "5f81f4fc-03d7-460c-afbc-cd03489dba2c", "chunk": "产品数据库\n-", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:20", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623040095-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "5f81f4fc-03d7-460c-afbc-cd03489dba2c", "chunk": " 调整策略", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:20", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623040195-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "5f81f4fc-03d7-460c-afbc-cd03489dba2c", "chunk": "：查询中国国家药品监督管理", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:20", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623040347-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "5f81f4fc-03d7-460c-afbc-cd03489dba2c", "chunk": "局数据库或医药", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:20", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623040453-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "5f81f4fc-03d7-460c-afbc-cd03489dba2c", "chunk": "行业专业数据库获取", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:20", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623040550-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "5f81f4fc-03d7-460c-afbc-cd03489dba2c", "chunk": "药品信息\n\n", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:20", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623040652-0
+
+event: final_answer
+data: {"type": "final_answer", "id": "final_answer", "data": {"content": "【当前进展】\n- 已获取信息：齐鲁制药官网相关信息显示其有208个产品纳入国家医保目录，但缺乏具体药品清单；PubMed搜索结果中仅发现1篇明确由齐鲁制药资助的研究（关于Iruplinalkib药物）\n- 信息充分度：较低，无法获得完整的药品目录和全面的文献列表\n- 发现的问题：通用搜索引擎未能提供齐鲁制药完整的药品目录，PubMed中直接关联齐鲁制药的文献非常有限\n\n【下一步行动】\n- 需要补充：搜索更具体的齐鲁制药药品注册信息和产品数据库\n- 调整策略：查询中国国家药品监督管理局数据库或医药行业专业数据库获取药品信息\n\n"}, "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:21"}
+id: 1763623041616-0
+
+event: tool_call
+data: {"type": "tool_call", "action": "start", "id": "89093d71-f603-439d-9673-6129ccdb9cb7", "tool_name": "web_search_searx", "input": {"query": "齐鲁制药 药品注册信息 国家药监局 批准文号"}, "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:21", "event": "on_tool_start", "name": "web_search_searx", "tags": ["seq:step:1"]}
+id: 1763623041636-0
+
+event: tool_call
+data: {"type": "tool_call", "action": "end", "id": "89093d71-f603-439d-9673-6129ccdb9cb7", "tool_name": "web_search_searx", "output": "[{\"type\": \"page\", \"title\": \"...12月23日,国家药监局发布最新药品获批信息,齐鲁制药、正大天晴...\", \"url\": \"https://www.sogou.com/link?url=hedJjaC291ObonU7uO8YskTA__1DOktSOhnUUzBeHrpbTsTUNo7eFA..\", \"content\": \"2024年12月24日- 12月23日，国家药监局发布最新药品获批信息，齐鲁制药、正大天晴药业集团南京顺欣制药同日拿下了帕妥珠单抗注射液的生产批文。早前，该产品仅有...\", \"score\": 1.0}, {\"type\": \"page\", \"title\": \"齐鲁制药有限公司资质证书查询 - 天眼查\", \"url\": \"https://www.sogou.com/link?url=hedJjaC291OyiGvgbfIkdydgVwY3tYyNcNqz-TRzKeplcx5e0TOmmMWV3mfHBIi48DE-2s9klsA.\", \"content\": \"2024年3月8日-齐鲁制药有限公司 (曾用名:山东齐鲁制药有限公司) ,成立于1992年,位于... 国产药品批准文号(217) 境内生产药品备案信息(173) 互联网药品信息服务...\", \"score\": 0.8}, {\"type\": \"page\", \"title\": \"佐匹克隆片 7.5mg 片剂_齐鲁制药有限公司 - 药智数据\", \"url\": \"https://www.sogou.com/link?url=hedJjaC291PAehN1mCbgyaRd3XphQ_N-V0hjIsbvc2D8UIPdv6eaQDyH2g9yCo3C30Vuzc76Qyw4d2X6F0SQYA..\", \"content\": \"药品名称 佐匹克隆片 英文名称 Zopiclone Tablets 批准文号 国药准字H10980163 原批准文号 国药准字H10980163 药品本位码 86904021001131 商品名 三辰 生产单位 齐鲁制药...\", \"score\": 0.6}, {\"type\": \"page\", \"title\": \"齐鲁制药有限公司_中国药品生产企业\", \"url\": \"https://www.sogou.com/link?url=hedJjaC291PAehN1mCbgyQLMYsD8IyfMsMLhAK6GA9ul0csdV8OFSXg6CCvwmShPJMUsghQpD_cIUfkXI_8b_q3mlRzfPLR2\", \"content\": \"2020年10月27日-企业名称 齐鲁制药有限公司 药品生产许可证编号 鲁20160001 法定代表人 张汉常 企业负责人 张汉常 生产范围 山东省济南市工业北路23999号：粉针剂（青霉...\", \"score\": 0.4}, {\"type\": \"page\", \"title\": \"溴芬酸钠滴眼液-今日头条\", \"url\": \"https://www.sogou.com/link?url=hedJjaC291PD0T3DYzJqFDoBhFbePHve3pbAgkwwypm75zAMPGn0AUL2xEmxSOuQReT7dhssFhU.\", \"content\": \"2025年2月25日-您在查找溴芬酸钠滴眼液吗?今日头条提供详尽的搜索结果聚合,每天实时更新。我们致力于连接人与信息,让优质丰富的信息得到高效精准的分发,促使信息...\", \"score\": 0.19999999999999996}]", "input": {"query": "齐鲁制药 药品注册信息 国家药监局 批准文号"}, "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:22", "event": "on_tool_end", "name": "web_search_searx", "tags": ["seq:step:1"]}
+id: 1763623042915-0
+
+event: tool_call
+data: {"type": "tool_call", "action": "start", "id": "02aca6e6-a7c1-4814-8b3a-e47f390e82da", "tool_name": "web_search_searx", "input": {"query": "齐鲁制药 产品目录 药品清单 完整列表"}, "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:28", "event": "on_tool_start", "name": "web_search_searx", "tags": ["seq:step:1"]}
+id: 1763623048917-0
+
+event: tool_call
+data: {"type": "tool_call", "action": "end", "id": "02aca6e6-a7c1-4814-8b3a-e47f390e82da", "tool_name": "web_search_searx", "output": "[{\"type\": \"page\", \"title\": \"齐鲁制药有限公司产品目录_第1页_Chemicalbook\", \"url\": \"https://www.sogou.com/link?url=hedJjaC291NJA2XvEEtIBvPZZf_T18Sk2lLgd3r0Y9SgJUR1G8ciNRld8g_m_7GRbzziLAaCQpER_qpD1CAlKq3mlRzfPLR2\", \"content\": \"2024年3月28日- 齐鲁制药有限公司产品目录，Chemicalbook提供查询齐鲁制药有限公司联系方式、产品、价格、现货和用户评价。\", \"score\": 1.0}, {\"type\": \"page\", \"title\": \"齐鲁制药主要产品 - 九松健康\", \"url\": \"https://www.sogou.com/link?url=hedJjaC291N9i-n5T9noCfwkx_zoIenXmE_OPEmgRcCaBRwq6idEYrO6PM2aRxYxFrx94FXsghit5pUc3zy0dg..\", \"content\": \"2025年7月3日-对于心血管疾病,齐鲁制药提供了包括阿托伐他汀钙片在内的多种药品,这类药... 齐鲁制药的产品线非常广泛,从传统的化学药物到现代生物技术和创新疗法均有...\", \"score\": 0.8}, {\"type\": \"page\", \"title\": \"齐鲁制药有限公司有什么药-旗下药品有哪些-大众养生网\", \"url\": \"https://www.sogou.com/link?url=hedJjaC291MN9RFIK487Pw3sIbW2qxYg9WkaHXRylHEaN_O91lQPdVEKo5tseGdH0ztd7q5nl6o.\", \"content\": \"2025年7月24日-国药准字H20050562 齐鲁制药有限公司 功能主治: 本品适用于头颈部癌,小细胞癌,非小细胞肺癌,食管癌,卵巢癌等实体瘤。 药品查询 增值电信业务经营...\", \"score\": 0.6}, {\"type\": \"page\", \"title\": \"2023版国家医保目录公布,齐鲁制药8款产品进入\", \"url\": \"http://mp.weixin.qq.com/s?src=11&timestamp=1763623049&ver=6369&signature=nSfaWirkIQElWSXC*V8ompj4eKs2O6W-zIk0QSTN1gWuWgJlrlDypVRIbdBnRzQipYH-Sbwm9DY7uj2pqst*N97zv-lMxYIWgdWDzQDA3qIF-WLJ82lTArkz1PQcDezA&new=1\", \"content\": \"2年前 - 齐鲁制药8款产品成功进入医保每一个能进入医保的药品都不简单.除了伊鲁阿克片,齐鲁制药此次进入医保的另外7款产品,阿立哌唑口溶膜、孟鲁司特钠口溶膜、阿瑞匹坦注射液、曲氟尿苷替匹嘧啶片、注射用头孢他啶阿维巴坦、注射用磷酸特地唑胺、磷酸奥司他韦干混悬剂,也各有所长....\", \"score\": 0.4}, {\"type\": \"page\", \"title\": \"齐鲁制药3款产品新增纳入2024年国家医保药品目录 _ 东方财富网\", \"url\": \"https://www.sogou.com/link?url=hedJjaC291P33igiXMgxhGHC47y42-qmWXnFBhwhaxSH2MUdw4AwFhw93yY7GnslI3KL6f8gRA4.\", \"content\": \"2024年11月29日-《国家基本医疗保险、工伤保险和生育保险药品目录（2024年）》，目录内产品伊鲁阿克片成功扩大医保支付范围。目前，齐鲁制药累计纳入国家医保的产品...\", \"score\": 0.19999999999999996}]", "input": {"query": "齐鲁制药 产品目录 药品清单 完整列表"}, "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:30", "event": "on_tool_end", "name": "web_search_searx", "tags": ["seq:step:1"]}
+id: 1763623050421-0
+
+event: tool_call
+data: {"type": "tool_call", "action": "start", "id": "c3591fde-c2e6-40b8-b0f9-c2fcdfc2408b", "tool_name": "crawl_tool", "input": {"url": "https://www.chemicalbook.com/ShowSupplierProductsList123456/0.htm"}, "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:37", "event": "on_tool_start", "name": "crawl_tool", "tags": ["seq:step:1"]}
+id: 1763623057501-0
+
+event: tool_call
+data: {"type": "tool_call", "action": "end", "id": "c3591fde-c2e6-40b8-b0f9-c2fcdfc2408b", "tool_name": "crawl_tool", "output": "{\"url\": \"https://www.chemicalbook.com/ShowSupplierProductsList123456/0.htm\", \"crawled_content\": \"# 产品目录_第1页_Chemicalbook\\n\\n<p>产品目录\\\\_第1页\\\\_Chemicalbook</p>\\n\\n信息×\\n\\n已复制成功\\n\\n确定\"}", "input": {"url": "https://www.chemicalbook.com/ShowSupplierProductsList123456/0.htm"}, "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:38", "event": "on_tool_end", "name": "crawl_tool", "tags": ["seq:step:1"]}
+id: 1763623058895-0
+
+event: tool_call
+data: {"type": "tool_call", "action": "start", "id": "72b5992f-e122-42df-a7cc-904da0c7f052", "tool_name": "crawl_tool", "input": {"url": "https://www.chemicalbook.com/ShowSupplierProductsList123456/0.htm"}, "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:45", "event": "on_tool_start", "name": "crawl_tool", "tags": ["seq:step:1"]}
+id: 1763623065204-0
+
+event: tool_call
+data: {"type": "tool_call", "action": "end", "id": "72b5992f-e122-42df-a7cc-904da0c7f052", "tool_name": "crawl_tool", "output": "{\"url\": \"https://www.chemicalbook.com/ShowSupplierProductsList123456/0.htm\", \"crawled_content\": \"# 产品目录_第1页_Chemicalbook\\n\\n<p>产品目录\\\\_第1页\\\\_Chemicalbook</p>\\n\\n信息×\\n\\n已复制成功\\n\\n确定\"}", "input": {"url": "https://www.chemicalbook.com/ShowSupplierProductsList123456/0.htm"}, "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:46", "event": "on_tool_end", "name": "crawl_tool", "tags": ["seq:step:1"]}
+id: 1763623066620-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "6e8b071b-cebf-43f4-aaa9-c859cf33ab40", "chunk": "【", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:52", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623072114-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "6e8b071b-cebf-43f4-aaa9-c859cf33ab40", "chunk": "信息", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:52", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623072178-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "6e8b071b-cebf-43f4-aaa9-c859cf33ab40", "chunk": "整合", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:52", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623072262-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "6e8b071b-cebf-43f4-aaa9-c859cf33ab40", "chunk": "分析", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:52", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623072334-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "6e8b071b-cebf-43f4-aaa9-c859cf33ab40", "chunk": "】\n经过多", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:52", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623072484-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "6e8b071b-cebf-43f4-aaa9-c859cf33ab40", "chunk": "轮搜索，发现", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:52", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623072656-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "6e8b071b-cebf-43f4-aaa9-c859cf33ab40", "chunk": "无法获取山东齐鲁制药完整的", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:52", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623073007-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "6e8b071b-cebf-43f4-aaa9-c859cf33ab40", "chunk": "药品目录和所有相关", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:53", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623073229-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "6e8b071b-cebf-43f4-aaa9-c859cf33ab40", "chunk": "文献的全面列表", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:53", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623073462-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "6e8b071b-cebf-43f4-aaa9-c859cf33ab40", "chunk": "。现有信息显示", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:53", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623073623-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "6e8b071b-cebf-43f4-aaa9-c859cf33ab40", "chunk": "：\n1.", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:53", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623073780-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "6e8b071b-cebf-43f4-aaa9-c859cf33ab40", "chunk": " 齐鲁制药有", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:53", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623073929-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "6e8b071b-cebf-43f4-aaa9-c859cf33ab40", "chunk": "208个产品纳入", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:54", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623074079-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "6e8b071b-cebf-43f4-aaa9-c859cf33ab40", "chunk": "国家医保目录\n2.", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:54", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623074242-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "6e8b071b-cebf-43f4-aaa9-c859cf33ab40", "chunk": " 在PubMed数据库中仅找到", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:54", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623074460-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "6e8b071b-cebf-43f4-aaa9-c859cf33ab40", "chunk": "少数明确由齐鲁制药", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:54", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623074694-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "6e8b071b-cebf-43f4-aaa9-c859cf33ab40", "chunk": "资助的研究（如Irup", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:54", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623074903-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "6e8b071b-cebf-43f4-aaa9-c859cf33ab40", "chunk": "linalkib药物研究", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:55", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623075236-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "6e8b071b-cebf-43f4-aaa9-c859cf33ab40", "chunk": "）\n3. 专业", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:55", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623075261-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "6e8b071b-cebf-43f4-aaa9-c859cf33ab40", "chunk": "医药数据库和官网", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:55", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623075444-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "6e8b071b-cebf-43f4-aaa9-c859cf33ab40", "chunk": "未提供完整的结构", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:55", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623075712-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "6e8b071b-cebf-43f4-aaa9-c859cf33ab40", "chunk": "化药品清单\n", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:55", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623075865-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "6e8b071b-cebf-43f4-aaa9-c859cf33ab40", "chunk": "4. 天眼", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:56", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623076020-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "6e8b071b-cebf-43f4-aaa9-c859cf33ab40", "chunk": "查数据显示齐鲁制药有2", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:56", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623076241-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "6e8b071b-cebf-43f4-aaa9-c859cf33ab40", "chunk": "17个国产药品批准", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:56", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623076387-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "6e8b071b-cebf-43f4-aaa9-c859cf33ab40", "chunk": "文号\n\n由于无法", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:56", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623076560-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "6e8b071b-cebf-43f4-aaa9-c859cf33ab40", "chunk": "获取完整的药品目录", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:56", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623076835-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "6e8b071b-cebf-43f4-aaa9-c859cf33ab40", "chunk": "和文献列表，只能", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:56", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623076988-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "6e8b071b-cebf-43f4-aaa9-c859cf33ab40", "chunk": "基于现有可靠信息提供部分", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:57", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623077202-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "6e8b071b-cebf-43f4-aaa9-c859cf33ab40", "chunk": "数据。\n\n", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:57", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623077426-0
+
+event: final_answer
+data: {"type": "final_answer", "id": "final_answer", "data": {"content": "【信息整合分析】\n经过多轮搜索，发现无法获取山东齐鲁制药完整的药品目录和所有相关文献的全面列表。现有信息显示：\n1. 齐鲁制药有208个产品纳入国家医保目录\n2. 在PubMed数据库中仅找到少数明确由齐鲁制药资助的研究（如Iruplinalkib药物研究）\n3. 专业医药数据库和官网未提供完整的结构化药品清单\n4. 天眼查数据显示齐鲁制药有217个国产药品批准文号\n\n由于无法获取完整的药品目录和文献列表，只能基于现有可靠信息提供部分数据。\n\n"}, "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:58"}
+id: 1763623078789-0
+
+event: tool_call
+data: {"type": "tool_call", "action": "start", "id": "a7e82ec6-9bdc-485b-a5f9-1807cce34138", "tool_name": "got_enough_information", "input": {"plan": "基于现有搜索结果，整理齐鲁制药的部分药品信息和相关文献，以JSON数组格式输出"}, "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:58", "event": "on_tool_start", "name": "got_enough_information", "tags": ["seq:step:1"]}
+id: 1763623078829-0
+
+event: tool_call
+data: {"type": "tool_call", "action": "end", "id": "a7e82ec6-9bdc-485b-a5f9-1807cce34138", "tool_name": "got_enough_information", "output": "OK", "input": {"plan": "基于现有搜索结果，整理齐鲁制药的部分药品信息和相关文献，以JSON数组格式输出"}, "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:58", "event": "on_tool_end", "name": "got_enough_information", "tags": ["seq:step:1"]}
+id: 1763623078845-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "```", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:59", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623079462-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "json\n[\n", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:59", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623079539-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "  {\n   ", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:59", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623079619-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": " \"company", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:59", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623079787-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "\": \"山东齐鲁制药有限公司", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:59", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623079855-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "\",\n    \"药品", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:17:59", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623080009-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "信息\": [\n     ", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:00", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623080146-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": " {\n        \"药品名称\":", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:00", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623080286-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": " \"伊鲁阿克", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:00", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623080433-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "片\",\n        \"批准", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:00", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623080579-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "文号\": \"国", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:00", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623080703-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "药准字\",\n", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:00", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623080846-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "        \"医保状态", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:00", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623080970-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "\": \"已纳入20", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:01", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623081098-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "24年国家医保目录", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:01", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623081239-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "\",\n        \"适应", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:01", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623081354-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "症\": \"ALK", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:01", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623081484-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "阳性非小细胞", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:01", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623081608-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "肺癌\"\n      },\n      {\n", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:01", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623081746-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "        \"药品名称\": \"", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:01", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623081881-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "佐匹克隆片\",\n", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:02", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623082011-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "        \"商品名\": \"", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:02", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623082147-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "三辰\",\n        \"批准", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:02", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623082277-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "文号\": \"国药", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:02", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623082403-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "准字H109", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:02", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623082544-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "80163\",\n", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:02", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623082667-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "        \"剂型\": \"", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:02", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623082821-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "7.5mg", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:02", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623082945-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": " 片剂\"\n", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:03", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623083079-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "      },\n      {\n        \"", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:03", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623083220-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "药品名称\": \"阿立", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:03", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623083350-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "哌唑口溶膜\",\n", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:03", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623083497-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "        \"医保状态\": \"", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:03", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623083646-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "已纳入国家医保目录\"\n", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:03", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623083785-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "      },\n      {\n        \"", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:03", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623083911-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "药品名称\": \"孟鲁", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:04", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623084059-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "司特钠口溶膜", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:04", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623084190-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "\",\n        \"医保状态\":", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:04", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623084342-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": " \"已纳入国家医保目录", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:04", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623084472-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "\"\n      },\n      {\n       ", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:04", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623084606-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": " \"药品名称\": \"阿", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:04", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623084766-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "瑞匹坦注射液\",\n", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:04", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623084898-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "        \"医保状态\": \"", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:05", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623085048-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "已纳入国家医保目录\"\n", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:05", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623085198-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "      },\n      {\n        \"", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:05", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623085342-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "药品名称\": \"曲氟", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:05", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623085486-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "尿苷替匹嘧啶", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:05", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623085627-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "片\",\n        \"医保状态", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:05", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623085761-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "\": \"已纳入国家医保", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:05", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623085905-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "目录\"\n      },\n      {\n", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:06", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623086048-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "        \"药品名称\": \"", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:06", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623086186-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "注射用头孢他啶", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:06", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623086338-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "阿维巴坦\",\n       ", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:06", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623086492-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": " \"医保状态\": \"已", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:06", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623086681-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "纳入国家医保目录\"\n     ", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:06", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623086762-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": " },\n      {\n        \"药品", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:06", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623086903-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "名称\": \"注射", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:07", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623087040-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "用磷酸特地唑胺", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:07", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623087171-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "\",\n        \"医保状态\":", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:07", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623087300-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": " \"已纳入国家医保目录", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:07", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623087443-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "\"\n      },\n      {\n       ", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:07", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623087614-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": " \"药品名称\": \"磷酸", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:07", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623087724-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "奥司他韦干混", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:07", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623087871-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "悬剂\",\n        \"医保", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:08", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623088015-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "状态\": \"已纳入国家", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:08", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623088151-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "医保目录\"\n      },\n     ", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:08", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623088299-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": " {\n        \"药品", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:08", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623088441-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "名称\": \"帕", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:08", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623088573-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "妥珠单抗注射液", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:08", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623088710-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "\",\n        \"状态", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:08", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623088870-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "\": \"2024", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:08", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623088987-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "年12月获批", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:09", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623089137-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "生产\"\n      },\n", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:09", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623089274-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "      {\n        \"药品名称", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:09", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623089415-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "\": \"阿托伐他", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:09", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623089559-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "汀钙片\",\n        \"", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:09", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623089698-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "适应症\": \"心血管疾病", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:09", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623089836-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "\"\n      }\n    ],\n   ", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:09", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623089968-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": " \"文献信息\": [\n", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:10", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623090110-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "      {\n        \"标题", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:10", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623090245-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "\": \"Iruplinal", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:10", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623090384-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "kib (WX-0", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:10", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623090525-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "593) Versus", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:10", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623090665-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": " Crizotin", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:10", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623090834-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "ib in ALK TKI", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:10", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623090937-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "-Naive Loc", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:11", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623091069-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "ally Advanced or Metastatic", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:11", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623091201-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": " ALK-Positive NSCL", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:11", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623091338-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "C: Interim Analysis of", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:11", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623091469-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": " a Randomized, Open-", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:11", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623091604-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "Label, Phase 3 Study", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:11", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623091747-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": " (INSPIRE)\",\n       ", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:11", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623091885-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": " \"发表年份\": \"", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:12", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623092019-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "2024\",\n       ", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:12", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623092170-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": " \"期刊\": \"PubMed", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:12", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623092331-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "\",\n        \"资助", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:12", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623092470-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "方\": \"Qilu", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:12", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623092604-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": " Pharmaceutical Co., Ltd., Jin", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:12", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623092751-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "an, People's Republic of", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:12", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623092880-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": " China\",\n        \"研究药物", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:13", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623093061-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "\": \"Iruplinal", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:13", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623093173-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "kib (WX-0", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:13", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623093284-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "593)\",\n        \"", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:13", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623093415-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "PMID\": \"", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:13", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623093556-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "382804", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:13", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623093699-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "48\"\n      }\n   ", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:13", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623093830-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": " ],\n    \"公司概况", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:13", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623093984-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "\": {\n      \"成立", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:14", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623094129-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "时间\": \"1", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:14", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623094278-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "992年\",\n     ", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:14", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623094428-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": " \"药品批准文号", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:14", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623094576-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "数量\": \"2", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:14", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623094731-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "17个\",\n      \"", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:14", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623094875-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "纳入国家医保产品", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:15", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623095027-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "数量\": \"208", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:15", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623095175-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "个\",\n      \"生产许可证", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:15", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623095315-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "编号\": \"鲁20", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:15", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623095473-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "160001", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:15", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623095617-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "\"\n    }\n  }\n]\n", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:15", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623095768-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "7a686d3d-869d-48ec-a856-01af3774dec9", "chunk": "```", "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:15", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763623095841-0
+
+event: final_answer
+data: {"type": "final_answer", "id": "final_answer", "data": {"content": "```json\n[\n  {\n    \"company\": \"山东齐鲁制药有限公司\",\n    \"药品信息\": [\n      {\n        \"药品名称\": \"伊鲁阿克片\",\n        \"批准文号\": \"国药准字\",\n        \"医保状态\": \"已纳入2024年国家医保目录\",\n        \"适应症\": \"ALK阳性非小细胞肺癌\"\n      },\n      {\n        \"药品名称\": \"佐匹克隆片\",\n        \"商品名\": \"三辰\",\n        \"批准文号\": \"国药准字H10980163\",\n        \"剂型\": \"7.5mg 片剂\"\n      },\n      {\n        \"药品名称\": \"阿立哌唑口溶膜\",\n        \"医保状态\": \"已纳入国家医保目录\"\n      },\n      {\n        \"药品名称\": \"孟鲁司特钠口溶膜\",\n        \"医保状态\": \"已纳入国家医保目录\"\n      },\n      {\n        \"药品名称\": \"阿瑞匹坦注射液\",\n        \"医保状态\": \"已纳入国家医保目录\"\n      },\n      {\n        \"药品名称\": \"曲氟尿苷替匹嘧啶片\",\n        \"医保状态\": \"已纳入国家医保目录\"\n      },\n      {\n        \"药品名称\": \"注射用头孢他啶阿维巴坦\",\n        \"医保状态\": \"已纳入国家医保目录\"\n      },\n      {\n        \"药品名称\": \"注射用磷酸特地唑胺\",\n        \"医保状态\": \"已纳入国家医保目录\"\n      },\n      {\n        \"药品名称\": \"磷酸奥司他韦干混悬剂\",\n        \"医保状态\": \"已纳入国家医保目录\"\n      },\n      {\n        \"药品名称\": \"帕妥珠单抗注射液\",\n        \"状态\": \"2024年12月获批生产\"\n      },\n      {\n        \"药品名称\": \"阿托伐他汀钙片\",\n        \"适应症\": \"心血管疾病\"\n      }\n    ],\n    \"文献信息\": [\n      {\n        \"标题\": \"Iruplinalkib (WX-0593) Versus Crizotinib in ALK TKI-Naive Locally Advanced or Metastatic ALK-Positive NSCLC: Interim Analysis of a Randomized, Open-Label, Phase 3 Study (INSPIRE)\",\n        \"发表年份\": \"2024\",\n        \"期刊\": \"PubMed\",\n        \"资助方\": \"Qilu Pharmaceutical Co., Ltd., Jinan, People's Republic of China\",\n        \"研究药物\": \"Iruplinalkib (WX-0593)\",\n        \"PMID\": \"38280448\"\n      }\n    ],\n    \"公司概况\": {\n      \"成立时间\": \"1992年\",\n      \"药品批准文号数量\": \"217个\",\n      \"纳入国家医保产品数量\": \"208个\",\n      \"生产许可证编号\": \"鲁20160001\"\n    }\n  }\n]\n```"}, "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:15"}
+id: 1763623095871-0
+
+event: usage
+data: {"type": "usage", "id": "usage_stats", "data": {"total_tokens": 0, "prompt_tokens": 0, "completion_tokens": 0, "total_tool_calls": 6, "total_documents": 0}, "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:15"}
+id: 1763623095885-0
+
+event: complete
+data: {"type": "complete", "id": "complete", "data": {}, "thread_id": "788233d7-ac25-4e07-81bb-304073631870", "round_id": "78391be9-ac67-4000-9234-aa7d0dc31ed8", "timestamp": "2025-11-20 15:18:15"}
+id: 1763623095895-0
+
