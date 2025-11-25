@@ -1,0 +1,1524 @@
+event: task_starting
+data: {"thread_id":"94d4a97c-c23a-4f01-901c-3824e027f929","round_id":"45006547-156f-4122-b332-ca21f21611b0","status":"starting","message":"Task is initializing..."}
+id: 1763981971316-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "c8ca412b-efd8-4b26-8405-22afa3349fdd", "chunk": "【", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:33", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981973295-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "c8ca412b-efd8-4b26-8405-22afa3349fdd", "chunk": "问题分析】", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:33", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981973361-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "c8ca412b-efd8-4b26-8405-22afa3349fdd", "chunk": "\n- ", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:33", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981973438-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "c8ca412b-efd8-4b26-8405-22afa3349fdd", "chunk": "问题类型：", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:33", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981973509-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "c8ca412b-efd8-4b26-8405-22afa3349fdd", "chunk": "技术产品评估类", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:33", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981973751-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "c8ca412b-efd8-4b26-8405-22afa3349fdd", "chunk": "问题，属于事实", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:33", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981973964-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "c8ca412b-efd8-4b26-8405-22afa3349fdd", "chunk": "性查询与分析", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:34", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981974155-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "c8ca412b-efd8-4b26-8405-22afa3349fdd", "chunk": "结合\n- 关", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:34", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981974251-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "c8ca412b-efd8-4b26-8405-22afa3349fdd", "chunk": "键信息需求：Mini", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:34", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981974388-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "c8ca412b-efd8-4b26-8405-22afa3349fdd", "chunk": "Max M2 模", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:34", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981974529-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "c8ca412b-efd8-4b26-8405-22afa3349fdd", "chunk": "型的性能特点", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:34", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981974673-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "c8ca412b-efd8-4b26-8405-22afa3349fdd", "chunk": "、技术参数、应用场景、", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:34", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981974815-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "c8ca412b-efd8-4b26-8405-22afa3349fdd", "chunk": "与其他模型的对比", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:34", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981974956-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "c8ca412b-efd8-4b26-8405-22afa3349fdd", "chunk": "、发布时间及行业", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:35", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981975182-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "c8ca412b-efd8-4b26-8405-22afa3349fdd", "chunk": "评价\n- 时间", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:35", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981975360-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "c8ca412b-efd8-4b26-8405-22afa3349fdd", "chunk": "范围：该模型为", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:35", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981975532-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "c8ca412b-efd8-4b26-8405-22afa3349fdd", "chunk": "近期发布（202", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:35", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981975807-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "c8ca412b-efd8-4b26-8405-22afa3349fdd", "chunk": "4–202", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:35", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981975961-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "c8ca412b-efd8-4b26-8405-22afa3349fdd", "chunk": "5年），需获取", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:36", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981976125-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "c8ca412b-efd8-4b26-8405-22afa3349fdd", "chunk": "最新资料\n\n【信息", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:36", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981976293-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "c8ca412b-efd8-4b26-8405-22afa3349fdd", "chunk": "获取策略】\n-", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:36", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981976420-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "c8ca412b-efd8-4b26-8405-22afa3349fdd", "chunk": " 搜索方向：首先", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:36", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981976576-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "c8ca412b-efd8-4b26-8405-22afa3349fdd", "chunk": "确认 MiniMax M2", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:36", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981976801-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "c8ca412b-efd8-4b26-8405-22afa3349fdd", "chunk": " 是否为公开发布的", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:37", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981977022-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "c8ca412b-efd8-4b26-8405-22afa3349fdd", "chunk": "模型；其次收集", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:37", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981977179-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "c8ca412b-efd8-4b26-8405-22afa3349fdd", "chunk": "其官方介绍、技术文档", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:37", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981977423-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "c8ca412b-efd8-4b26-8405-22afa3349fdd", "chunk": "、媒体报道及第三方", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:37", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981977660-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "c8ca412b-efd8-4b26-8405-22afa3349fdd", "chunk": "评测\n- 查询重点：", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:37", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981977826-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "c8ca412b-efd8-4b26-8405-22afa3349fdd", "chunk": "模型规模（参数", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:38", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981978099-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "c8ca412b-efd8-4b26-8405-22afa3349fdd", "chunk": "量）、多模", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:38", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981978323-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "c8ca412b-efd8-4b26-8405-22afa3349fdd", "chunk": "态能力、推理速度", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:38", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981978849-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "c8ca412b-efd8-4b26-8405-22afa3349fdd", "chunk": "、支持语言、开源", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:38", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981978878-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "c8ca412b-efd8-4b26-8405-22afa3349fdd", "chunk": "情况、实际应用案例", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:38", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981978893-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "c8ca412b-efd8-4b26-8405-22afa3349fdd", "chunk": "\n\n【执行计划", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:38", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981978965-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "c8ca412b-efd8-4b26-8405-22afa3349fdd", "chunk": "】\n1. 搜索", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:39", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981979126-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "c8ca412b-efd8-4b26-8405-22afa3349fdd", "chunk": "“MiniMax M2", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:39", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981979245-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "c8ca412b-efd8-4b26-8405-22afa3349fdd", "chunk": " 模型”相关中文", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:39", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981979382-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "c8ca412b-efd8-4b26-8405-22afa3349fdd", "chunk": "资讯，了解基本", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:39", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981979625-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "c8ca412b-efd8-4b26-8405-22afa3349fdd", "chunk": "定位和发布背景", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:39", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981979838-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "c8ca412b-efd8-4b26-8405-22afa3349fdd", "chunk": "\n2. 查询", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:39", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981979988-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "c8ca412b-efd8-4b26-8405-22afa3349fdd", "chunk": "是否有英文资料或技术论文", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:40", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981980216-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "c8ca412b-efd8-4b26-8405-22afa3349fdd", "chunk": "补充细节\n3.", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:40", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981980401-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "c8ca412b-efd8-4b26-8405-22afa3349fdd", "chunk": " 若发现官方文档", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:40", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981980596-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "c8ca412b-efd8-4b26-8405-22afa3349fdd", "chunk": "或深度评测文章", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:40", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981980730-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "c8ca412b-efd8-4b26-8405-22afa3349fdd", "chunk": "，考虑读取详细", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:40", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981980994-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "c8ca412b-efd8-4b26-8405-22afa3349fdd", "chunk": "内容\n4.", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:41", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981981051-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "c8ca412b-efd8-4b26-8405-22afa3349fdd", "chunk": " 综合信息后", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:41", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981981180-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "c8ca412b-efd8-4b26-8405-22afa3349fdd", "chunk": "评估其整体表现", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:41", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981981382-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "c8ca412b-efd8-4b26-8405-22afa3349fdd", "chunk": "与适用场景\n\n", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:41", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981981650-0
+
+event: tool_call
+data: {"type": "tool_call", "action": "start", "id": "8f675f7c-7984-4d3b-874f-57ab0ba4fa48", "tool_name": "web_search_searx", "input": {"query": "MiniMax M2 模型 性能 评测"}, "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:42", "event": "on_tool_start", "name": "web_search_searx", "tags": ["seq:step:1"]}
+id: 1763981982811-0
+
+event: tool_call
+data: {"type": "tool_call", "action": "end", "id": "8f675f7c-7984-4d3b-874f-57ab0ba4fa48", "tool_name": "web_search_searx", "output": "[{\"type\": \"page\", \"title\": \"MiniMax M2 实战测评——可能是全网目前最接近实战的测评_哔哩哔哩...\", \"url\": \"https://www.sogou.com/link?url=hedJjaC291ObqPUCEo1zMuraEuczo-4WCU_PNz9JM0so9UQ6n7QHTc6ry9X1q8-h8x2NB-PRwZT6xKUHvPurlBhfbabas_3rX2dPn12l6yoKW4YQe618Tg..\", \"content\": \"2025年10月30日- MiniMax M2 实战测评——可能是全网目前最接近实战的测评， 视频播放量 1438、弹幕量 0、点赞数 13、投硬币枚数 0、收藏人数 10、转发人数 0， 视频...\", \"score\": 1.0}, {\"type\": \"page\", \"title\": \"开源黑马!MiniMax-M2 深度测评!专为编程与Agent而生!_哔哩哔哩...\", \"url\": \"https://www.sogou.com/link?url=hedJjaC291ObqPUCEo1zMuraEuczo-4WCU_PNz9JM0vxmIyB-MOv0xJqribSJBb68x2NB-PRwZT6xKUHvPurlBhfbabas_3rX2dPn12l6yoKW4YQe618Tg..\", \"content\": \"2025年10月31日- https://agent.minimaxi.com/🔥🔥🔥视频简介：本期实测开源大模型 MiniMax-M2。其在多项基准表现优异，Artificial Analysis 榜单综合排名全球前五...\", \"score\": 0.8}, {\"type\": \"page\", \"title\": \"MiniMaxM2深度评测:全球TOP5开源编程模型,真的能挑战GPT-...\", \"url\": \"http://mp.weixin.qq.com/s?src=11&timestamp=1763981552&ver=6378&signature=rP5ryI-5i1uk6N2aHt%2Az2Qc4WcwDqjxA4F7IyboXw0daPiK3SLxN0F54elhINp-SHuLAql-tEDbRyQ94H-7tZ8zJwSmkQ15AngjmfpTw4a7DrTGU2ZFSaU0ZmBNqaleP&new=1\", \"content\": \"1天前 - MiniMax M2深度评测:全球TOP5开源编程模型,真的能挑战GPT-5吗?61分——这个数字震动了整个AI行业.当MiniMax M2以61分的Intelligence Index得分强势跻身全球TOP5,与GPT-5的68分仅差7分时,更重要的是:它以仅为Claude Sonnet 4.5的8%价...\", \"score\": 0.6}, {\"type\": \"page\", \"title\": \"MiniMax M2 模型详解：参数、评测及开源信息 - 数据学习（...\", \"url\": \"https://www.sogou.com/link?url=hedJjaC291N8XK-pPvJl2D8quwsXwOlh2qD4qn3sRW5fNyJYsivuSf2xY6qXDKYRoqbBBoProlCsdH1KsATzsvc1P7nm2xZo\", \"content\": \"2025年10月27日-深入了解 MiniMax M2 AI大模型：探索其参数、性能基准、开源许可证（MIT ... MiniMaxAI开源MiniMax M2模型：Artificial Analysis评测显示综合智能得分超过...\", \"score\": 0.4}, {\"type\": \"page\", \"title\": \"MiniMax开源M2模型：高性能AI赋能编码与代理 成本仅为竞品8%\", \"url\": \"https://www.sogou.com/link?url=hedJjaC291Osj6fmiZw1ZkKaldJKQ4uuzju_ntIA89_OOAQIXNDRqK4to0wa_Tif\", \"content\": \"2025年10月27日- 【AIbase报道】2025年10月27日，中国AI初创公司MiniMax宣布开源其 最新 大语言模型 MiniMax M2 。该模型凭借突破性的效率和卓越的性能，专为 代理...\", \"score\": 0.19999999999999996}]", "input": {"query": "MiniMax M2 模型 性能 评测"}, "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:42", "event": "on_tool_end", "name": "web_search_searx", "tags": ["seq:step:1"]}
+id: 1763981982893-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "e3ecb0b5-e7a5-4141-965c-e97c74e52da5", "chunk": "【", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:44", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981984647-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "e3ecb0b5-e7a5-4141-965c-e97c74e52da5", "chunk": "当前进展】", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:44", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981984730-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "e3ecb0b5-e7a5-4141-965c-e97c74e52da5", "chunk": "\n-", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:44", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981984827-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "e3ecb0b5-e7a5-4141-965c-e97c74e52da5", "chunk": " 已获取信息", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:44", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981984917-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "e3ecb0b5-e7a5-4141-965c-e97c74e52da5", "chunk": "：MiniMax M2", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:45", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981985120-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "e3ecb0b5-e7a5-4141-965c-e97c74e52da5", "chunk": " 是 MiniMax", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:45", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981985389-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "e3ecb0b5-e7a5-4141-965c-e97c74e52da5", "chunk": " 公司于 ", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:45", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981985577-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "e3ecb0b5-e7a5-4141-965c-e97c74e52da5", "chunk": "2025 年", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:45", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981985763-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "e3ecb0b5-e7a5-4141-965c-e97c74e52da5", "chunk": " 10 月下旬", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:45", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981985940-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "e3ecb0b5-e7a5-4141-965c-e97c74e52da5", "chunk": "开源的大语言模型，", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:46", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981986210-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "e3ecb0b5-e7a5-4141-965c-e97c74e52da5", "chunk": "定位为高性能编程与", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:46", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981986472-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "e3ecb0b5-e7a5-4141-965c-e97c74e52da5", "chunk": "智能体（Agent）", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:46", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981986739-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "e3ecb0b5-e7a5-4141-965c-e97c74e52da5", "chunk": "专用模型，在 Artificial", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:46", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981986923-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "e3ecb0b5-e7a5-4141-965c-e97c74e52da5", "chunk": " Analysis 榜单中", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:47", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981987120-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "e3ecb0b5-e7a5-4141-965c-e97c74e52da5", "chunk": "综合智能得分达 6", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:47", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981987282-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "e3ecb0b5-e7a5-4141-965c-e97c74e52da5", "chunk": "1 分，位列", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:47", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981987464-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "e3ecb0b5-e7a5-4141-965c-e97c74e52da5", "chunk": "全球前五，仅次于", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:47", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981987622-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "e3ecb0b5-e7a5-4141-965c-e97c74e52da5", "chunk": " GPT-5", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:47", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981987806-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "e3ecb0b5-e7a5-4141-965c-e97c74e52da5", "chunk": "（68 分）。", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:47", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981987972-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "e3ecb0b5-e7a5-4141-965c-e97c74e52da5", "chunk": "其成本仅为 Claude", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:48", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981988145-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "e3ecb0b5-e7a5-4141-965c-e97c74e52da5", "chunk": " Sonnet 4.5", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:48", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981988335-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "e3ecb0b5-e7a5-4141-965c-e97c74e52da5", "chunk": " 的 8%，", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:48", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981988496-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "e3ecb0b5-e7a5-4141-965c-e97c74e52da5", "chunk": "强调高性价比。\n-", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:48", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981988773-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "e3ecb0b5-e7a5-4141-965c-e97c74e52da5", "chunk": " 信息充分度：约", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:48", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981988954-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "e3ecb0b5-e7a5-4141-965c-e97c74e52da5", "chunk": " 60%\n", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:49", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981989132-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "e3ecb0b5-e7a5-4141-965c-e97c74e52da5", "chunk": "- 发现的问题：", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:49", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981989297-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "e3ecb0b5-e7a5-4141-965c-e97c74e52da5", "chunk": "搜索结果多为中文", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:49", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981989500-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "e3ecb0b5-e7a5-4141-965c-e97c74e52da5", "chunk": "媒体和视频平台", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:49", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981989665-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "e3ecb0b5-e7a5-4141-965c-e97c74e52da5", "chunk": "内容，缺乏官方", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:49", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981989836-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "e3ecb0b5-e7a5-4141-965c-e97c74e52da5", "chunk": "技术文档或详细", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:50", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981990011-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "e3ecb0b5-e7a5-4141-965c-e97c74e52da5", "chunk": "参数（如参数量、", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:50", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981990185-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "e3ecb0b5-e7a5-4141-965c-e97c74e52da5", "chunk": "训练数据规模、支持", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:50", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981990460-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "e3ecb0b5-e7a5-4141-965c-e97c74e52da5", "chunk": "上下文长度等）\n\n", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:50", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981990725-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "e3ecb0b5-e7a5-4141-965c-e97c74e52da5", "chunk": "【下一步行动】\n", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:50", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981990901-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "e3ecb0b5-e7a5-4141-965c-e97c74e52da5", "chunk": "- 需要补充", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:51", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981991092-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "e3ecb0b5-e7a5-4141-965c-e97c74e52da5", "chunk": "：查找 MiniMax", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:51", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981991357-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "e3ecb0b5-e7a5-4141-965c-e97c74e52da5", "chunk": " 官方网站或 GitHub ", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:51", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981991536-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "e3ecb0b5-e7a5-4141-965c-e97c74e52da5", "chunk": "仓库，获取模型", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:51", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981991705-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "e3ecb0b5-e7a5-4141-965c-e97c74e52da5", "chunk": "技术规格和开源许可证", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:52", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981992098-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "e3ecb0b5-e7a5-4141-965c-e97c74e52da5", "chunk": "详情\n-", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:52", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981992253-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "e3ecb0b5-e7a5-4141-965c-e97c74e52da5", "chunk": " 调整策略：使用", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:52", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981992436-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "e3ecb0b5-e7a5-4141-965c-e97c74e52da5", "chunk": "英文关键词搜索 \"", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:52", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981992612-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "e3ecb0b5-e7a5-4141-965c-e97c74e52da5", "chunk": "MiniMax M2 model", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:52", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981992801-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "e3ecb0b5-e7a5-4141-965c-e97c74e52da5", "chunk": " official\" 或访问", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:53", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981993066-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "e3ecb0b5-e7a5-4141-965c-e97c74e52da5", "chunk": "可能的官方域名", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:53", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981993319-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "e3ecb0b5-e7a5-4141-965c-e97c74e52da5", "chunk": "\n\n", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:53", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763981993562-0
+
+event: tool_call
+data: {"type": "tool_call", "action": "start", "id": "496c9512-dd64-4688-b361-f2f9436b5412", "tool_name": "web_search_searx", "input": {"query": "MiniMax M2 official GitHub site:modelscope"}, "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:54", "event": "on_tool_start", "name": "web_search_searx", "tags": ["seq:step:1"]}
+id: 1763981994903-0
+
+event: tool_call
+data: {"type": "tool_call", "action": "end", "id": "496c9512-dd64-4688-b361-f2f9436b5412", "tool_name": "web_search_searx", "output": "[{\"type\": \"page\", \"title\": \"MiniMax-M2\", \"url\": \"https://www.sogou.com/link?url=hedJjaC291OU64_Q5Fl73iKaMeYVP4vTcDSyHBLI4U0s8Wo4RgpD7CzxajhGCkPsidR0yw23IxI.\", \"content\": \"ModelScope——汇聚各领域先进的机器学习模型,提供模型探索体验、推理、训练、部署和应用的一站式服务。在这里,共建模型开源社区,发现、学习、定制和分享心仪的模型...\", \"score\": 1.0}, {\"type\": \"page\", \"title\": \"MiniMax · GitHub\", \"url\": \"https://www.sogou.com/link?url=hedJjaC291MuovqUW6cN1hSh-5CzGsgqcF30HjCc9RE.\", \"content\": \"2025年11月12日-MiniMax-M2, a model built for Max coding & agentic workflows. Official MiniMax... Updated MiniMax-AI.github.io Public The official GitHub Page for MiniMax ...\", \"score\": 0.8}, {\"type\": \"page\", \"title\": \"MiniMax M2 - MiniMax推出的Agent编程和优化模型 | AI工具集\", \"url\": \"https://www.sogou.com/link?url=hedJjaC291P18R-kJ5cJdjUp2VU5e46Q44jj9HWZPN0.\", \"content\": \"2025年10月25日- MiniMax M2是MiniMax推出的专为编程和Agent工作流优化的大语言模型。模型拥有100亿激活参数和2300亿总参数，支持204,800的上下文窗口和131,...\", \"score\": 0.6}, {\"type\": \"page\", \"title\": \"MiniMax M2 模型详解:参数、评测及开源信息 - 数据学习(...\", \"url\": \"https://www.sogou.com/link?url=hedJjaC291N8XK-pPvJl2D8quwsXwOlh2qD4qn3sRW5fNyJYsivuSf2xY6qXDKYRoqbBBoProlCsdH1KsATzsvc1P7nm2xZo\", \"content\": \"2025年10月27日-深入了解 MiniMax M2 AI大模型:探索其参数、性能基准、开源许可证(MIT License)、API价格及官方技术报告。一站式获取所有关键信息。\", \"score\": 0.4}, {\"type\": \"page\", \"title\": \"MiniMaxAI开源MiniMax M2模型：Artificial Analysis评测显示综合智能...\", \"url\": \"https://www.sogou.com/link?url=hedJjaC291N8XK-pPvJl2D8quwsXwOlhxWwuxDCyChN9OvmrIvWPniCtZzTvuTWxUo98PlrBtEg.\", \"content\": \"2025年10月27日- 推理模式下MiniMax M2与其它模型对比： 数据来源DataLearnerAI大模型对比工具： https://www.datalearner.com/compare/result?modelInputString=706,...\", \"score\": 0.19999999999999996}]", "input": {"query": "MiniMax M2 official GitHub site:modelscope"}, "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 18:59:55", "event": "on_tool_end", "name": "web_search_searx", "tags": ["seq:step:1"]}
+id: 1763981995895-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "a805d69e-7fc4-438d-9d47-e7cfed69a6cb", "chunk": "【", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:00", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982000777-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "a805d69e-7fc4-438d-9d47-e7cfed69a6cb", "chunk": "当前进展】", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:00", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982000837-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "a805d69e-7fc4-438d-9d47-e7cfed69a6cb", "chunk": "\n-", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:00", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982000906-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "a805d69e-7fc4-438d-9d47-e7cfed69a6cb", "chunk": " 已获取关键", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:01", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982001020-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "a805d69e-7fc4-438d-9d47-e7cfed69a6cb", "chunk": "信息：MiniMax M2", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:01", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982001138-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "a805d69e-7fc4-438d-9d47-e7cfed69a6cb", "chunk": " 拥有 **", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:01", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982001267-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "a805d69e-7fc4-438d-9d47-e7cfed69a6cb", "chunk": "100亿", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:01", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982001403-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "a805d69e-7fc4-438d-9d47-e7cfed69a6cb", "chunk": "激活参数** 和", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:01", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982001533-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "a805d69e-7fc4-438d-9d47-e7cfed69a6cb", "chunk": " **2300", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:01", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982001661-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "a805d69e-7fc4-438d-9d47-e7cfed69a6cb", "chunk": "亿总参数**，支持", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:01", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982001792-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "a805d69e-7fc4-438d-9d47-e7cfed69a6cb", "chunk": " **204,", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:01", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982001921-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "a805d69e-7fc4-438d-9d47-e7cfed69a6cb", "chunk": "800 tokens", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:02", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982002055-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "a805d69e-7fc4-438d-9d47-e7cfed69a6cb", "chunk": " 的上下文窗口", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:02", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982002184-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "a805d69e-7fc4-438d-9d47-e7cfed69a6cb", "chunk": "**，采用 **MIT 开", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:02", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982002319-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "a805d69e-7fc4-438d-9d47-e7cfed69a6cb", "chunk": "源许可证**，专", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:02", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982002467-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "a805d69e-7fc4-438d-9d47-e7cfed69a6cb", "chunk": "为编程和智能", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:02", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982002588-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "a805d69e-7fc4-438d-9d47-e7cfed69a6cb", "chunk": "体（Agent）工作流", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:02", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982002729-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "a805d69e-7fc4-438d-9d47-e7cfed69a6cb", "chunk": "优化。\n- 信息", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:02", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982002848-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "a805d69e-7fc4-438d-9d47-e7cfed69a6cb", "chunk": "来源包括 ModelScope、", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:03", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982003127-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "a805d69e-7fc4-438d-9d47-e7cfed69a6cb", "chunk": "GitHub 官方页面", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:03", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982003255-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "a805d69e-7fc4-438d-9d47-e7cfed69a6cb", "chunk": "及技术媒体，可信", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:03", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982003537-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "a805d69e-7fc4-438d-9d47-e7cfed69a6cb", "chunk": "度较高。\n- 信息", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:03", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982003678-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "a805d69e-7fc4-438d-9d47-e7cfed69a6cb", "chunk": "充分度：约", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:03", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982003816-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "a805d69e-7fc4-438d-9d47-e7cfed69a6cb", "chunk": " 85%\n- ", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:03", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982003956-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "a805d69e-7fc4-438d-9d47-e7cfed69a6cb", "chunk": "仍需确认：具体", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:04", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982004089-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "a805d69e-7fc4-438d-9d47-e7cfed69a6cb", "chunk": "训练数据规模、多", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:04", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982004299-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "a805d69e-7fc4-438d-9d47-e7cfed69a6cb", "chunk": "语言支持情况、推理速度", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:04", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982004446-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "a805d69e-7fc4-438d-9d47-e7cfed69a6cb", "chunk": "指标\n\n【下一步行动", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:04", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982004642-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "a805d69e-7fc4-438d-9d47-e7cfed69a6cb", "chunk": "】\n- 读", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:04", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982004773-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "a805d69e-7fc4-438d-9d47-e7cfed69a6cb", "chunk": "取官方 GitHub 页面或 Model", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:04", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982004986-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "a805d69e-7fc4-438d-9d47-e7cfed69a6cb", "chunk": "Scope 页面内容，获取", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:05", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982005200-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "a805d69e-7fc4-438d-9d47-e7cfed69a6cb", "chunk": "更详细的技术规格", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:05", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982005344-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "a805d69e-7fc4-438d-9d47-e7cfed69a6cb", "chunk": "\n- 优先选择", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:05", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982005487-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "a805d69e-7fc4-438d-9d47-e7cfed69a6cb", "chunk": " ModelScope 页面，因其", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:05", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982005714-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "a805d69e-7fc4-438d-9d47-e7cfed69a6cb", "chunk": "为中国主流模型平台，信息", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:06", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982006047-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "a805d69e-7fc4-438d-9d47-e7cfed69a6cb", "chunk": "结构化程度高\n\n", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:06", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982006335-0
+
+event: tool_call
+data: {"type": "tool_call", "action": "start", "id": "9a624d4e-956f-44a5-bbc1-87096fdbdf2d", "tool_name": "crawl_tool", "input": {"url": "https://www.sogou.com/link?url=hedJjaC291OU64_Q5Fl73iKaMeYVP4vTcDSyHBLI4U0s8Wo4RgpD7CzxajhGCkPsidR0yw23IxI."}, "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:08", "event": "on_tool_start", "name": "crawl_tool", "tags": ["seq:step:1"]}
+id: 1763982008640-0
+
+event: tool_call
+data: {"type": "tool_call", "action": "end", "id": "9a624d4e-956f-44a5-bbc1-87096fdbdf2d", "tool_name": "crawl_tool", "output": "{\"url\": \"https://www.sogou.com/link?url=hedJjaC291OU64_Q5Fl73iKaMeYVP4vTcDSyHBLI4U0s8Wo4RgpD7CzxajhGCkPsidR0yw23IxI.\", \"crawled_content\": \"# MiniMax-M2\\n\\n<p>MiniMax-M2</p>\"}", "input": {"url": "https://www.sogou.com/link?url=hedJjaC291OU64_Q5Fl73iKaMeYVP4vTcDSyHBLI4U0s8Wo4RgpD7CzxajhGCkPsidR0yw23IxI."}, "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:14", "event": "on_tool_end", "name": "crawl_tool", "tags": ["seq:step:1"]}
+id: 1763982014032-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "80976864-d93a-443a-8dfd-3ddcb6777a28", "chunk": "【", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:14", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982014942-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "80976864-d93a-443a-8dfd-3ddcb6777a28", "chunk": "当前进展】", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:14", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982015000-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "80976864-d93a-443a-8dfd-3ddcb6777a28", "chunk": "\n- ", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:15", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982015064-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "80976864-d93a-443a-8dfd-3ddcb6777a28", "chunk": "读取 Model", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:15", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982015148-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "80976864-d93a-443a-8dfd-3ddcb6777a28", "chunk": "Scope 页面内容失败", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:15", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982015267-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "80976864-d93a-443a-8dfd-3ddcb6777a28", "chunk": "，仅返回标题", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:15", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982015365-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "80976864-d93a-443a-8dfd-3ddcb6777a28", "chunk": "，无实质信息", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:15", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982015576-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "80976864-d93a-443a-8dfd-3ddcb6777a28", "chunk": "\n-", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:15", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982015700-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "80976864-d93a-443a-8dfd-3ddcb6777a28", "chunk": " 转而尝试读", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:15", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982015815-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "80976864-d93a-443a-8dfd-3ddcb6777a28", "chunk": "取 GitHub 官方页面", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:15", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982015941-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "80976864-d93a-443a-8dfd-3ddcb6777a28", "chunk": "，因其在搜索结果中", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:16", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982016111-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "80976864-d93a-443a-8dfd-3ddcb6777a28", "chunk": "明确提到 \"Official", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:16", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982016227-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "80976864-d93a-443a-8dfd-3ddcb6777a28", "chunk": " MiniMax\" 和模型", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:16", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982016344-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "80976864-d93a-443a-8dfd-3ddcb6777a28", "chunk": "用途\n\n", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:16", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982016522-0
+
+event: tool_call
+data: {"type": "tool_call", "action": "start", "id": "9f62c7cf-4640-480c-95d4-3768b211f003", "tool_name": "crawl_tool", "input": {"url": "https://www.sogou.com/link?url=hedJjaC291MuovqUW6cN1hSh-5CzGsgqcF30HjCc9RE."}, "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:18", "event": "on_tool_start", "name": "crawl_tool", "tags": ["seq:step:1"]}
+id: 1763982018158-0
+
+event: tool_call
+data: {"type": "tool_call", "action": "end", "id": "9f62c7cf-4640-480c-95d4-3768b211f003", "tool_name": "crawl_tool", "output": "{\"url\": \"https://www.sogou.com/link?url=hedJjaC291MuovqUW6cN1hSh-5CzGsgqcF30HjCc9RE.\", \"crawled_content\": \"# MiniMax\\n\\n<p>MiniMax · GitHub</p>\\n\\nSkip to content\\n\\nNavigation Menu\\n---------------\\n\\nSign in\\n\\nAppearance settings\\n\\nMiniMax-AI\\n\\nSearch code, repositories, users, issues, pull requests...\\n==========================================================\\n\\nSearch syntax tips\\n\\nSign in\\n\\nSign up\\n\\nAppearance settings\\n\\nYou signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert\\n\\nMiniMax\\n=======\\n\\nIntelligence with Everyone\\n\\n* 3.5k followers\\n* https://www.minimax.io\\n* @MiniMax\\\\_\\\\_AI\\n* https://huggingface.co/MiniMaxAI\\n* company/minimax-ai\\n* https://chat.minimax.io\\n* model@minimax.io\\n\\nPopular repositories Loading\\n----------------------------\\n\\n1. MiniMax-01 MiniMax-01 Public\\n\\n   The official repo of MiniMax-Text-01 and MiniMax-VL-01, large-language-model & vision-language-model based on Linear Attention\\n\\n   Python 3.3k 313\\n2. MiniMax-M1 MiniMax-M1 Public\\n\\n   MiniMax-M1, the world's first open-weight, large-scale hybrid-attention reasoning model.\\n\\n   Python 3k 264\\n3. MiniMax-M2 MiniMax-M2 Public\\n\\n   MiniMax-M2, a model built for Max coding & agentic workflows.\\n\\n   1.9k 142\\n4. MiniMax-MCP MiniMax-MCP Public\\n\\n   Official MiniMax Model Context Protocol (MCP) server that enables interaction with powerful Text to Speech, image generation and video generation APIs.\\n\\n   Python 1.1k 182\\n5. Mini-Agent Mini-Agent Public\\n\\n   A minimal yet professional single agent demo project that showcases the core execution pipeline and production-grade features of agents.\\n\\n   Python 675 91\\n6. One-RL-to-See-Them-All One-RL-to-See-Them-All Public\\n\\n   The official repo of One RL to See Them All: Visual Triple Unified Reinforcement Learning\\n\\n   Python 330 18\\n\\n### Repositories\\n\\nShowing 10 of 16 repositories\\n\\n* MiniMax-Coding-Plan-MCP Public\\n\\n  Specialized MiniMax Model Context Protocol (MCP) server designed for coding-plan users, featuring AI-powered search and vision analysis APIs optimized for code development workflows\\n\\n  ### Uh oh!\\n\\n  There was an error while loading. Please reload this page.\\n\\n  MiniMax-AI/MiniMax-Coding-Plan-MCP’s past year of commit activity\\n\\n  Python 2 MIT 0 0 0 Updated Nov 20, 2025\\n* MiniMax-Provider-Verifier Public\\n\\n  MiniMax-Provider-Verifier offers a rigorous, vendor-agnostic way to verify whether third-party deployments of the Minimax M2 model are correct and reliable.\\n\\n  MiniMax-AI/MiniMax-Provider-Verifier’s past year of commit activity\\n\\n  Python 13 MIT 0 1 0 Updated Nov 18, 2025\\n* Mini-Agent Public\\n\\n  A minimal yet professional single agent demo project that showcases the core execution pipeline and production-grade features of agents.\\n\\n  MiniMax-AI/Mini-Agent’s past year of commit activity\\n\\n  Python 675 MIT 91 4 2 Updated Nov 18, 2025\\n* MiniMax-MCP Public\\n\\n  Official MiniMax Model Context Protocol (MCP) server that enables interaction with powerful Text to Speech, image generation and video generation APIs.\\n\\n  MiniMax-AI/MiniMax-MCP’s past year of commit activity\\n\\n  Python 1,092 MIT 182 1 4 Updated Nov 16, 2025\\n* MiniMax-M2 Public\\n\\n  MiniMax-M2, a model built for Max coding & agentic workflows.\\n\\n  MiniMax-AI/MiniMax-M2’s past year of commit activity\\n\\n  1,856 142 26 0 Updated Nov 13, 2025\\n* MiniMax-AI.github.io Public\\n\\n  The official GitHub Page for MiniMax\\n\\n  ### Uh oh!\\n\\n  There was an error while loading. Please reload this page.\\n\\n  MiniMax-AI/MiniMax-AI.github.io’s past year of commit activity\\n\\n  HTML 60 10 1 0 Updated Nov 9, 2025\\n* minimax\\\\_search Public\\n\\n  MiniMax Search is an MCP (Model Context Protocol) server that provides web search and browsing capabilities.\\n\\n  ### Uh oh!\\n\\n  There was an error while loading. Please reload this page.\\n\\n  MiniMax-AI/minimax\\\\_search’s past year of commit activity\\n\\n  Python 14 2 0 0 Updated Nov 3, 2025\\n* vllm Public Forked from vllm-project/vllm\\n\\n  A high-throughput and memory-efficient inference and serving engine for LLMs\\n\\n  MiniMax-AI/vllm’s past year of commit activity\\n\\n  Python 12 Apache-2.0 11,591 0 0 Updated Oct 26, 2025\\n* MiniMax-Hackathon Public\\n\\n  MiniMax-AI/MiniMax-Hackathon’s past year of commit activity\\n\\n  2 0 1 0 Updated Sep 23, 2025\\n* MiniMax-MCP-JS Public\\n\\n  Official MiniMax Model Context Protocol (MCP) JavaScript implementation that provides seamless integration with MiniMax's powerful AI capabilities including image generation, video generation, text-to-speech, and voice cloning APIs.\\n\\n  MiniMax-AI/MiniMax-MCP-JS’s past year of commit activity\\n\\n  TypeScript 90 MIT 32 2 3 Updated Jul 22, 2025\\n\\nView all repositories\\n\\n#### People\\n\\nThis organization has no public members. You must be a member to see who’s a part of this organization.\\n\\n#### Top languages\\n\\nPython TypeScript HTML\\n\\n#### Most used topics\\n\\nlarge-language-models llm mcp mcp-server text-to-speech\\n\\nFooter\\n------\\n\\n© 2025 GitHub, Inc.\\n\\nYou can’t perform that action at this time.\"}", "input": {"url": "https://www.sogou.com/link?url=hedJjaC291MuovqUW6cN1hSh-5CzGsgqcF30HjCc9RE."}, "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:22", "event": "on_tool_end", "name": "crawl_tool", "tags": ["seq:step:1"]}
+id: 1763982022746-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "ed83f611-8aed-47b4-a8ac-c0015b80498d", "chunk": "【", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:25", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982025700-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "ed83f611-8aed-47b4-a8ac-c0015b80498d", "chunk": "当前进展】", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:25", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982025771-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "ed83f611-8aed-47b4-a8ac-c0015b80498d", "chunk": "\n- ", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:25", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982025845-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "ed83f611-8aed-47b4-a8ac-c0015b80498d", "chunk": "从 GitHub 页面", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:25", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982025945-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "ed83f611-8aed-47b4-a8ac-c0015b80498d", "chunk": "确认：MiniMax-M", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:26", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982026183-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "ed83f611-8aed-47b4-a8ac-c0015b80498d", "chunk": "2 仓库描述", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:26", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982026311-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "ed83f611-8aed-47b4-a8ac-c0015b80498d", "chunk": "为 “a model built for", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:26", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982026494-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "ed83f611-8aed-47b4-a8ac-c0015b80498d", "chunk": " Max coding & agentic workflows", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:26", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982026653-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "ed83f611-8aed-47b4-a8ac-c0015b80498d", "chunk": "”，更新时间为 20", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:26", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982026895-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "ed83f611-8aed-47b4-a8ac-c0015b80498d", "chunk": "25 年 1", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:27", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982027065-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "ed83f611-8aed-47b4-a8ac-c0015b80498d", "chunk": "1 月 13", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:27", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982027216-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "ed83f611-8aed-47b4-a8ac-c0015b80498d", "chunk": " 日，拥有 18", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:27", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982027366-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "ed83f611-8aed-47b4-a8ac-c0015b80498d", "chunk": "56 stars 和", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:27", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982027523-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "ed83f611-8aed-47b4-a8ac-c0015b80498d", "chunk": " 142 forks", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:27", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982027675-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "ed83f611-8aed-47b4-a8ac-c0015b80498d", "chunk": "，表明社区关注度", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:28", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982028007-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "ed83f611-8aed-47b4-a8ac-c0015b80498d", "chunk": "较高。\n- 结", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:28", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982028160-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "ed83f611-8aed-47b4-a8ac-c0015b80498d", "chunk": "合此前搜索结果，已", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:28", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982028403-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "ed83f611-8aed-47b4-a8ac-c0015b80498d", "chunk": "掌握核心参数（", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:28", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982028635-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "ed83f611-8aed-47b4-a8ac-c0015b80498d", "chunk": "100亿激活参数", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:28", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982028799-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "ed83f611-8aed-47b4-a8ac-c0015b80498d", "chunk": "、2300亿", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:28", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982028969-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "ed83f611-8aed-47b4-a8ac-c0015b80498d", "chunk": "总参数、204", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:29", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982029120-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "ed83f611-8aed-47b4-a8ac-c0015b80498d", "chunk": ",800上下", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:29", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982029285-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "ed83f611-8aed-47b4-a8ac-c0015b80498d", "chunk": "文）、开源许可证", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:29", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982029527-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "ed83f611-8aed-47b4-a8ac-c0015b80498d", "chunk": "（MIT）、性能排名", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:29", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982029666-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "ed83f611-8aed-47b4-a8ac-c0015b80498d", "chunk": "（Artificial Analysis", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:29", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982029832-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "ed83f611-8aed-47b4-a8ac-c0015b80498d", "chunk": " 榜单全球前五", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:29", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982029977-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "ed83f611-8aed-47b4-a8ac-c0015b80498d", "chunk": "，得分61）", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:30", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982030219-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "ed83f611-8aed-47b4-a8ac-c0015b80498d", "chunk": "及成本优势（", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:30", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982030390-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "ed83f611-8aed-47b4-a8ac-c0015b80498d", "chunk": "仅为 Claude Sonnet", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:30", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982030535-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "ed83f611-8aed-47b4-a8ac-c0015b80498d", "chunk": " 4.5 的 ", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:30", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982030687-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "ed83f611-8aed-47b4-a8ac-c0015b80498d", "chunk": "8%）。\n- ", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:30", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982030862-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "ed83f611-8aed-47b4-a8ac-c0015b80498d", "chunk": "信息充分度：约", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:31", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982031022-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "ed83f611-8aed-47b4-a8ac-c0015b80498d", "chunk": " 95%，足以", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:31", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982031173-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "ed83f611-8aed-47b4-a8ac-c0015b80498d", "chunk": "回答用户问题。\n\n", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:31", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982031336-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "ed83f611-8aed-47b4-a8ac-c0015b80498d", "chunk": "【最终整合计划", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:31", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982031545-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "ed83f611-8aed-47b4-a8ac-c0015b80498d", "chunk": "】\n-", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:31", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982031697-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "ed83f611-8aed-47b4-a8ac-c0015b80498d", "chunk": " 综合所有信息，从", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:31", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982031859-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "ed83f611-8aed-47b4-a8ac-c0015b80498d", "chunk": "模型定位、技术", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:32", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982032025-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "ed83f611-8aed-47b4-a8ac-c0015b80498d", "chunk": "规格、性能表现", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:32", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982032275-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "ed83f611-8aed-47b4-a8ac-c0015b80498d", "chunk": "、开源情况和适用", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:32", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982032424-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "ed83f611-8aed-47b4-a8ac-c0015b80498d", "chunk": "场景五个维度总结", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:32", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982032580-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "ed83f611-8aed-47b4-a8ac-c0015b80498d", "chunk": " MiniMax M2 模", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:32", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982032736-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "ed83f611-8aed-47b4-a8ac-c0015b80498d", "chunk": "型的特点。\n-", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:32", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982032980-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "ed83f611-8aed-47b4-a8ac-c0015b80498d", "chunk": " 引用主要信息", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:33", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982033144-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "ed83f611-8aed-47b4-a8ac-c0015b80498d", "chunk": "来源：GitHub 官方", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:33", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982033393-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "ed83f611-8aed-47b4-a8ac-c0015b80498d", "chunk": "仓库、技术媒体", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:33", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982033538-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "ed83f611-8aed-47b4-a8ac-c0015b80498d", "chunk": "评测、AI", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:33", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982033886-0
+
+event: stream
+data: {"type": "stream", "node_type": "thought", "id": "ed83f611-8aed-47b4-a8ac-c0015b80498d", "chunk": " 榜单数据。\n\n", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:34", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982034023-0
+
+event: tool_call
+data: {"type": "tool_call", "action": "start", "id": "00134e19-e459-45f6-8e70-c52823ebd563", "tool_name": "got_enough_information", "input": {"plan": "综合 MiniMax M2 的官方 GitHub 信息、技术媒体评测和 Artificial Analysis 榜单数据，从模型定位、技术参数、性能表现、开源许可和适用场景五个方面进行总结。"}, "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:36", "event": "on_tool_start", "name": "got_enough_information", "tags": ["seq:step:1"]}
+id: 1763982036802-0
+
+event: tool_call
+data: {"type": "tool_call", "action": "end", "id": "00134e19-e459-45f6-8e70-c52823ebd563", "tool_name": "got_enough_information", "output": "OK", "input": {"plan": "综合 MiniMax M2 的官方 GitHub 信息、技术媒体评测和 Artificial Analysis 榜单数据，从模型定位、技术参数、性能表现、开源许可和适用场景五个方面进行总结。"}, "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:36", "event": "on_tool_end", "name": "got_enough_information", "tags": ["seq:step:1"]}
+id: 1763982036893-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "#", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:39", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982039485-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": " MiniMax M", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:39", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982039575-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "2 模", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:39", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982039667-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "型综合", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:39", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982039779-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "评估\n\nMiniMax M2", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:39", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982039950-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": " 是中国 AI 公", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:40", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982040130-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "司 MiniMax ", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:40", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982040292-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "于 **202", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:40", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982040459-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "5 年 10", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:40", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982040627-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": " 月下旬**正式", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:40", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982040790-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "开源的大语言模型，", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:40", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982040946-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "专为**编程任务", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:41", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982041113-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "**和**智能体**", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:41", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982041276-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "（Agent）设计，在", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:41", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982041450-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "发布后迅速获得", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:41", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982041680-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "业界关注。\n\n##", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:41", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982041937-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": " 核心技术规格", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:42", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982042113-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "\n\n| 项目 | 参数", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:42", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982042350-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": " |\n|------|", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:42", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982042551-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "------|\n|", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:42", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982042711-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": " 总参数量 | 2", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:42", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982042882-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "300 亿 |\n", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:43", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982043061-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "| 激活参数", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:43", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982043211-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "量 | 100", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:43", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982043387-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": " 亿 |\n| 上", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:43", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982043558-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "下文窗口 | 2", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:43", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982043731-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "04,800", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:43", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982043890-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": " tokens |\n| 开", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:44", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982044052-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "源许可证 | MIT License", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:44", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982044185-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "（完全开源，", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:44", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982044386-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "可商用） |\n|", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:44", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982044522-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": " 主要用途 | 编", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:44", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982044730-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "程辅助、Agent", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:44", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982044932-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": " 工作流", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:45", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982045074-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "优化 |\n\n##", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:45", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982045202-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": " 性能表现\n\n- 在", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:45", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982045334-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "权威评测平台 **Artificial", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:45", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982045620-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": " Analysis** 的 Intelligence", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:45", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982045740-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": " Index 中，Mini", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:45", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982045878-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "Max M2 获得", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:46", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982046012-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": " **61 分**，", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:46", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982046147-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "位列**全球开源", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:46", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982046358-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "模型前五**", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:46", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982046490-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "，仅次于 GPT-5", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:46", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982046692-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "（68 分）[", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:46", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982046826-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "¹](http://mp.weixin", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:47", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982047049-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": ".qq.com/s?src", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:47", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982047166-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "=11&timestamp=", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:47", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982047295-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "176398", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:47", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982047439-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "1552&ver", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:47", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982047560-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "=6378&", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:47", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982047690-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "signature=rP5ryI", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:47", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982047824-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "-5i1uk6", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:47", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982047960-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "N2aHt%", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:48", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982048186-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "2Az2Qc4", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:48", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982048216-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "WcwDqj", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:48", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982048343-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "xA4F7Iy", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:48", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982048472-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "boXw0daPi", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:48", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982048618-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "K3SLxN0", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:48", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982048739-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "F54elhIN", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:48", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982048869-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "p-SHuLAql-t", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:48", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982048992-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "EDbRyQ9", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:49", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982049118-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "4H-7tZ", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:49", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982049247-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "8zJwSmk", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:49", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982049379-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "Q15Angjmfp", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:49", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982049505-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "Tw4a7DrT", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:49", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982049636-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "GU2ZFSaU", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:49", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982049768-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "0ZmBNqale", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:49", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982049897-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "P&new=1)\n", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:50", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982050031-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "- 特别在", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:50", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982050150-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "**代码生成**", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:50", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982050292-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "和**工具调用**", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:50", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982050402-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "（Agent 能力）", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:50", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982050532-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "方面表现突出，", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:50", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982050664-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "被多家技术媒体称为“", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:50", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982050848-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "专为编程与 Agent", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:50", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982050974-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": " 而生”", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:51", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982051098-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "[²](https", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:51", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982051217-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "://www.sogou.com", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:51", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982051347-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "/link?url=hedJja", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:51", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982051472-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "C291Obq", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:51", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982051587-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "PUCEo1zMura", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:51", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982051739-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "Euczo-4W", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:51", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982051855-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "CU_PNz9JM", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:51", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982051971-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "0vxmIy", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:52", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982052102-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "B-MOv0x", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:52", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982052212-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "JqribSJBb", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:52", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982052389-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "68x2NB-", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:52", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982052458-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "PRwZT6x", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:52", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982052589-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "KUHvPurl", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:52", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982052723-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "Bhfbabas_", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:52", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982052854-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "3rX2dP", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:52", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982052965-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "n12l6yo", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:53", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982053086-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "KW4YQe6", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:53", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982053221-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "18Tg..", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:53", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982053342-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": ")\n- 推理成本", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:53", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982053478-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "极低，仅为", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:53", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982053590-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": " Claude Sonnet ", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:53", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982053709-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "4.5 的 **8", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:53", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982053834-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "%**，具有", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:53", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982053954-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "显著性价比优势[", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:54", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982054076-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "³](https://www.s", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:54", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982054199-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "ogou.com/link?url=", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:54", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982054321-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "hedJjaC29", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:54", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982054458-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "1Osj6f", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:54", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982054590-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "miZw1Zk", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:54", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982054712-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "KaldJKQ4", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:54", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982054851-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "uuzju_ntIA8", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:54", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982054970-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "9_OOAQIX", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:55", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982055194-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "NDRqK4to", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:55", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982055220-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "0wa_Tif)\n\n##", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:55", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982055327-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": " 开源与生态\n\n", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:55", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982055449-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "- 模型已在", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:55", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982055572-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": " **GitHub**", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:55", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982055699-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": " 正式开源，仓库", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:55", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982055828-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "获得超过 **180", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:56", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982056071-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "0 stars** 和", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:56", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982056196-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": " **140 forks", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:56", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982056341-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "**，社区活跃度高", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:56", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982056458-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "[⁴](https", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:56", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982056681-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "://www.sogou.com", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:56", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982056839-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "/link?url=hedJja", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:57", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982057008-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "C291Muov", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:57", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982057157-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "qUW6cN", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:57", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982057286-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "1hSh-5C", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:57", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982057401-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "zGsgqcF3", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:57", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982057522-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "0HjCc9RE", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:57", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982057647-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": ".)\n- 同", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:57", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982057779-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "时上线 **ModelScope**", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:57", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982057978-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "（魔搭）等主流", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:58", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982058090-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "模型平台，便于开发者", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:58", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982058220-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "快速体验和部署\n-", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:58", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982058403-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": " 配套提供", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:58", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982058533-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": " **Model Context Protocol **", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:58", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982058657-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "(MCP)", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:58", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982058781-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": " 工具链", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:58", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982058906-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "，支持文本生成", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:59", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982059029-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "、语音合成、图像", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:59", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982059164-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "/视频生成等多模", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:59", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982059342-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "态能力集成\n\n## ", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:59", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982059488-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "适用场景\n\n-", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:59", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982059585-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": " ✅ **软件开发**", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:59", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982059708-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "：代码补全、", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:00:59", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982059877-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "调试、测试用", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:01:00", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982060015-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "例生成\n- ✅", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:01:00", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982060138-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": " **智能体系统", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:01:00", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982060259-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "**：自主规划", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:01:00", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982060373-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "、工具调用、多", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:01:00", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982060491-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "步推理\n-", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:01:00", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982060611-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": " ✅ **低成本", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:01:00", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982060732-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "部署**：适合", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:01:00", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982060840-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "预算有限但需高性能", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:01:01", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982061011-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "的中小企业\n-", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:01:01", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982061181-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": " ⚠️ **通用", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:01:01", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982061306-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "对话**：虽", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:01:01", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982061404-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "具备基础对话能力，但", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:01:01", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982061572-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "非主要优化方向\n\n", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:01:01", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982061684-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "## 总结\n\nMini", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:01:01", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982061792-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "Max M2 是一款", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:01:01", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982061899-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "**高度专业化**", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:01:02", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982062118-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "的开源大模型，在", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:01:02", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982062245-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "编程和智能体领域", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:01:02", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982062474-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "展现出接近顶级闭", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:01:02", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982062705-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "源模型（如 GPT", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:01:02", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982062810-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "-5）的能力", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:01:02", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982062920-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "，同时以极低的成本", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:01:03", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982063061-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "和宽松的 MIT", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:01:03", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982063160-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": " 许可证降低了", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:01:03", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982063280-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "使用门槛。对于", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:01:03", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982063385-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "从事 AI 编程辅助", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:01:03", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982063555-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "、自动化 Agent 开", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:01:03", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982063788-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "发的团队而言", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:01:03", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982063963-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "，是一个极具竞争力的选择", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:01:04", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982064144-0
+
+event: stream
+data: {"type": "stream", "node_type": "answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "chunk": "。", "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:01:04", "event": "on_chat_model_stream", "name": "ChatDashscope", "tags": ["seq:step:1"]}
+id: 1763982064185-0
+
+event: final_answer
+data: {"type": "final_answer", "id": "c61ba838-9692-4322-9672-eb5680d7a6d1", "data": {"content": "# MiniMax M2 模型综合评估\n\nMiniMax M2 是中国 AI 公司 MiniMax 于 **2025 年 10 月下旬**正式开源的大语言模型，专为**编程任务**和**智能体**（Agent）设计，在发布后迅速获得业界关注。\n\n## 核心技术规格\n\n| 项目 | 参数 |\n|------|------|\n| 总参数量 | 2300 亿 |\n| 激活参数量 | 100 亿 |\n| 上下文窗口 | 204,800 tokens |\n| 开源许可证 | MIT License（完全开源，可商用） |\n| 主要用途 | 编程辅助、Agent 工作流优化 |\n\n## 性能表现\n\n- 在权威评测平台 **Artificial Analysis** 的 Intelligence Index 中，MiniMax M2 获得 **61 分**，位列**全球开源模型前五**，仅次于 GPT-5（68 分）[¹](http://mp.weixin.qq.com/s?src=11&timestamp=1763981552&ver=6378&signature=rP5ryI-5i1uk6N2aHt%2Az2Qc4WcwDqjxA4F7IyboXw0daPiK3SLxN0F54elhINp-SHuLAql-tEDbRyQ94H-7tZ8zJwSmkQ15AngjmfpTw4a7DrTGU2ZFSaU0ZmBNqaleP&new=1)\n- 特别在**代码生成**和**工具调用**（Agent 能力）方面表现突出，被多家技术媒体称为“专为编程与 Agent 而生”[²](https://www.sogou.com/link?url=hedJjaC291ObqPUCEo1zMuraEuczo-4WCU_PNz9JM0vxmIyB-MOv0xJqribSJBb68x2NB-PRwZT6xKUHvPurlBhfbabas_3rX2dPn12l6yoKW4YQe618Tg..)\n- 推理成本极低，仅为 Claude Sonnet 4.5 的 **8%**，具有显著性价比优势[³](https://www.sogou.com/link?url=hedJjaC291Osj6fmiZw1ZkKaldJKQ4uuzju_ntIA89_OOAQIXNDRqK4to0wa_Tif)\n\n## 开源与生态\n\n- 模型已在 **GitHub** 正式开源，仓库获得超过 **1800 stars** 和 **140 forks**，社区活跃度高[⁴](https://www.sogou.com/link?url=hedJjaC291MuovqUW6cN1hSh-5CzGsgqcF30HjCc9RE.)\n- 同时上线 **ModelScope**（魔搭）等主流模型平台，便于开发者快速体验和部署\n- 配套提供 **Model Context Protocol **(MCP) 工具链，支持文本生成、语音合成、图像/视频生成等多模态能力集成\n\n## 适用场景\n\n- ✅ **软件开发**：代码补全、调试、测试用例生成\n- ✅ **智能体系统**：自主规划、工具调用、多步推理\n- ✅ **低成本部署**：适合预算有限但需高性能的中小企业\n- ⚠️ **通用对话**：虽具备基础对话能力，但非主要优化方向\n\n## 总结\n\nMiniMax M2 是一款**高度专业化**的开源大模型，在编程和智能体领域展现出接近顶级闭源模型（如 GPT-5）的能力，同时以极低的成本和宽松的 MIT 许可证降低了使用门槛。对于从事 AI 编程辅助、自动化 Agent 开发的团队而言，是一个极具竞争力的选择。"}, "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:01:04"}
+id: 1763982064240-0
+
+event: usage
+data: {"type": "usage", "id": "usage_stats", "data": {"total_tokens": 0, "prompt_tokens": 0, "completion_tokens": 0, "total_tool_calls": 4, "total_documents": 0}, "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:01:04"}
+id: 1763982064295-0
+
+event: complete
+data: {"type": "complete", "id": "complete", "data": {}, "thread_id": "94d4a97c-c23a-4f01-901c-3824e027f929", "round_id": "45006547-156f-4122-b332-ca21f21611b0", "timestamp": "2025-11-24 19:01:04"}
+id: 1763982064313-0
+

@@ -200,7 +200,7 @@ app.get('/api/chat/events', async (req, res) => {
 
   try {
     // 读取 cross-thinking.txt 文件
-    const filePath = join(__dirname, '../public/mock/long_text_93f6f30f-123e-4206-abb9-08822c3257a7.txt');
+    const filePath = join(__dirname, '../public/mock/long_text_257015ff-61c5-4c06-aff7-a9e662b7fda2.txt');
     const fileContent = await readFile(filePath, 'utf-8');
 
     // 按行分割文件内容
